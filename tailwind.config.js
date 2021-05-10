@@ -3,6 +3,11 @@ module.exports = {
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
+      colors: {
+        beige: "#fefaf1",
+        red: "#af171a",
+        greyTeal: "#f7f7f7",
+      },
       spacing: {
         4: "0.25rem",
         8: "0.5rem",
@@ -13,6 +18,7 @@ module.exports = {
         16: "1rem",
         21: "1.313rem",
         24: "1.5rem",
+        30: "1.875rem",
         42: "2.625rem",
         48: "3rem",
         49: "3.063rem",
