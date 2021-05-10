@@ -346,7 +346,7 @@ export default function SectionsGroup() {
             <li>Twelve Books</li>
           </ul>
         </div>
-        <Section className="col-span-12">
+        <Section className="col-span-12 py-30">
           <div className="col-span-4">
             <button type="button">A MAGAZINE selected cities</button>
           </div>
@@ -450,7 +450,7 @@ export default function SectionsGroup() {
             </ul>
           </div>
         </Section>
-        <Section className="col-span-12">
+        <Section className="col-span-12 py-30">
           <div className="col-span-4">
             <button type="button">A MAGAZINE selected stores</button>
           </div>
@@ -522,7 +522,7 @@ export default function SectionsGroup() {
             </ul>
           </div>
         </Section>
-        <Section className="col-span-12">
+        <Section className="col-span-12 py-30">
           <div className="col-span-4">
             <button type="button">About OUR AUDIENCE</button>
           </div>
@@ -553,7 +553,7 @@ export default function SectionsGroup() {
             II. Website &amp; Social Media
           </button>
         </div>
-        <Section className="col-span-12">
+        <Section className="col-span-12 py-30">
           <div className="col-span-4">
             <button type="button" className="uppercase">
               A MAGAZINE instagram
@@ -578,7 +578,7 @@ export default function SectionsGroup() {
             </p>
           </div>
         </Section>
-        <Section className="col-span-12">
+        <Section className="col-span-12 py-30">
           <div className="col-span-4">
             <button type="button" className="uppercase">
               A MAGAZINE website
@@ -620,7 +620,7 @@ export default function SectionsGroup() {
             IV. Media Placement Rates
           </button>
         </div>
-        <Section className="col-span-12">
+        <Section className="col-span-12 py-30">
           <div className="col-span-4">
             <button type="button" className="uppercase">
               A MAGAZINE print + digital rates
@@ -708,7 +708,7 @@ export default function SectionsGroup() {
             </div>
           </div>
         </Section>
-        <Section className="col-span-12">
+        <Section className="col-span-12 py-30">
           <div className="col-span-4">
             <button type="button" className="uppercase">
               A MAGAZINE digital packages rates
@@ -761,7 +761,7 @@ export default function SectionsGroup() {
             </div>
           </div>
         </Section>
-        <Section className="col-span-12">
+        <Section className="col-span-12 py-30">
           <div className="col-span-4">
             <button type="button" className="uppercase">
               A MAGAZINE brand environment
