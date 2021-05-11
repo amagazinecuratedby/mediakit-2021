@@ -5,26 +5,28 @@ export default function SectionsGroup() {
   return (
     <>
       <Section className="bg-beige text-red p-30">
-        <div className="font-serif col-span-7">
-          <p>
-            A MAGAZINE curated by
+        <div className="font-serif col-span-7 text-29 leading-34">
+          <p className="text-37 leading-39 mb-42">
+            A MAGAZINE <span className="italic">curated by</span>
             <br />
             is published by A PUBLISHER
           </p>
-          <p>
-            A MAGAZINE curated by is a unique magazine concept that explores the
-            universe of a different fashion designer invited as the ‘guest
-            curator’ of each issue. In collaboration with our editorial team,
-            the guest curator develops innovative, personalised content to
-            express their aesthetic and cultural values. Each issue celebrates
-            this designer’s ethos: their people, their passions, their stories,
-            emotions, fascinations, spontaneity and authenticity.
+          <p className="mb-42 indent">
+            A MAGAZINE <span className="italic">curated by</span> is a unique
+            magazine concept that explores the universe of a different fashion
+            designer invited as the ‘guest curator’ of each issue. In
+            collaboration with our editorial team, the guest curator develops
+            innovative, personalised content to express their aesthetic and
+            cultural values. Each issue celebrates this designer’s ethos: their
+            people, their passions, their stories, emotions, fascinations,
+            spontaneity and authenticity.
           </p>
-          <p>
-            A MAGAZINE curated by is a + / – 200 page printed magazine that is
-            launched alongside tailored digital content, behind the scenes
-            films, physical events, exhibitions and advertorial content.
-            Conceived as Belgium’s first fashion magazine, A MAGAZINE curated by
+          <p className="indent">
+            A MAGAZINE <span className="italic">curated by</span> is a + / – 200
+            page printed magazine that is launched alongside tailored digital
+            content, behind the scenes films, physical events, exhibitions and
+            advertorial content. Conceived as Belgium’s first fashion magazine,
+            A MAGAZINE <span className="italic">curated by</span>
             has diversified to work with fashion designers across the globe,
             gaining international acclaim for its unprecedented access to the
             most inspiring minds of today.
@@ -39,105 +41,95 @@ export default function SectionsGroup() {
       </Section>
       <Section className="bg-beige text-red font-serif p-30">
         <div className="col-span-3">
-          <button type="button">About A PUBLISHER</button>
+          <button type="button">
+            <span className="italic">About</span> A PUBLISHER
+          </button>
         </div>
         <div className="col-span-4">
           <p>
             Today A PUBLISHER has expanded beyond producing the print title A
-            MAGAZINE curated by, to include the creation of custom editorial
-            content, exhibitions, events, copywriting services and creative
-            consulting.
+            MAGAZINE <span className="italic">curated by</span>, to include the
+            creation of custom editorial content, exhibitions, events,
+            copywriting services and creative consulting.
           </p>
         </div>
         <div className="col-span-5">
-          <p>A MAGAZINE curated by</p>
-          <p>
+          <p className="mb-21">
+            A MAGAZINE <span className="italic">curated by</span>
+          </p>
+          <p className="mb-42 indent">
             A dedicated print magazine guest edited by an independent fashion
             designer or the creative director of a fashion house. Entirely
             unique yet immediately recognisable with our signature ‘A’ cover
             design, each issue joins a canon of collectible magazines featuring
             some of the greatest names in 21st century avant-garde fashion.
           </p>
-          <p>A PROJECT curated by</p>
-          <p>
+          <p className="mb-21 ">
+            A PROJECT <span className="italic">curated by</span>
+          </p>
+          <p className="mb-42 indent">
             A thematic editorial project developed in total collaboration with a
             brand or house focusing on a specific topic. The format of (subject)
-            curated by (designer/brand) is employed to create a synergy with our
-            core product, while differentiating each print and digital project
-            as a singular, mono-branded entity and invaluable marketing tool for
-            corporate gifting and traditional distribution.
+            <span className="italic">curated by</span> (designer/brand) is
+            employed to create a synergy with our core product, while
+            differentiating each print and digital project as a singular,
+            mono-branded entity and invaluable marketing tool for corporate
+            gifting and traditional distribution.
           </p>
-          <p>CONTENT curated for</p>
-          <p>
+          <p className="mb-21">
+            CONTENT <span className="italic">curated for</span>
+          </p>
+          <p className="mb-42 indent">
             Endless possibilities, for the here & now. Custom editorial and
             advertorial content, copywriting services and creative consulting
-            for print and digital projects from the A MAGAZINE team.
+            for print and digital projects from the A MAGAZINE{" "}
+            <span className="italic">team</span>.
           </p>
         </div>
       </Section>
       <Section className="bg-red text-beige font-serif p-30">
         <div className="col-span-3">
-          <button type="button">A MAGAZINE history</button>
+          <button type="button">
+            A MAGAZINE <span className="italic">history</span>
+          </button>
         </div>
         <div className="col-span-4">
-          <p>
+          <p className="mb-24">
             N°A featuring Dirk Van Saene was the first ever A MAGAZINE,
             initiated by Walter Van Beirendonck and art directed by Paul Boudens
             for the 2001 Landed Geland fashion festival in Antwerp. Before the
-            name A MAGAZINE curated by was created in 2004, each issue was named
-            after a letter of the alphabet, beginning with the iconic red ‘A’
-            for Antwerp, a historic symbol of the Belgian city. The project was
-            incited by the designer Walter Van Beirendonck, who invited Dirk Van
-            Saene to be its first ‘Featuring’ designer. Both were members of the
-            famed ‘Antwerp Six’.
+            name A MAGAZINE <span className="italic">curated by</span> was
+            created in 2004, each issue was named after a letter of the
+            alphabet, beginning with the iconic red ‘A’ for Antwerp, a historic
+            symbol of the Belgian city. The project was incited by the designer
+            Walter Van Beirendonck, who invited Dirk Van Saene to be its first
+            ‘Featuring’ designer. Both were members of the famed ‘Antwerp Six’.
           </p>
           <p>
-            It was followed by N°B, N°C, N°D and N°E magazines before a change
-            in ownership and direction saw the birth of A MAGAZINE curated by
+            It was followed by <span className="italic">N°B, N°C, N°D</span> and{" "}
+            <span className="italic">N°E</span> magazines before a change in
+            ownership and direction saw the birth of A MAGAZINE{" "}
+            <span className="italic">curated by</span>
             Maison Martin Margiela in 2004.
-          </p>
-        </div>
-        <div className="col-span-5">
-          <p>A MAGAZINE curated by</p>
-          <p>
-            A dedicated print magazine guest edited by an independent fashion
-            designer or the creative director of a fashion house. Entirely
-            unique yet immediately recognisable with our signature ‘A’ cover
-            design, each issue joins a canon of collectible magazines featuring
-            some of the greatest names in 21st century avant-garde fashion.
-          </p>
-        </div>
-        <div className="col-start-4 col-span-9">
-          <p>A PROJECT curated by</p>
-          <p>
-            A thematic editorial project developed in total collaboration with a
-            brand or house focusing on a specific topic. The format of (subject)
-            curated by (designer/brand) is employed to create a synergy with our
-            core product, while differentiating each print and digital project
-            as a singular, mono-branded entity and invaluable marketing tool for
-            corporate gifting and traditional distribution.
-          </p>
-          <p>CONTENT curated for</p>
-          <p>
-            Endless possibilities, for the here & now. Custom editorial and
-            advertorial content, copywriting services and creative consulting
-            for print and digital projects from the A MAGAZINE team.
           </p>
         </div>
       </Section>
       <Section className="bg-beige text-red font-serif p-30">
         <div className="col-span-3">
-          <button type="button">A MAGAZINE selected contributors</button>
+          <button type="button">
+            A MAGAZINE <span className="italic">selected contributors</span>
+          </button>
         </div>
-        <div className="col-span-4">
+        <div className="col-span-4 mb-21">
           <p>
-            As A MAGAZINE curated by’s guest editor changes every time, so do
-            the magazine’s contributors. From fashion’s most accomplished
-            creatives to art world stars, internationally acclaimed writers and
-            researchers, each issue invites an elite level of collaborators.
+            As A MAGAZINE <span className="italic">curated by</span>’s guest
+            editor changes every time, so do the magazine’s contributors. From
+            fashion’s most accomplished creatives to art world stars,
+            internationally acclaimed writers and researchers, each issue
+            invites an elite level of collaborators.
           </p>
         </div>
-        <div className="col-start-4 col-span-9 grid grid-cols-10">
+        <div className="col-start-4 col-span-9 grid grid-cols-10 text-18 leading-24">
           <ul className="col-span-2">
             <li>Aaron Siskind</li>
             <li>Alasdair McLellan</li>
@@ -278,11 +270,11 @@ export default function SectionsGroup() {
       </Section>
       <Section className="bg-greyTeal text-black font-serif p-30">
         <div className="col-span-12 font-sans">
-          <button type="button" className="uppercase">
+          <button type="button" className="uppercase text-18">
             III. Audience &amp; Distribution
           </button>
         </div>
-        <div className="col-span-6">
+        <div className="col-span-6 text-29 leading-34">
           <p>
             Throughout our twenty year history, A MAGAZINE has built an engaged
             community of faithful readers, collectors and followers around the
@@ -332,6 +324,7 @@ export default function SectionsGroup() {
               href="https://amagazinecuratedby.com"
               target="_blank"
               rel="noopener noreferrer"
+              className="italic"
             >
               amagazinecuratedby.com
             </a>{" "}
@@ -348,13 +341,15 @@ export default function SectionsGroup() {
         </div>
         <Section className="col-span-12 py-30">
           <div className="col-span-4">
-            <button type="button">A MAGAZINE selected cities</button>
+            <button type="button">
+              A MAGAZINE <span className="italic">selected cities</span>
+            </button>
           </div>
           <div className="col-span-2 grid grid-cols-8">
-            <p className="italic uppercase col-span-8">
+            <p className="italic uppercase col-span-8 mb-24">
               North &amp; South America
             </p>
-            <ul className="col-span-4">
+            <ul className="col-span-4 text-21 leading-27">
               <li>Atlanta </li>
               <li>Bogotá</li>
               <li>Boston</li>
@@ -365,7 +360,7 @@ export default function SectionsGroup() {
               <li>Mexico</li>
               <li>Miami</li>
             </ul>
-            <ul className="col-span-4">
+            <ul className="col-span-4 text-21 leading-27">
               <li>Montreal</li>
               <li>New York </li>
               <li>Palm Springs</li>
@@ -378,8 +373,10 @@ export default function SectionsGroup() {
             </ul>
           </div>
           <div className="col-span-2 grid grid-cols-8">
-            <p className="italic uppercase col-span-8">Asia &amp; Oceania</p>
-            <ul className="col-span-4">
+            <p className="italic uppercase col-span-8 mb-24">
+              Asia &amp; Oceania
+            </p>
+            <ul className="col-span-4 text-21 leading-27">
               <li>Auckland</li>
               <li>Beijing</li>
               <li>Chongqing</li>
@@ -390,7 +387,7 @@ export default function SectionsGroup() {
               <li>Jakarta</li>
               <li>Kyoto</li>
             </ul>
-            <ul className="col-span-4">
+            <ul className="col-span-4 text-21 leading-27">
               <li>Kuala Lampur</li>
               <li>Melbourne</li>
               <li>Nagoya</li>
@@ -403,8 +400,10 @@ export default function SectionsGroup() {
             </ul>
           </div>
           <div className="col-span-4 grid grid-cols-8">
-            <p className="italic uppercase col-span-8">Europe &amp; Africa</p>
-            <ul className="col-span-2">
+            <p className="italic uppercase col-span-8 mb-24">
+              Europe &amp; Africa
+            </p>
+            <ul className="col-span-2 text-21 leading-27">
               <li>Amsterdam</li>
               <li>Antwerp</li>
               <li>Athens</li>
@@ -415,7 +414,7 @@ export default function SectionsGroup() {
               <li>Bucharest</li>
               <li>Cape Town</li>
             </ul>
-            <ul className="col-span-2">
+            <ul className="col-span-2 text-21 leading-27">
               <li>Copenhagen</li>
               <li>Dusseldorf</li>
               <li>Florence</li>
@@ -426,7 +425,7 @@ export default function SectionsGroup() {
               <li>London</li>
               <li>Madrid</li>
             </ul>
-            <ul className="col-span-2">
+            <ul className="col-span-2 text-21 leading-27">
               <li>Malmö</li>
               <li>Manchester</li>
               <li>Marseille</li>
@@ -437,7 +436,7 @@ export default function SectionsGroup() {
               <li>Oslo</li>
               <li>Paris</li>
             </ul>
-            <ul className="col-span-2">
+            <ul className="col-span-2 text-21 leading-27">
               <li>Porto</li>
               <li>Rome</li>
               <li>St. Petersburg</li>
@@ -452,10 +451,12 @@ export default function SectionsGroup() {
         </Section>
         <Section className="col-span-12 py-30">
           <div className="col-span-4">
-            <button type="button">A MAGAZINE selected stores</button>
+            <button type="button">
+              A MAGAZINE <span className="italic">selected stores</span>
+            </button>
           </div>
           <div className="col-span-4">
-            <p>
+            <p className="mb-24">
               In recent years, a solid partnership with global distributors has
               been complimented by new direct retailer relationships with art
               and design bookstores, concept stores, museum shops and other
@@ -471,63 +472,155 @@ export default function SectionsGroup() {
               fashion capitals.
             </p>
           </div>
-          <div className="col-span-4 grid grid-cols-8">
+          <div className="col-span-4 grid grid-cols-8 text-21 leading-27">
             <ul className="col-span-4">
-              <li>11o – Copenhagen</li>
-              <li>Amen – Madrid</li>
-              <li>Athenaeum – Amsterdam</li>
-              <li>Casa Bosques – Mexico</li>
-              <li>Casa Magazine – NYC</li>
-              <li>Copyright – Antwerp & Ghent</li>
-              <li>Dizpositiv Books – Bucharest</li>
-              <li>Do You Read Me?! – Berlin</li>
-              <li>Dorbeetle Studio – China (online)</li>
-              <li>Dover Street Market (worldwide)</li>
-              <li>Edicola Erno – Rome</li>
-              <li>Epel – Seoul</li>
-              <li>Frabs Magazine – Italy (online)</li>
-              <li>Idea Now – UK (online)</li>
-              <li>Import News – NYC, LA, San Francisco</li>
-              <li>Inprint – Australia (online)</li>
-              <li>Lebigmag – Moscow</li>
-              <li>Love Note Magazines – Vilnius</li>
-              <li>Lucy Martin – Taiwan</li>
-              <li>Mag Nation – Auckland</li>
-              <li>MoMu – Antwerp</li>
-              <li>Not Just A Library – Taipei</li>
+              <li>
+                11o – <span className="italic">Copenhagen</span>
+              </li>
+              <li>
+                Amen – <span className="italic">Madrid</span>
+              </li>
+              <li>
+                Athenaeum – <span className="italic">Amsterdam</span>
+              </li>
+              <li>
+                Casa Bosques – <span className="italic">Mexico</span>
+              </li>
+              <li>
+                Casa Magazine – <span className="italic">NYC</span>
+              </li>
+              <li>
+                Copyright – <span className="italic">Antwerp & Ghent</span>
+              </li>
+              <li>
+                Dizpositiv Books – <span className="italic">Bucharest</span>
+              </li>
+              <li>
+                Do You Read Me?! – <span className="italic">Berlin</span>
+              </li>
+              <li>
+                Dorbeetle Studio –{" "}
+                <span className="italic">China (online)</span>
+              </li>
+              <li>
+                Dover Street Market <span className="italic">(worldwide)</span>
+              </li>
+              <li>
+                Edicola Erno – <span className="italic">Rome</span>
+              </li>
+              <li>
+                Epel – <span className="italic">Seoul</span>
+              </li>
+              <li>
+                Frabs Magazine – <span className="italic">Italy (online)</span>
+              </li>
+              <li>
+                Idea Now – <span className="italic">UK (online)</span>
+              </li>
+              <li>
+                Import News –{" "}
+                <span className="italic">NYC, LA, San Francisco</span>
+              </li>
+              <li>
+                Inprint – <span className="italic">Australia (online)</span>
+              </li>
+              <li>
+                Lebigmag – <span className="italic">Moscow</span>
+              </li>
+              <li>
+                Love Note Magazines – <span className="italic">Vilnius</span>
+              </li>
+              <li>
+                Lucy Martin – <span className="italic">Taiwan</span>
+              </li>
+              <li>
+                Mag Nation – <span className="italic">Auckland</span>
+              </li>
+              <li>
+                MoMu – <span className="italic">Antwerp</span>
+              </li>
+              <li>
+                Not Just A Library – <span className="italic">Taipei</span>
+              </li>
             </ul>
             <ul className="col-span-4">
-              <li>Ofr – Paris</li>
-              <li>One half in – China (online)</li>
-              <li>Palais de Tokyo – Paris</li>
-              <li>Papercut – Stockholm</li>
-              <li>Post Nothing Magazine – Bogotá</li>
-              <li>Print Matters – Zurich</li>
-              <li>Readellion – Ukraine (online)</li>
-              <li>Reading Room – Milan</li>
-              <li>Roden Gray – Vancouver</li>
-              <li>Rosa Wolf – Berlin</li>
-              <li>Saint-Martin Bookshop – Brussels</li>
-              <li>Shelf – Shanghai</li>
-              <li>Shreeji – London</li>
-              <li>Skwat – Tokyo</li>
-              <li>Smoke Signals – San Francisco</li>
-              <li>Soop Soop – Toronto</li>
-              <li>Tambourine – Madrid</li>
-              <li>Tate Modern – London</li>
-              <li>The Broken Arm – Paris</li>
-              <li>Tom Greyhound – Paris</li>
-              <li>Tsum – Moscow</li>
-              <li>Under the Cover – Lisbon</li>
+              <li>
+                Ofr – <span className="italic">Paris</span>
+              </li>
+              <li>
+                One half in – <span className="italic">China (online)</span>
+              </li>
+              <li>
+                Palais de Tokyo – <span className="italic">Paris</span>
+              </li>
+              <li>
+                Papercut – <span className="italic">Stockholm</span>
+              </li>
+              <li>
+                Post Nothing Magazine – <span className="italic">Bogotá</span>
+              </li>
+              <li>
+                Print Matters – <span className="italic">Zurich</span>
+              </li>
+              <li>
+                Readellion – <span className="italic">Ukraine (online)</span>
+              </li>
+              <li>
+                Reading Room – <span className="italic">Milan</span>
+              </li>
+              <li>
+                Roden Gray – <span className="italic">Vancouver</span>
+              </li>
+              <li>
+                Rosa Wolf – <span className="italic">Berlin</span>
+              </li>
+              <li>
+                Saint-Martin Bookshop – <span className="italic">Brussels</span>
+              </li>
+              <li>
+                Shelf – <span className="italic">Shanghai</span>
+              </li>
+              <li>
+                Shreeji – <span className="italic">London</span>
+              </li>
+              <li>
+                Skwat – <span className="italic">Tokyo</span>
+              </li>
+              <li>
+                Smoke Signals – <span className="italic">San Francisco</span>
+              </li>
+              <li>
+                Soop Soop – <span className="italic">Toronto</span>
+              </li>
+              <li>
+                Tambourine – <span className="italic">Madrid</span>
+              </li>
+              <li>
+                Tate Modern – <span className="italic">London</span>
+              </li>
+              <li>
+                The Broken Arm – <span className="italic">Paris</span>
+              </li>
+              <li>
+                Tom Greyhound – <span className="italic">Paris</span>
+              </li>
+              <li>
+                Tsum – <span className="italic">Moscow</span>
+              </li>
+              <li>
+                Under the Cover – <span className="italic">Lisbon</span>
+              </li>
             </ul>
           </div>
         </Section>
         <Section className="col-span-12 py-30">
           <div className="col-span-4">
-            <button type="button">About OUR AUDIENCE</button>
+            <button type="button">
+              <span className="italic">About</span> OUR AUDIENCE
+            </button>
           </div>
           <div className="col-span-4">
-            <p>
+            <p className="mb-24">
               Our audience consists of highly informed readers and consumers
               whose primary interests revolve around the worlds of fashion,
               contemporary art and design – aesthetes who equally appreciate the
@@ -549,14 +642,14 @@ export default function SectionsGroup() {
       </Section>
       <Section className="bg-greyTeal text-black font-serif p-30">
         <div className="col-span-12 font-sans">
-          <button type="button" className="uppercase">
+          <button type="button" className="uppercase text-18">
             II. Website &amp; Social Media
           </button>
         </div>
         <Section className="col-span-12 py-30">
           <div className="col-span-4">
             <button type="button" className="uppercase">
-              A MAGAZINE instagram
+              A MAGAZINE <span className="italic">instagram</span>
             </button>
           </div>
           <div className="col-span-4">
@@ -565,40 +658,38 @@ export default function SectionsGroup() {
                 href="https://www.instagram.com/amagazinecuratedby"
                 target="_blank"
                 rel="noopener noreferrer"
-              ></a>
+                className="italic"
+              >
+                @amagazinecuratedby
+              </a>
             </p>
           </div>
-          <div className="col-span-4">
-            <p>
-              <a
-                href="https://www.instagram.com/amagazinecuratedby"
-                target="_blank"
-                rel="noopener noreferrer"
-              ></a>
-            </p>
-          </div>
+          <div className="col-span-4"></div>
         </Section>
         <Section className="col-span-12 py-30">
           <div className="col-span-4">
             <button type="button" className="uppercase">
-              A MAGAZINE website
+              A MAGAZINE <span className="italic">website</span>
             </button>
           </div>
           <div className="col-span-4">
-            <p>
+            <p className="mb-24">
               <a
                 href="https://amagazinecuratedby.com"
                 target="_blank"
                 rel="noopener noreferrer"
+                className="italic"
               >
                 www.amagazinecuratedby.com
               </a>{" "}
               is a multi­service platform that encapsulates an archival
               collection component and a dynamic creative news section. Each
-              issue of A MAGAZINE curated by has its dedicated page where the
-              theme of the magazine and its contributors are presented alongside
-              pictures and visual references. Our collection of A PROJECT
-              curated by will soon be accessible on this space too.
+              issue of A MAGAZINE <span className="italic">curated by</span> has
+              its dedicated page where the theme of the magazine and its
+              contributors are presented alongside pictures and visual
+              references. Our collection of A PROJECT
+              <span className="italic">curated by</span> will soon be accessible
+              on this space too.
             </p>
             <p>
               The news section invites regular contributors to extend our
@@ -616,14 +707,14 @@ export default function SectionsGroup() {
       </Section>
       <Section className="bg-black text-beige font-serif p-30">
         <div className="col-span-12 font-sans">
-          <button type="button" className="uppercase">
+          <button type="button" className="uppercase text-18">
             IV. Media Placement Rates
           </button>
         </div>
         <Section className="col-span-12 py-30">
           <div className="col-span-4">
-            <button type="button" className="uppercase">
-              A MAGAZINE print + digital rates
+            <button type="button">
+              A MAGAZINE <span className="italic">print + digital rates</span>
             </button>
           </div>
           <div className="col-span-8 grid grid-cols-8">
@@ -633,7 +724,7 @@ export default function SectionsGroup() {
                 insertions are accompanied by a complimentary digital
                 integration and sponsored promotion.
               </p>
-              <ul>
+              <ul className="text-20 leading-27">
                 <li>* SP: Single Page</li>
                 <li>* DPS: Double Page Spread</li>
                 <li>* OBC: Outside Back Cover</li>
@@ -645,32 +736,33 @@ export default function SectionsGroup() {
               <p className="uppercase">Print Media Placement Rates</p>
               <ul>
                 <li>
-                  - OBC <span>€ 20,000</span>
+                  - OBC <span className="italic">€ 20,000</span>
                 </li>
                 <li>
-                  - IFC, DPS <span>€ 18,000</span>
+                  - IFC, DPS <span className="italic">€ 18,000</span>
                 </li>
                 <li>
-                  - IBC, DPS <span>€ 16,000</span>
+                  - IBC, DPS <span className="italic">€ 16,000</span>
                 </li>
                 <li>
-                  - IBC SP <span>€ 13,000</span>
+                  - IBC SP <span className="italic">€ 13,000</span>
                 </li>
                 <li>
-                  - 1 DPS with premium placement 1/2/3 <span>€ 15,000</span>
+                  - 1 DPS with premium placement 1/2/3{" "}
+                  <span className="italic">€ 15,000</span>
                 </li>
                 <li>
-                  - 1 DPS <span>€ 12,000</span>
+                  - 1 DPS <span className="italic">€ 12,000</span>
                 </li>
                 <li>
-                  - 2 DPS <span>€ 20,000</span>
+                  - 2 DPS <span className="italic">€ 20,000</span>
                 </li>
                 <li>
                   - SP Next to Masthead, TOC, Editor’s Letter{" "}
-                  <span>€9,000</span>
+                  <span className="italic">€9,000</span>
                 </li>
                 <li>
-                  - SP <span>€ 6,000</span>
+                  - SP <span className="italic">€ 6,000</span>
                 </li>
               </ul>
             </div>
@@ -681,16 +773,19 @@ export default function SectionsGroup() {
                 Each print media placement rate includes the following digital
                 integration.
               </p>
-              <p>
+              <p className="text-20 leading-27">
                 <small>
                   Seasonal timing / posting dates to be defined in consultation
                   with the Brand partner.
                 </small>
               </p>
-              <p>
+              <p className="text-20 leading-27">
                 <small>
                   All advertising enquiries to
-                  <a href="mailto:advertising@amagazinecuratedby.com">
+                  <a
+                    href="mailto:advertising@amagazinecuratedby.com"
+                    className="italic"
+                  >
                     advertising@amagazinecuratedby.com
                   </a>
                 </small>
@@ -699,6 +794,7 @@ export default function SectionsGroup() {
             <div className="col-span-4">
               <p className="uppercase">
                 VALUE-ADDED DIGITAL INTEGRATION EDITORIAL CONTENT
+                <span className="italic">incl.</span>
               </p>
               <p className="italic">
                 Brand partner’s visual assets accompanied by short text or
@@ -711,7 +807,7 @@ export default function SectionsGroup() {
         <Section className="col-span-12 py-30">
           <div className="col-span-4">
             <button type="button" className="uppercase">
-              A MAGAZINE digital packages rates
+              A MAGAZINE <span className="italic">digital packages rates</span>
             </button>
             <p>
               In addition to the print advertising space, we offer digital
@@ -727,9 +823,7 @@ export default function SectionsGroup() {
               </p>
             </div>
             <div className="col-span-4">
-              <p>
-                PRODUCED ADVERTORIAL <span>€ 8,000</span>
-              </p>
+              <p>PRODUCED ADVERTORIAL € 8,000</p>
             </div>
           </div>
           <div className="col-start-5 col-span-8 grid grid-cols-8">
@@ -738,13 +832,13 @@ export default function SectionsGroup() {
                 Rediffusion and social media promotion of Brand partner’s
                 provided visual assets with A Magazine tone-of-voice.
               </p>
-              <p>
+              <p className="text-20 leading-27">
                 <small>
                   Seasonal timing / posting dates to be defined in consultation
                   with the Brand partner.
                 </small>
               </p>
-              <p>
+              <p className="text-20 leading-27">
                 <small>
                   All advertising enquiries to{" "}
                   <a
@@ -764,7 +858,7 @@ export default function SectionsGroup() {
         <Section className="col-span-12 py-30">
           <div className="col-span-4">
             <button type="button" className="uppercase">
-              A MAGAZINE brand environment
+              A MAGAZINE <span className="italic">brand environment</span>
             </button>
           </div>
           <div className="col-span-8 grid grid-cols-8 uppercase">
@@ -840,42 +934,48 @@ export default function SectionsGroup() {
       </Section>
       <Section className="bg-greyTeal text-black font-serif p-30">
         <div className="col-span-4 font-sans">
-          <button type="button" className="uppercase">
+          <button type="button" className="uppercase text-18">
             V. Team
           </button>
         </div>
         <div className="col-span-4">
           <ul>
-            <li>
+            <li className="mb-30">
               <span className="uppercase">Publisher</span>
               <span>Evence-Charles Coppée</span>
             </li>
-            <li>
+            <li className="mb-30">
               <span className="uppercase">Editor in Chief</span>
               <span>
-                Dan Thawley +33 (0)6 01 15 45 57
-                <a href="mailto:dan@amagazinecuratedby.com">
-                  dan(at)amagazinecuratedby.com
-                </a>
+                Dan Thawley
+                <span className="text-21">
+                  +33 (0)6 01 15 45 57
+                  <a href="mailto:dan@amagazinecuratedby.com">
+                    dan(at)amagazinecuratedby.com
+                  </a>
+                </span>
               </span>
             </li>
-            <li>
+            <li className="mb-30">
               <span className="uppercase">Managing Editor</span>
               <span>
-                Thérèse Boon Falleur +33 (0)6 87 34 39 35
-                <a href="mailto:therese@amagazinecuratedby.com">
-                  therese(at)amagazinecuratedby.com
-                </a>
+                Thérèse Boon Falleur
+                <span className="text-21">
+                  +33 (0)6 87 34 39 35
+                  <a href="mailto:therese@amagazinecuratedby.com">
+                    therese(at)amagazinecuratedby.com
+                  </a>
+                </span>
               </span>
             </li>
-            <li>
+            <li className="mb-30">
               <span className="uppercase">Editor at Large</span>
               <span>Blake Abbie</span>
             </li>
-            <li>
+            <li className="mb-30">
               <span className="uppercase">Art Direction</span>
               <span>
-                Mike Meiré – <i>Meiré und Meiré</i>
+                Mike Meiré – <span className="italic">Meiré und Meiré</span>
               </span>
             </li>
             <li>
