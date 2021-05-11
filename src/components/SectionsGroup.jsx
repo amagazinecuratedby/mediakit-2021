@@ -268,13 +268,13 @@ export default function SectionsGroup() {
           </ul>
         </div>
       </Section>
-      <Section className="bg-greyTeal text-black font-serif p-30">
+      <Section className="bg-greyTeal text-black font-serif p-30 gap-y-30">
         <div className="col-span-12 font-sans">
           <button type="button" className="uppercase text-18">
             III. Audience &amp; Distribution
           </button>
         </div>
-        <div className="col-span-6 text-29 leading-34">
+        <div className="col-span-8 text-29 leading-34">
           <p>
             Throughout our twenty year history, A MAGAZINE has built an engaged
             community of faithful readers, collectors and followers around the
@@ -645,19 +645,19 @@ export default function SectionsGroup() {
         </Section>
       </Section>
       <Section className="bg-greyTeal text-black font-serif p-30">
-        <div className="col-span-12 font-sans">
+        <div className="col-span-12 font-sans mb-30">
           <button type="button" className="uppercase text-18">
             II. Website &amp; Social Media
           </button>
         </div>
-        <Section className="col-span-12 py-30 border-t border-black">
-          <div className="col-span-4">
+        <Section className="col-span-12 py-30 border-t border-black gap-y-30">
+          <div className="col-span-12 xl:col-span-4">
             <button type="button">
               A MAGAZINE <span className="italic">instagram</span>
             </button>
           </div>
-          <div className="col-span-4">
-            <p>
+          <div className="col-span-12 lg:col-span-6 xl:col-span-4">
+            <p className="mb-30">
               <a
                 href="https://www.instagram.com/amagazinecuratedby"
                 target="_blank"
@@ -667,8 +667,51 @@ export default function SectionsGroup() {
                 @amagazinecuratedby
               </a>
             </p>
+            <ul>
+              <li className="mb-30">
+                CORE TARGET AUDIENCE <span>20 - 60 yo</span>
+              </li>
+              <li>
+                FEMALE <span>60%</span>
+              </li>
+              <li className="mb-30">
+                MALE <span>40%</span>
+              </li>
+              <li>AGE SPLIT</li>
+              <li>
+                15 – 24 <span>15%</span>
+              </li>
+              <li>
+                25 – 34 <span>44%</span>
+              </li>
+              <li>
+                35 – 44 <span>25%</span>
+              </li>
+              <li>
+                45 – 64+ <span>14%</span>
+              </li>
+            </ul>
           </div>
-          <div className="col-span-4"></div>
+          <div className="col-span-12 lg:col-span-6 xl:col-span-4">
+            <ul>
+              <li className="mb-30">
+                ANNUAL SOCIAL MEDIA PLATFORMS GROWTH <span>20% per annum</span>
+              </li>
+              <li>DATA PER MONTH</li>
+              <li>
+                New visitors <span>20,000</span>
+              </li>
+              <li>
+                Account reached <span>120,000</span>
+              </li>
+              <li>
+                Impressions <span>660,000</span>
+              </li>
+              <li>
+                Content Interactions <span>27,000</span>
+              </li>
+            </ul>
+          </div>
         </Section>
         <Section className="col-span-12 py-30 border-t border-black gap-y-30">
           <div className="col-span-12 xl:col-span-4">
@@ -725,8 +768,8 @@ export default function SectionsGroup() {
               A MAGAZINE <span className="italic">print + digital rates</span>
             </button>
           </div>
-          <div className="col-span-12 2xl:col-span-8 grid grid-cols-8 gap-x-12">
-            <div className="col-span-3 2xl:col-span-4">
+          <div className="col-span-12 2xl:col-span-8 grid grid-cols-8 gap-x-12 gap-y-21">
+            <div className="col-span-12 2md:col-span-3 2xl:col-span-4">
               <p>
                 For each bi-annual issue of A MAGAZINE, print advertising
                 insertions are accompanied by a complimentary digital
@@ -740,7 +783,7 @@ export default function SectionsGroup() {
                 <li>* IBC: Inside Back Cover</li>
               </ul>
             </div>
-            <div className="col-span-5 2xl:col-span-4">
+            <div className="col-span-12 2md:col-span-5 2xl:col-span-4">
               <p className="uppercase">Print Media Placement Rates</p>
               <ul>
                 <li>
@@ -775,8 +818,8 @@ export default function SectionsGroup() {
               </ul>
             </div>
           </div>
-          <div className="col-span-12 2xl:col-start-5 2xl:col-span-8 grid grid-cols-8 gap-x-12 border-t border-beige pt-30">
-            <div className="col-span-3 2xl:col-span-4">
+          <div className="col-span-12 2xl:col-start-5 2xl:col-span-8 grid grid-cols-8 gap-x-12 border-t border-beige pt-30 gap-y-21">
+            <div className="col-span-12 2md:col-span-3 2xl:col-span-4">
               <p>
                 Each print media placement rate includes the following digital
                 integration.
@@ -799,16 +842,33 @@ export default function SectionsGroup() {
                 </small>
               </p>
             </div>
-            <div className="col-span-5 2xl:col-span-4">
+            <div className="col-span-12 2md:col-span-5 2xl:col-span-4">
               <p className="uppercase">
                 VALUE-ADDED DIGITAL INTEGRATION EDITORIAL CONTENT
                 <span className="italic">incl.</span>
               </p>
-              <p className="italic">
+              <p className="italic mb-30">
                 Brand partner’s visual assets accompanied by short text or
                 long-form article written by A MAGAZINE team or contributing
                 editor.
               </p>
+              <ul>
+                <li className="uppercase">- Website</li>
+                <li className="italic mb-30">
+                  1 x written article + image/video gallery on
+                  amagazinecuratedby.com/curatedfor
+                </li>
+                <li className="uppercase">- Social Media</li>
+                <li className="italic">1 x Instagram Feed Post</li>
+                <li className="italic">
+                  1 x Sponsored Instagram Feed Porst Minimum 100,000 impressions
+                  reach, Direct Link to Brand partner website or to A Magazine
+                  website
+                </li>
+                <li className="italic">
+                  2 x 24h Instagram Stories dedication of images / video
+                </li>
+              </ul>
             </div>
           </div>
         </Section>
@@ -822,20 +882,20 @@ export default function SectionsGroup() {
               content packages throughout the year.
             </p>
           </div>
-          <div className="col-span-12 2xl:col-span-8 grid grid-cols-8 gap-x-12">
-            <div className="col-span-3 2xl:col-span-4">
+          <div className="col-span-12 2xl:col-span-8 grid grid-cols-8 gap-x-12 gap-y-21">
+            <div className="col-span-12 2md:col-span-3 2xl:col-span-4">
               <p>
                 Photo shoot or video content produced by A publisher featuring
                 Brand partner’s collection, accessories, products accompanied by
                 short text articles.
               </p>
             </div>
-            <div className="col-span-5 2xl:col-span-4">
+            <div className="col-span-12 2md:col-span-5 2xl:col-span-4">
               <p>PRODUCED ADVERTORIAL € 8,000</p>
             </div>
           </div>
-          <div className="col-span-12 2xl:col-start-5 2xl:col-span-8 grid grid-cols-8 gap-x-12 border-t border-beige pt-30">
-            <div className="col-span-3 2xl:col-span-4">
+          <div className="col-span-12 2xl:col-start-5 2xl:col-span-8 grid grid-cols-8 gap-x-12 border-t border-beige pt-30 gap-y-21">
+            <div className="col-span-12 2md:col-span-3 2xl:col-span-4">
               <p>
                 Rediffusion and social media promotion of Brand partner’s
                 provided visual assets with A Magazine tone-of-voice.
@@ -858,7 +918,7 @@ export default function SectionsGroup() {
                 </small>
               </p>
             </div>
-            <div className="col-span-5 2xl:col-span-4">
+            <div className="col-span-12 2md:col-span-5 2xl:col-span-4">
               <p className="uppercase">Sponsored Editorial</p>
             </div>
           </div>
