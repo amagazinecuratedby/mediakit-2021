@@ -2,11 +2,27 @@ module.exports = {
   purge: ["./src/**/*.{js,jsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
+    screens: {
+      sm: "640px",
+      md: "768px",
+      "2md": "896px",
+      "3md": "968px",
+      lg: "1024px",
+      lg2: "1190px",
+      xl: "1280px",
+      "2xl": "1536px",
+      "3xl": "1675px",
+    },
     extend: {
       colors: {
         beige: "#fefaf1",
         red: "#af171a",
         greyTeal: "#f7f7f7",
+        dark: "#282828",
+      },
+      maxWidth: {
+        345: "21.563rem",
+        "full-30": "calc(100% - 60px)",
       },
       spacing: {
         4: "0.25rem",
@@ -54,4 +70,7 @@ module.exports = {
     extend: {},
   },
   plugins: [],
+  corePlugins: {
+    container: false,
+  },
 }

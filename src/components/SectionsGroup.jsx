@@ -26,10 +26,10 @@ export default function SectionsGroup() {
             page printed magazine that is launched alongside tailored digital
             content, behind the scenes films, physical events, exhibitions and
             advertorial content. Conceived as Belgium’s first fashion magazine,
-            A MAGAZINE <span className="italic">curated by</span>
-            has diversified to work with fashion designers across the globe,
-            gaining international acclaim for its unprecedented access to the
-            most inspiring minds of today.
+            A MAGAZINE <span className="italic">curated by</span> has
+            diversified to work with fashion designers across the globe, gaining
+            international acclaim for its unprecedented access to the most
+            inspiring minds of today.
           </p>
         </div>
         <div className="col-span-5">
@@ -40,12 +40,12 @@ export default function SectionsGroup() {
         </div>
       </Section>
       <Section className="bg-beige text-red font-serif p-30">
-        <div className="col-span-3">
+        <div className="col-span-12 mb-30 xl:col-span-3">
           <button type="button">
             <span className="italic">About</span> A PUBLISHER
           </button>
         </div>
-        <div className="col-span-4">
+        <div className="mb-30 col-span-12 3md:col-span-5 xl:col-span-4">
           <p>
             Today A PUBLISHER has expanded beyond producing the print title A
             MAGAZINE <span className="italic">curated by</span>, to include the
@@ -53,7 +53,7 @@ export default function SectionsGroup() {
             copywriting services and creative consulting.
           </p>
         </div>
-        <div className="col-span-5">
+        <div className="col-span-12 3md:col-span-7 xl:col-span-5">
           <p className="mb-21">
             A MAGAZINE <span className="italic">curated by</span>
           </p>
@@ -87,8 +87,8 @@ export default function SectionsGroup() {
           </p>
         </div>
       </Section>
-      <Section className="bg-red text-beige font-serif p-30">
-        <div className="col-span-3">
+      <Section className="bg-red text-beige font-serif p-30 border-t border-red">
+        <div className="mb-30 col-span-12 xl:col-span-3">
           <button type="button">
             A MAGAZINE <span className="italic">history</span>
           </button>
@@ -109,18 +109,18 @@ export default function SectionsGroup() {
             It was followed by <span className="italic">N°B, N°C, N°D</span> and{" "}
             <span className="italic">N°E</span> magazines before a change in
             ownership and direction saw the birth of A MAGAZINE{" "}
-            <span className="italic">curated by</span>
-            Maison Martin Margiela in 2004.
+            <span className="italic">curated by</span> Maison Martin Margiela in
+            2004.
           </p>
         </div>
       </Section>
-      <Section className="bg-beige text-red font-serif p-30">
-        <div className="col-span-3">
+      <Section className="bg-beige text-red font-serif p-30 border-t border-red">
+        <div className="mb-30 col-span-12 xl:col-span-3">
           <button type="button">
             A MAGAZINE <span className="italic">selected contributors</span>
           </button>
         </div>
-        <div className="col-span-4 mb-21">
+        <div className="col-span-12 md:col-span-8 xl:col-span-4 mb-21">
           <p>
             As A MAGAZINE <span className="italic">curated by</span>’s guest
             editor changes every time, so do the magazine’s contributors. From
@@ -129,7 +129,7 @@ export default function SectionsGroup() {
             invites an elite level of collaborators.
           </p>
         </div>
-        <div className="col-start-4 col-span-9 grid grid-cols-10 text-18 leading-24">
+        <div className="col-span-12 xl:col-start-4 xl:col-span-9 grid grid-cols-10 gap-x-12 text-18 leading-24">
           <ul className="col-span-2">
             <li>Aaron Siskind</li>
             <li>Alasdair McLellan</li>
@@ -281,7 +281,11 @@ export default function SectionsGroup() {
             globe – one that continues to grow with each new issue in a unique
             exchange with a designer or fashion house’s audience and our own.
           </p>
-          <img src="" alt="A MAGAZINE curated by Communities map" />
+          <img
+            src="planisphere.jpg"
+            alt="A MAGAZINE curated by Communities map"
+            className="max-w-full h-auto"
+          />
         </div>
         <div className="col-span-4">
           <ul>
@@ -339,13 +343,13 @@ export default function SectionsGroup() {
             <li>Twelve Books</li>
           </ul>
         </div>
-        <Section className="col-span-12 py-30">
-          <div className="col-span-4">
+        <Section className="col-span-12 py-30 gap-y-30">
+          <div className="col-span-12 2xl:col-span-4">
             <button type="button">
               A MAGAZINE <span className="italic">selected cities</span>
             </button>
           </div>
-          <div className="col-span-2 grid grid-cols-8">
+          <div className="col-span-12 sm:col-span-6 lg2:col-span-3 2xl:col-span-2 grid grid-cols-8">
             <p className="italic uppercase col-span-8 mb-24">
               North &amp; South America
             </p>
@@ -372,7 +376,7 @@ export default function SectionsGroup() {
               <li>Vancouver </li>
             </ul>
           </div>
-          <div className="col-span-2 grid grid-cols-8">
+          <div className="col-span-12 sm:col-span-6 lg2:col-span-3 2xl:col-span-2 grid grid-cols-8">
             <p className="italic uppercase col-span-8 mb-24">
               Asia &amp; Oceania
             </p>
@@ -399,11 +403,11 @@ export default function SectionsGroup() {
               <li>Sydney</li>
             </ul>
           </div>
-          <div className="col-span-4 grid grid-cols-8">
+          <div className="col-span-12 lg2:col-span-6 2xl:col-span-4 grid grid-cols-8">
             <p className="italic uppercase col-span-8 mb-24">
               Europe &amp; Africa
             </p>
-            <ul className="col-span-2 text-21 leading-27">
+            <ul className="col-span-4 sm:col-span-2 text-21 leading-27">
               <li>Amsterdam</li>
               <li>Antwerp</li>
               <li>Athens</li>
@@ -414,7 +418,7 @@ export default function SectionsGroup() {
               <li>Bucharest</li>
               <li>Cape Town</li>
             </ul>
-            <ul className="col-span-2 text-21 leading-27">
+            <ul className="col-span-4 order-2 sm:order-1 sm:col-span-2 text-21 leading-27">
               <li>Copenhagen</li>
               <li>Dusseldorf</li>
               <li>Florence</li>
@@ -425,7 +429,7 @@ export default function SectionsGroup() {
               <li>London</li>
               <li>Madrid</li>
             </ul>
-            <ul className="col-span-2 text-21 leading-27">
+            <ul className="col-span-4 order-1 sm:order-2 sm:col-span-2 text-21 leading-27">
               <li>Malmö</li>
               <li>Manchester</li>
               <li>Marseille</li>
@@ -436,7 +440,7 @@ export default function SectionsGroup() {
               <li>Oslo</li>
               <li>Paris</li>
             </ul>
-            <ul className="col-span-2 text-21 leading-27">
+            <ul className="order-3 col-span-4 sm:col-span-2 text-21 leading-27">
               <li>Porto</li>
               <li>Rome</li>
               <li>St. Petersburg</li>
@@ -449,13 +453,13 @@ export default function SectionsGroup() {
             </ul>
           </div>
         </Section>
-        <Section className="col-span-12 py-30">
-          <div className="col-span-4">
+        <Section className="col-span-12 py-30 border-t border-black gap-y-30">
+          <div className="col-span-12 2xl:col-span-4">
             <button type="button">
               A MAGAZINE <span className="italic">selected stores</span>
             </button>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-12 lg:col-span-5 2xl:col-span-4">
             <p className="mb-24">
               In recent years, a solid partnership with global distributors has
               been complimented by new direct retailer relationships with art
@@ -472,8 +476,8 @@ export default function SectionsGroup() {
               fashion capitals.
             </p>
           </div>
-          <div className="col-span-4 grid grid-cols-8 text-21 leading-27">
-            <ul className="col-span-4">
+          <div className="col-span-12 lg:col-span-7 2xl:col-span-4 grid grid-cols-8 gap-x-12 text-21 leading-27">
+            <ul className="col-span-8 sm:col-span-4">
               <li>
                 11o – <span className="italic">Copenhagen</span>
               </li>
@@ -543,7 +547,7 @@ export default function SectionsGroup() {
                 Not Just A Library – <span className="italic">Taipei</span>
               </li>
             </ul>
-            <ul className="col-span-4">
+            <ul className="col-span-8 sm:col-span-4">
               <li>
                 Ofr – <span className="italic">Paris</span>
               </li>
@@ -613,13 +617,13 @@ export default function SectionsGroup() {
             </ul>
           </div>
         </Section>
-        <Section className="col-span-12 py-30">
-          <div className="col-span-4">
+        <Section className="col-span-12 py-30 border-t border-black gap-y-30">
+          <div className="col-span-12 lg:col-span-5 2xl:col-span-4">
             <button type="button">
               <span className="italic">About</span> OUR AUDIENCE
             </button>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-12 lg:col-span-7 2xl:col-span-4">
             <p className="mb-24">
               Our audience consists of highly informed readers and consumers
               whose primary interests revolve around the worlds of fashion,
@@ -646,9 +650,9 @@ export default function SectionsGroup() {
             II. Website &amp; Social Media
           </button>
         </div>
-        <Section className="col-span-12 py-30">
+        <Section className="col-span-12 py-30 border-t border-black">
           <div className="col-span-4">
-            <button type="button" className="uppercase">
+            <button type="button">
               A MAGAZINE <span className="italic">instagram</span>
             </button>
           </div>
@@ -666,13 +670,13 @@ export default function SectionsGroup() {
           </div>
           <div className="col-span-4"></div>
         </Section>
-        <Section className="col-span-12 py-30">
-          <div className="col-span-4">
-            <button type="button" className="uppercase">
+        <Section className="col-span-12 py-30 border-t border-black gap-y-30">
+          <div className="col-span-12 xl:col-span-4">
+            <button type="button">
               A MAGAZINE <span className="italic">website</span>
             </button>
           </div>
-          <div className="col-span-4">
+          <div className="col-span-12 lg:col-span-5 xl:col-span-4">
             <p className="mb-24">
               <a
                 href="https://amagazinecuratedby.com"
@@ -700,25 +704,29 @@ export default function SectionsGroup() {
               spaces and unexplored topics.
             </p>
           </div>
-          <div className="col-span-4">
-            <img src="" alt="A MAGAZINE curate by website" />
+          <div className="col-span-12 lg:col-span-7 xl:col-span-4">
+            <img
+              src="ordinateur.jpg"
+              alt="A MAGAZINE curate by website"
+              className="max-w-full h-auto"
+            />
           </div>
         </Section>
       </Section>
-      <Section className="bg-black text-beige font-serif p-30">
-        <div className="col-span-12 font-sans">
+      <Section className="bg-dark text-beige font-serif p-30">
+        <div className="col-span-12 font-sans mb-30">
           <button type="button" className="uppercase text-18">
             IV. Media Placement Rates
           </button>
         </div>
-        <Section className="col-span-12 py-30">
-          <div className="col-span-4">
+        <Section className="col-span-12 py-30 border-t border-beige gap-y-30">
+          <div className="col-span-12 2xl:col-span-4">
             <button type="button">
               A MAGAZINE <span className="italic">print + digital rates</span>
             </button>
           </div>
-          <div className="col-span-8 grid grid-cols-8">
-            <div className="col-span-4">
+          <div className="col-span-12 2xl:col-span-8 grid grid-cols-8 gap-x-12">
+            <div className="col-span-3 2xl:col-span-4">
               <p>
                 For each bi-annual issue of A MAGAZINE, print advertising
                 insertions are accompanied by a complimentary digital
@@ -732,7 +740,7 @@ export default function SectionsGroup() {
                 <li>* IBC: Inside Back Cover</li>
               </ul>
             </div>
-            <div className="col-span-4">
+            <div className="col-span-5 2xl:col-span-4">
               <p className="uppercase">Print Media Placement Rates</p>
               <ul>
                 <li>
@@ -767,8 +775,8 @@ export default function SectionsGroup() {
               </ul>
             </div>
           </div>
-          <div className="col-start-5 col-span-8 grid grid-cols-8">
-            <div className="col-span-4">
+          <div className="col-span-12 2xl:col-start-5 2xl:col-span-8 grid grid-cols-8 gap-x-12 border-t border-beige pt-30">
+            <div className="col-span-3 2xl:col-span-4">
               <p>
                 Each print media placement rate includes the following digital
                 integration.
@@ -781,7 +789,7 @@ export default function SectionsGroup() {
               </p>
               <p className="text-20 leading-27">
                 <small>
-                  All advertising enquiries to
+                  All advertising enquiries to{" "}
                   <a
                     href="mailto:advertising@amagazinecuratedby.com"
                     className="italic"
@@ -791,7 +799,7 @@ export default function SectionsGroup() {
                 </small>
               </p>
             </div>
-            <div className="col-span-4">
+            <div className="col-span-5 2xl:col-span-4">
               <p className="uppercase">
                 VALUE-ADDED DIGITAL INTEGRATION EDITORIAL CONTENT
                 <span className="italic">incl.</span>
@@ -804,30 +812,30 @@ export default function SectionsGroup() {
             </div>
           </div>
         </Section>
-        <Section className="col-span-12 py-30">
-          <div className="col-span-4">
-            <button type="button" className="uppercase">
+        <Section className="col-span-12 py-30 border-t border-beige gap-y-30">
+          <div className="col-span-6 2xl:col-span-4">
+            <button type="button" className="mb-30">
               A MAGAZINE <span className="italic">digital packages rates</span>
             </button>
-            <p>
+            <p className="max-w-345">
               In addition to the print advertising space, we offer digital
               content packages throughout the year.
             </p>
           </div>
-          <div className="col-span-8 grid grid-cols-8">
-            <div className="col-span-4">
+          <div className="col-span-12 2xl:col-span-8 grid grid-cols-8 gap-x-12">
+            <div className="col-span-3 2xl:col-span-4">
               <p>
                 Photo shoot or video content produced by A publisher featuring
                 Brand partner’s collection, accessories, products accompanied by
                 short text articles.
               </p>
             </div>
-            <div className="col-span-4">
+            <div className="col-span-5 2xl:col-span-4">
               <p>PRODUCED ADVERTORIAL € 8,000</p>
             </div>
           </div>
-          <div className="col-start-5 col-span-8 grid grid-cols-8">
-            <div className="col-span-4">
+          <div className="col-span-12 2xl:col-start-5 2xl:col-span-8 grid grid-cols-8 gap-x-12 border-t border-beige pt-30">
+            <div className="col-span-3 2xl:col-span-4">
               <p>
                 Rediffusion and social media promotion of Brand partner’s
                 provided visual assets with A Magazine tone-of-voice.
@@ -850,19 +858,19 @@ export default function SectionsGroup() {
                 </small>
               </p>
             </div>
-            <div className="col-span-4">
+            <div className="col-span-5 2xl:col-span-4">
               <p className="uppercase">Sponsored Editorial</p>
             </div>
           </div>
         </Section>
-        <Section className="col-span-12 py-30">
-          <div className="col-span-4">
-            <button type="button" className="uppercase">
+        <Section className="col-span-12 py-30 border-t border-beige">
+          <div className="col-span-12 mb-30 xl:col-span-4">
+            <button type="button">
               A MAGAZINE <span className="italic">brand environment</span>
             </button>
           </div>
-          <div className="col-span-8 grid grid-cols-8 uppercase">
-            <ul className="col-span-2">
+          <div className="col-span-12 xl:col-span-8 grid grid-cols-8 uppercase">
+            <ul className="order-0 col-span-8 sm:col-span-4 3md:col-span-2">
               <li>Absolut</li>
               <li>BDDW</li>
               <li>Balenciaga</li>
@@ -879,7 +887,7 @@ export default function SectionsGroup() {
               <li>Cointreau</li>
               <li>Colette</li>
             </ul>
-            <ul className="col-span-2">
+            <ul className="order-2 col-span-8 sm:col-span-4 3md:order-1 3md:col-span-2">
               <li>Comme Des Garçons</li>
               <li>Delvaux</li>
               <li>Diesel</li>
@@ -896,7 +904,7 @@ export default function SectionsGroup() {
               <li>Longchamp</li>
               <li>Louis Vuitton</li>
             </ul>
-            <ul className="col-span-2">
+            <ul className="order-1 col-span-8 sm:col-span-4 3md:order-2 3md:col-span-2">
               <li>L’Oréal</li>
               <li>MSGM</li>
               <li>Marc Jacobs</li>
@@ -913,7 +921,7 @@ export default function SectionsGroup() {
               <li>Piper Heidsieck</li>
               <li>Prada</li>
             </ul>
-            <ul className="col-span-2">
+            <ul className="order-3 col-span-8 sm:col-span-4 3md:order-0 3md:col-span-2">
               <li>Repossi</li>
               <li>Rimowa</li>
               <li>Roberto Cavalli</li>

@@ -41,4 +41,12 @@
   .indent {
     text-indent: 25px;
   }
+
+  .container {
+    max-widht: 1950px;
+    @apply mx-auto
+    grid
+    grid-cols-12
+    col-span-12;
+  }
 }
