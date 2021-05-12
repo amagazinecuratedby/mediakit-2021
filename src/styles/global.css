@@ -103,4 +103,14 @@
   .flex-list-fixed li span {
     flex: 0 0 32px;
   }
+
+  .flex-list-30 li {
+    @apply flex
+    justify-between
+    items-baseline;
+  }
+
+  .flex-list-30 li span {
+    flex: 0 0 30%;
+  }
 }

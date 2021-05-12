@@ -1119,13 +1119,13 @@ export default function SectionsGroup() {
           </button>
         </div>
         <Section className="col-span-12 py-30 border-t border-black gap-y-30">
-          <div className="col-span-12 xl:col-span-4">
+          <div className="col-span-12 2xl:col-span-4">
             <button type="button">
               A MAGAZINE <span className="italic">instagram</span>
             </button>
           </div>
-          <div className="col-span-12 lg:col-span-6 xl:col-span-4">
-            <p className="mb-30">
+          <div className="col-span-12 2xl:col-span-8">
+            <p>
               <a
                 href="https://www.instagram.com/amagazinecuratedby"
                 target="_blank"
@@ -1135,7 +1135,9 @@ export default function SectionsGroup() {
                 @amagazinecuratedby
               </a>
             </p>
-            <ul>
+          </div>
+          <div className="col-span-12 2md:col-span-6 2xl:col-span-4 2xl:col-start-5">
+            <ul className="flex-list-30">
               <li className="mb-30">
                 CORE TARGET AUDIENCE <span>20 - 60 yo</span>
               </li>
@@ -1160,8 +1162,8 @@ export default function SectionsGroup() {
               </li>
             </ul>
           </div>
-          <div className="col-span-12 lg:col-span-6 xl:col-span-4">
-            <ul>
+          <div className="col-span-12 2md:col-span-6 2xl:col-span-4">
+            <ul className="flex-list-30">
               <li className="mb-30">
                 ANNUAL SOCIAL MEDIA PLATFORMS GROWTH <span>20% per annum</span>
               </li>
@@ -1320,21 +1322,24 @@ export default function SectionsGroup() {
                 long-form article written by A MAGAZINE team or contributing
                 editor.
               </p>
-              <ul>
+              <ul className="flex-list-fixed">
                 <li className="uppercase">- Website</li>
                 <li className="italic mb-30">
-                  1 x written article + image/video gallery on
+                  <span>1 x </span>written article + image/video gallery on
                   amagazinecuratedby.com/curatedfor
                 </li>
                 <li className="uppercase">- Social Media</li>
                 <li className="italic">1 x Instagram Feed Post</li>
                 <li className="italic">
-                  1 x Sponsored Instagram Feed Porst Minimum 100,000 impressions
-                  reach, Direct Link to Brand partner website or to A MAGAZINE
-                  website
+                  <span>1 x </span>Sponsored Instagram Feed Post
+                  <br />
+                  Minimum 100,000 impressions reach,
+                  <br />
+                  Direct Link to Brand partner website or to A MAGAZINE website
                 </li>
                 <li className="italic">
-                  2 x 24h Instagram Stories dedication of images / video
+                  <span>2 x </span>24h Instagram Stories dedication of images /
+                  video
                 </li>
               </ul>
             </div>
@@ -1360,21 +1365,24 @@ export default function SectionsGroup() {
             </div>
             <div className="col-span-12 2md:col-span-5 2xl:col-span-4">
               <p className="mb-30">PRODUCED ADVERTORIAL € 8,000</p>
-              <ul>
+              <ul className="flex-list-fixed">
                 <li className="uppercase">- Website</li>
                 <li className="italic mb-30">
-                  1 x written article + image/video gallery on
+                  <span>1 x </span>written article + image/video gallery on
                   amagazinecuratedby.com/curatedfor
                 </li>
                 <li className="uppercase">- Social Media</li>
                 <li className="italic">3 x Instagram Feed Posts</li>
                 <li className="italic">
-                  1 x Sponsored Instagram Feed Porst Minimum 200,000 impressions
-                  reach, Direct Link to Brand partner website or to A MAGAZINE
-                  website
+                  <span>1 x </span>Sponsored Instagram Feed Post
+                  <br />
+                  Minimum 200,000 impressions reach,
+                  <br />
+                  Direct Link to Brand partner website or to A MAGAZINE website
                 </li>
                 <li className="italic">
-                  2 x 24h Instagram Stories dedication of images / video
+                  <span>2 x </span>24h Instagram Stories dedication of images /
+                  video
                 </li>
               </ul>
             </div>
@@ -1411,21 +1419,26 @@ export default function SectionsGroup() {
                 long-form article written by A Magazine team or contributing
                 editor.
               </p>
-              <ul>
+              <ul className="flex-list-fixed">
                 <li className="uppercase">- Website Article</li>
                 <li className="italic mb-30">
-                  1 x long-form (600 words +) article + image/video gallery on
-                  amagazinecuratedby.com/curatedfor
+                  <span>1 x </span>long-form (600 words +) article + image/video
+                  gallery on amagazinecuratedby.com/curatedfor
                 </li>
                 <li className="uppercase">- Social Media</li>
-                <li className="italic">2 x Instagram Feed Posts</li>
                 <li className="italic">
-                  1 x Sponsored Instagram Feed Porst Minimum 200,000 impressions
-                  reach, Direct Link to Brand partner website or to A MAGAZINE
-                  website
+                  <span>2 x </span>Instagram Feed Posts
                 </li>
                 <li className="italic">
-                  2 x 24h Instagram Stories dedication of images / video
+                  <span>1 x </span>Sponsored Instagram Feed Post
+                  <br />
+                  Minimum 200,000 impressions reach,
+                  <br />
+                  Direct Link to Brand partner website or to A MAGAZINE website
+                </li>
+                <li className="italic">
+                  <span>2 x </span>24h Instagram Stories dedication of images /
+                  video
                 </li>
               </ul>
               <p className="border-t border-beige mt-30 pt-30">
@@ -1435,16 +1448,21 @@ export default function SectionsGroup() {
                 Brand partner’s visual assets published on Instagram accompanied
                 by editorial captions.
               </p>
-              <ul>
+              <ul className="flex-list-fixed">
                 <li className="uppercase">- Social Media</li>
-                <li className="italic">2 x Instagram Feed Posts</li>
                 <li className="italic">
-                  1 x Sponsored Instagram Feed Porst Minimum 200,000 impressions
-                  reach, Direct Link to Brand partner website or to A MAGAZINE
-                  website
+                  <span>2 x </span>Instagram Feed Posts
                 </li>
                 <li className="italic">
-                  2 x 24h Instagram Stories dedication of images / video
+                  <span>1 x </span>Sponsored Instagram Feed Post
+                  <br />
+                  Minimum 200,000 impressions reach,
+                  <br />
+                  Direct Link to Brand partner website or to A MAGAZINE website
+                </li>
+                <li className="italic">
+                  <span>2 x </span>24h Instagram Stories dedication of images /
+                  video
                 </li>
               </ul>
             </div>
