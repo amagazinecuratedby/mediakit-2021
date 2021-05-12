@@ -22,6 +22,7 @@ module.exports = {
       },
       maxWidth: {
         345: "21.563rem",
+        500: "31.25rem",
         "full-30": "calc(100% - 60px)",
       },
       spacing: {

@@ -4,8 +4,8 @@ import Section from "./Section.jsx"
 export default function SectionsGroup() {
   return (
     <>
-      <Section className="bg-beige text-red p-30">
-        <div className="font-serif col-span-7 text-29 leading-34">
+      <Section className="bg-beige text-red p-30 gap-y-30">
+        <div className="font-serif col-span-12 3md:col-span-7 text-29 leading-34">
           <p className="text-37 leading-39 mb-42">
             A MAGAZINE <span className="italic">curated by</span>
             <br />
@@ -32,10 +32,11 @@ export default function SectionsGroup() {
             inspiring minds of today.
           </p>
         </div>
-        <div className="col-span-5">
+        <div className="col-span-12 text-center 3md:col-span-5 3md:text-left">
           <img
-            src=""
+            src="margiela-big.jpg"
             alt="A Magazine curated by - Maison Martin Margiela 2021 Cover"
+            className="w-full max-w-500 shadow-2xl inline-block"
           />
         </div>
       </Section>
@@ -115,12 +116,12 @@ export default function SectionsGroup() {
         </div>
       </Section>
       <Section className="bg-beige text-red font-serif p-30 border-t border-red">
-        <div className="mb-30 col-span-12 xl:col-span-3">
+        <div className="mb-30 col-span-12 2xl:col-span-3">
           <button type="button">
             A MAGAZINE <span className="italic">selected contributors</span>
           </button>
         </div>
-        <div className="col-span-12 md:col-span-8 xl:col-span-4 mb-21">
+        <div className="col-span-12 md:col-span-8 2xl:col-span-4 mb-21">
           <p>
             As A MAGAZINE <span className="italic">curated by</span>’s guest
             editor changes every time, so do the magazine’s contributors. From
@@ -129,142 +130,500 @@ export default function SectionsGroup() {
             invites an elite level of collaborators.
           </p>
         </div>
-        <div className="col-span-12 xl:col-start-4 xl:col-span-9 grid grid-cols-10 gap-x-12 text-18 leading-24">
-          <ul className="col-span-2">
-            <li>Aaron Siskind</li>
-            <li>Alasdair McLellan</li>
-            <li>Alexander Fury</li>
-            <li>Alexandre Desplat</li>
-            <li>Alister Mackie</li>
-            <li>Anders Edström</li>
-            <li>Andrew Bolton</li>
-            <li>André Leon Talley</li>
-            <li>Andrée Putman</li>
-            <li>Ann Demeulemeester</li>
-            <li>Annie Leibovitz</li>
-            <li>BLESS</li>
-            <li>Baz Luhrmann</li>
-            <li>Bill Owens</li>
-            <li>Charles Traub</li>
-            <li>Charlotte Rampling</li>
-            <li>Chimamanda</li>
-            <li>Ngozie Adichie</li>
-            <li>Chloë Sevigny</li>
-            <li>Cindy Sherman</li>
-            <li>Coco Capitan</li>
-            <li>Colin Dodgson</li>
-            <li>Craig Green</li>
-            <li>Craig McDean</li>
-            <li>David Armstrong</li>
-            <li>David Sims</li>
+        <div className="col-span-12 2xl:col-start-4 2xl:col-span-9 grid grid-cols-10 gap-x-12 text-18 leading-24">
+          <ul className="col-span-10 sm:col-span-5 md:col-span-3 lg2:col-span-2 flex-list-fixed">
+            <li>
+              <span className="italic">A -</span>Aaron Siskind
+            </li>
+            <li>
+              <span />
+              Alasdair McLellan
+            </li>
+            <li>
+              <span />
+              Alexander Fury
+            </li>
+            <li>
+              <span />
+              Alexandre Desplat
+            </li>
+            <li>
+              <span />
+              Alister Mackie
+            </li>
+            <li>
+              <span />
+              Anders Edström
+            </li>
+            <li>
+              <span />
+              Andrew Bolton
+            </li>
+            <li>
+              <span />
+              André Leon Talley
+            </li>
+            <li>
+              <span />
+              Andrée Putman
+            </li>
+            <li>
+              <span />
+              Ann Demeulemeester
+            </li>
+            <li>
+              <span />
+              Annie Leibovitz
+            </li>
+            <li>
+              <span className="italic">B -</span>BLESS
+            </li>
+            <li>
+              <span />
+              Baz Luhrmann
+            </li>
+            <li>
+              <span />
+              Bill Owens
+            </li>
+            <li>
+              <span className="italic">C -</span>Charles Traub
+            </li>
+            <li>
+              <span />
+              Charlotte Rampling
+            </li>
+            <li>
+              <span />
+              Chimamanda
+            </li>
+            <li>
+              <span />
+              Ngozie Adichie
+            </li>
+            <li>
+              <span />
+              Chloë Sevigny
+            </li>
+            <li>
+              <span />
+              Cindy Sherman
+            </li>
+            <li>
+              <span />
+              Coco Capitan
+            </li>
+            <li>
+              <span />
+              Colin Dodgson
+            </li>
+            <li>
+              <span />
+              Craig Green
+            </li>
+            <li>
+              <span className="italic">D -</span>Craig McDean
+            </li>
+            <li>
+              <span />
+              David Armstrong
+            </li>
+            <li>
+              <span />
+              David Sims
+            </li>
           </ul>
-          <ul className="col-span-2">
-            <li>Elle Fanning</li>
-            <li>Ellie Grace Cumming</li>
-            <li>Ernest Pignon Ernest</li>
-            <li>Eugene Souleiman</li>
-            <li>Fabien Baron</li>
-            <li>Florence Welch</li>
-            <li>Franca Sozzani</li>
-            <li>Gia Coppola</li>
-            <li>Giorgio Moroder</li>
-            <li>Glen Luchford</li>
-            <li>Grace Coddington</li>
-            <li>Guido Palau</li>
-            <li>Hamish Bowles</li>
-            <li>Hans Ulrich Obrist</li>
-            <li>Inez Van Lamsweerde & Vinoodh Matadin</li>
-            <li>Irving Penn</li>
-            <li>Jackie Nickerson</li>
-            <li>Jean-Paul Gaultier</li>
-            <li>Jefferson Hack</li>
-            <li>Jerry Stafford</li>
-            <li>Jo-Ann Furniss</li>
-            <li>Joe McKenna</li>
-            <li>Joel Meyerowitz</li>
-            <li>John Galliano</li>
-            <li>Julia Hetta</li>
+          <ul className="col-span-10 sm:col-span-5 sm:order-3 md:col-span-3 md:order-4 lg2:col-span-2 lg2:order-0 flex-list-fixed">
+            <li>
+              <span className="italic">E -</span>Elle Fanning
+            </li>
+            <li>
+              <span />
+              Ellie Grace Cumming
+            </li>
+            <li>
+              <span />
+              Ernest Pignon Ernest
+            </li>
+            <li>
+              <span />
+              Eugene Souleiman
+            </li>
+            <li>
+              <span className="italic">F -</span>Fabien Baron
+            </li>
+            <li>
+              <span />
+              Florence Welch
+            </li>
+            <li>
+              <span />
+              Franca Sozzani
+            </li>
+            <li>
+              <span className="italic">G -</span>Gia Coppola
+            </li>
+            <li>
+              <span />
+              Giorgio Moroder
+            </li>
+            <li>
+              <span />
+              Glen Luchford
+            </li>
+            <li>
+              <span />
+              Grace Coddington
+            </li>
+            <li>
+              <span />
+              Guido Palau
+            </li>
+            <li>
+              <span className="italic">H -</span>Hamish Bowles
+            </li>
+            <li>
+              <span />
+              Hans Ulrich Obrist
+            </li>
+            <li>
+              <span className="italic">I -</span>Inez Van Lamsweerde & Vinoodh
+              Matadin
+            </li>
+            <li>
+              <span />
+              Irving Penn
+            </li>
+            <li>
+              <span className="italic">J -</span>Jackie Nickerson
+            </li>
+            <li>
+              <span />
+              Jean-Paul Gaultier
+            </li>
+            <li>
+              <span />
+              Jefferson Hack
+            </li>
+            <li>
+              <span />
+              Jerry Stafford
+            </li>
+            <li>
+              <span />
+              Jo-Ann Furniss
+            </li>
+            <li>
+              <span />
+              Joe McKenna
+            </li>
+            <li>
+              <span />
+              Joel Meyerowitz
+            </li>
+            <li>
+              <span />
+              John Galliano
+            </li>
+            <li>
+              <span />
+              Julia Hetta
+            </li>
           </ul>
-          <ul className="col-span-2">
-            <li>Julianne Moore</li>
-            <li>Julien d‘Ys</li>
-            <li>KAWS</li>
-            <li>Kahlil Joseph</li>
-            <li>Karim Sadli</li>
-            <li>Karl Lagerfeld</li>
-            <li>Kate Moss</li>
-            <li>Katerina Jebb</li>
-            <li>Katie Grand</li>
-            <li>Kenzo Takada</li>
-            <li>Leslie Zhang</li>
-            <li>Lina Scheynius</li>
-            <li>Lou Stoppard</li>
-            <li>Luca Guadagnino</li>
-            <li>Luigi Ballerini</li>
-            <li>Lutz Huelle</li>
-            <li>M/M Paris</li>
-            <li>Madonna</li>
-            <li>Malcolm McLaren</li>
-            <li>Manolo Blahnik</li>
-            <li>Mariacarla Boscono</li>
-            <li>Marina Abramovic</li>
-            <li>Mark Borthwick</li>
-            <li>Matthew Lutz Kinoy</li>
-            <li>Melanie Ward</li>
-            <li>Mert & Marcus</li>
+          <ul className="col-span-10 sm:col-span-5 sm:order-5 md:col-span-3 md:order-2 lg2:col-span-2 lg2:order-0 flex-list-fixed">
+            <li>
+              <span />
+              Julianne Moore
+            </li>
+            <li>
+              <span />
+              Julien d‘Ys
+            </li>
+            <li>
+              <span className="italic">K -</span>KAWS
+            </li>
+            <li>
+              <span />
+              Kahlil Joseph
+            </li>
+            <li>
+              <span />
+              Karim Sadli
+            </li>
+            <li>
+              <span />
+              Karl Lagerfeld
+            </li>
+            <li>
+              <span />
+              Kate Moss
+            </li>
+            <li>
+              <span />
+              Katerina Jebb
+            </li>
+            <li>
+              <span />
+              Katie Grand
+            </li>
+            <li>
+              <span />
+              Kenzo Takada
+            </li>
+            <li>
+              <span className="italic">L -</span>Leslie Zhang
+            </li>
+            <li>
+              <span />
+              Lina Scheynius
+            </li>
+            <li>
+              <span />
+              Lou Stoppard
+            </li>
+            <li>
+              <span />
+              Luca Guadagnino
+            </li>
+            <li>
+              <span />
+              Luigi Ballerini
+            </li>
+            <li>
+              <span />
+              Lutz Huelle
+            </li>
+            <li>
+              <span className="italic">M -</span>M/M Paris
+            </li>
+            <li>
+              <span />
+              Madonna
+            </li>
+            <li>
+              <span />
+              Malcolm McLaren
+            </li>
+            <li>
+              <span />
+              Manolo Blahnik
+            </li>
+            <li>
+              <span />
+              Mariacarla Boscono
+            </li>
+            <li>
+              <span />
+              Marina Abramovic
+            </li>
+            <li>
+              <span />
+              Mark Borthwick
+            </li>
+            <li>
+              <span />
+              Matthew Lutz Kinoy
+            </li>
+            <li>
+              <span />
+              Melanie Ward
+            </li>
+            <li>
+              <span />
+              Mert & Marcus
+            </li>
           </ul>
-          <ul className="col-span-2">
-            <li>Michael Bailey Gates</li>
-            <li>Michel Gaubert</li>
-            <li>Nan Goldin</li>
-            <li>Naomi Campbell</li>
-            <li>Nick Knight</li>
-            <li>Nicolas Ouchenir</li>
-            <li>Olivier Rizzo</li>
-            <li>Olivier Saillard</li>
-            <li>Olivier Theyskens</li>
-            <li>Olivier Wicker</li>
-            <li>Olivier Zahm</li>
-            <li>Paolo Roversi</li>
-            <li>Pat McGrath</li>
-            <li>Peter Doig</li>
-            <li>Peter Philips</li>
-            <li>Petra Collins</li>
-            <li>Pier Paolo Pasolini</li>
-            <li>Pierre Debusschere</li>
-            <li>Pina Bausch</li>
-            <li>Raf Simons</li>
-            <li>Rei Kawakubo</li>
-            <li>Richard Avedon</li>
-            <li>Rick Owens</li>
-            <li>Roe Ethridge</li>
-            <li>Ron Arad</li>
-            <li>Sarah Moon</li>
+          <ul className="col-span-10 sm:col-span-5 sm:order-2 md:col-span-3 md:order-5 lg2:col-span-2 lg2:order-0 flex-list-fixed">
+            <li>
+              <span />
+              Michael Bailey Gates
+            </li>
+            <li>
+              <span />
+              Michel Gaubert
+            </li>
+            <li>
+              <span className="italic">N -</span>Nan Goldin
+            </li>
+            <li>
+              <span />
+              Naomi Campbell
+            </li>
+            <li>
+              <span />
+              Nick Knight
+            </li>
+            <li>
+              <span />
+              Nicolas Ouchenir
+            </li>
+            <li>
+              <span className="italic">O -</span>Olivier Rizzo
+            </li>
+            <li>
+              <span />
+              Olivier Saillard
+            </li>
+            <li>
+              <span />
+              Olivier Theyskens
+            </li>
+            <li>
+              <span />
+              Olivier Wicker
+            </li>
+            <li>
+              <span />
+              Olivier Zahm
+            </li>
+            <li>
+              <span className="italic">P -</span>Paolo Roversi
+            </li>
+            <li>
+              <span />
+              Pat McGrath
+            </li>
+            <li>
+              <span />
+              Peter Doig
+            </li>
+            <li>
+              <span />
+              Peter Philips
+            </li>
+            <li>
+              <span />
+              Petra Collins
+            </li>
+            <li>
+              <span />
+              Pier Paolo Pasolini
+            </li>
+            <li>
+              <span />
+              Pierre Debusschere
+            </li>
+            <li>
+              <span />
+              Pina Bausch
+            </li>
+            <li>
+              <span className="italic">R -</span>Raf Simons
+            </li>
+            <li>
+              <span />
+              Rei Kawakubo
+            </li>
+            <li>
+              <span />
+              Richard Avedon
+            </li>
+            <li>
+              <span />
+              Rick Owens
+            </li>
+            <li>
+              <span />
+              Roe Ethridge
+            </li>
+            <li>
+              <span />
+              Ron Arad
+            </li>
+            <li>
+              <span className="italic">S -</span>
+              Sarah Moon
+            </li>
           </ul>
-          <ul className="col-span-2">
-            <li>Saskia de Brauw</li>
-            <li>Shaniqwa Jarvis</li>
-            <li>Sidival Fila</li>
-            <li>Slim Aarons</li>
-            <li>Sofia Coppola</li>
-            <li>Stevie Wonder</li>
-            <li>Susannah Frankel</li>
-            <li>Suzy Menkes</li>
-            <li>Terry Richardson</li>
-            <li>Thierry Mugler</li>
-            <li>Tilda Swinton</li>
-            <li>Tim Blanks</li>
-            <li>Tim Burton</li>
-            <li>Valerie Steele</li>
-            <li>Vivienne Westwood</li>
-            <li>Walter Van Beirendonck</li>
-            <li>William Kentridge</li>
-            <li>Willy Vanderperre</li>
-            <li>Wim Wenders</li>
-            <li>Yelena Yemchuk</li>
-            <li>Zaha Hadid</li>
-            <li>Zoe Cassavetes</li>
-            <li>Zoë Ghertner</li>
+          <ul className="col-span-10 sm:col-span-5 sm:order-4 md:col-span-3 md:order-3 lg2:col-span-2 lg2:order-0 flex-list-fixed">
+            <li>
+              <span />
+              Saskia de Brauw
+            </li>
+            <li>
+              <span />
+              Shaniqwa Jarvis
+            </li>
+            <li>
+              <span />
+              Sidival Fila
+            </li>
+            <li>
+              <span />
+              Slim Aarons
+            </li>
+            <li>
+              <span />
+              Sofia Coppola
+            </li>
+            <li>
+              <span />
+              Stevie Wonder
+            </li>
+            <li>
+              <span />
+              Susannah Frankel
+            </li>
+            <li>
+              <span />
+              Suzy Menkes
+            </li>
+            <li>
+              <span className="italic">T -</span>Terry Richardson
+            </li>
+            <li>
+              <span />
+              Thierry Mugler
+            </li>
+            <li>
+              <span />
+              Tilda Swinton
+            </li>
+            <li>
+              <span />
+              Tim Blanks
+            </li>
+            <li>
+              <span />
+              Tim Burton
+            </li>
+            <li>
+              <span />
+              Valerie Steele
+            </li>
+            <li>
+              <span className="italic">V -</span>Vivienne Westwood
+            </li>
+            <li>
+              <span />
+              Walter Van Beirendonck
+            </li>
+            <li>
+              <span />
+              William Kentridge
+            </li>
+            <li>
+              <span />
+              Willy Vanderperre
+            </li>
+            <li>
+              <span />
+              Wim Wenders
+            </li>
+            <li>
+              <span className="italic">Y -</span>Yelena Yemchuk
+            </li>
+            <li>
+              <span className="italic">Z -</span>Zaha Hadid
+            </li>
+            <li>
+              <span />
+              Zoe Cassavetes
+            </li>
+            <li>
+              <span />
+              Zoë Ghertner
+            </li>
           </ul>
         </div>
       </Section>
@@ -274,7 +633,7 @@ export default function SectionsGroup() {
             III. Audience &amp; Distribution
           </button>
         </div>
-        <div className="col-span-8 text-29 leading-34">
+        <div className="col-span-12 2md:col-span-8 text-29 leading-34">
           <p>
             Throughout our twenty year history, A MAGAZINE has built an engaged
             community of faithful readers, collectors and followers around the
@@ -287,8 +646,8 @@ export default function SectionsGroup() {
             className="max-w-full h-auto"
           />
         </div>
-        <div className="col-span-4">
-          <ul>
+        <div className="col-span-12 2md:col-span-4">
+          <ul className="flex-list-50 mb-30">
             <li>
               <span className="uppercase">Frequency</span>
               <span>Biannual</span>
@@ -322,7 +681,7 @@ export default function SectionsGroup() {
               <span>English</span>
             </li>
           </ul>
-          <p>
+          <p className="mb-30">
             A MAGAZINE is sold online at{" "}
             <a
               href="https://amagazinecuratedby.com"
@@ -769,13 +1128,13 @@ export default function SectionsGroup() {
             </button>
           </div>
           <div className="col-span-12 2xl:col-span-8 grid grid-cols-8 gap-x-12 gap-y-21">
-            <div className="col-span-12 2md:col-span-3 2xl:col-span-4">
-              <p>
+            <div className="col-span-12 2md:col-span-3 2xl:col-span-4 flex flex-col">
+              <p className="mb-30">
                 For each bi-annual issue of A MAGAZINE, print advertising
                 insertions are accompanied by a complimentary digital
                 integration and sponsored promotion.
               </p>
-              <ul className="text-20 leading-27">
+              <ul className="text-20 leading-27 mt-auto">
                 <li>* SP: Single Page</li>
                 <li>* DPS: Double Page Spread</li>
                 <li>* OBC: Outside Back Cover</li>
@@ -784,47 +1143,47 @@ export default function SectionsGroup() {
               </ul>
             </div>
             <div className="col-span-12 2md:col-span-5 2xl:col-span-4">
-              <p className="uppercase">Print Media Placement Rates</p>
+              <p className="uppercase mb-30">Print Media Placement Rates</p>
               <ul>
-                <li>
-                  - OBC <span className="italic">€ 20,000</span>
+                <li className="flex">
+                  - OBC <span className="italic ml-auto">€ 20,000</span>
                 </li>
-                <li>
-                  - IFC, DPS <span className="italic">€ 18,000</span>
+                <li className="flex">
+                  - IFC, DPS <span className="italic ml-auto">€ 18,000</span>
                 </li>
-                <li>
-                  - IBC, DPS <span className="italic">€ 16,000</span>
+                <li className="flex">
+                  - IBC, DPS <span className="italic ml-auto">€ 16,000</span>
                 </li>
-                <li>
-                  - IBC SP <span className="italic">€ 13,000</span>
+                <li className="flex">
+                  - IBC SP <span className="italic ml-auto">€ 13,000</span>
                 </li>
-                <li>
+                <li className="flex">
                   - 1 DPS with premium placement 1/2/3{" "}
-                  <span className="italic">€ 15,000</span>
+                  <span className="italic ml-auto">€ 15,000</span>
                 </li>
-                <li>
-                  - 1 DPS <span className="italic">€ 12,000</span>
+                <li className="flex">
+                  - 1 DPS <span className="italic ml-auto">€ 12,000</span>
                 </li>
-                <li>
-                  - 2 DPS <span className="italic">€ 20,000</span>
+                <li className="flex">
+                  - 2 DPS <span className="italic ml-auto">€ 20,000</span>
                 </li>
-                <li>
+                <li className="flex">
                   - SP Next to Masthead, TOC, Editor’s Letter{" "}
-                  <span className="italic">€9,000</span>
+                  <span className="italic ml-auto">€9,000</span>
                 </li>
-                <li>
-                  - SP <span className="italic">€ 6,000</span>
+                <li className="flex">
+                  - SP <span className="italic ml-auto">€ 6,000</span>
                 </li>
               </ul>
             </div>
           </div>
           <div className="col-span-12 2xl:col-start-5 2xl:col-span-8 grid grid-cols-8 gap-x-12 border-t border-beige pt-30 gap-y-21">
-            <div className="col-span-12 2md:col-span-3 2xl:col-span-4">
-              <p>
+            <div className="col-span-12 2md:col-span-3 2xl:col-span-4 flex flex-col">
+              <p className="mb-30">
                 Each print media placement rate includes the following digital
                 integration.
               </p>
-              <p className="text-20 leading-27">
+              <p className="text-20 leading-27 mt-auto mb-30">
                 <small>
                   Seasonal timing / posting dates to be defined in consultation
                   with the Brand partner.
@@ -862,7 +1221,7 @@ export default function SectionsGroup() {
                 <li className="italic">1 x Instagram Feed Post</li>
                 <li className="italic">
                   1 x Sponsored Instagram Feed Porst Minimum 100,000 impressions
-                  reach, Direct Link to Brand partner website or to A Magazine
+                  reach, Direct Link to Brand partner website or to A MAGAZINE
                   website
                 </li>
                 <li className="italic">
@@ -885,22 +1244,39 @@ export default function SectionsGroup() {
           <div className="col-span-12 2xl:col-span-8 grid grid-cols-8 gap-x-12 gap-y-21">
             <div className="col-span-12 2md:col-span-3 2xl:col-span-4">
               <p>
-                Photo shoot or video content produced by A publisher featuring
+                Photo shoot or video content produced by A PUBLISHER featuring
                 Brand partner’s collection, accessories, products accompanied by
                 short text articles.
               </p>
             </div>
             <div className="col-span-12 2md:col-span-5 2xl:col-span-4">
-              <p>PRODUCED ADVERTORIAL € 8,000</p>
+              <p className="mb-30">PRODUCED ADVERTORIAL € 8,000</p>
+              <ul>
+                <li className="uppercase">- Website</li>
+                <li className="italic mb-30">
+                  1 x written article + image/video gallery on
+                  amagazinecuratedby.com/curatedfor
+                </li>
+                <li className="uppercase">- Social Media</li>
+                <li className="italic">3 x Instagram Feed Posts</li>
+                <li className="italic">
+                  1 x Sponsored Instagram Feed Porst Minimum 200,000 impressions
+                  reach, Direct Link to Brand partner website or to A MAGAZINE
+                  website
+                </li>
+                <li className="italic">
+                  2 x 24h Instagram Stories dedication of images / video
+                </li>
+              </ul>
             </div>
           </div>
           <div className="col-span-12 2xl:col-start-5 2xl:col-span-8 grid grid-cols-8 gap-x-12 border-t border-beige pt-30 gap-y-21">
-            <div className="col-span-12 2md:col-span-3 2xl:col-span-4">
-              <p>
+            <div className="col-span-12 2md:col-span-3 2xl:col-span-4 flex flex-col">
+              <p className="mb-30">
                 Rediffusion and social media promotion of Brand partner’s
-                provided visual assets with A Magazine tone-of-voice.
+                provided visual assets with A MAGAZINE tone-of-voice.
               </p>
-              <p className="text-20 leading-27">
+              <p className="text-20 leading-27 mt-auto mb-30">
                 <small>
                   Seasonal timing / posting dates to be defined in consultation
                   with the Brand partner.
@@ -919,17 +1295,59 @@ export default function SectionsGroup() {
               </p>
             </div>
             <div className="col-span-12 2md:col-span-5 2xl:col-span-4">
-              <p className="uppercase">Sponsored Editorial</p>
+              <p className="uppercase mb-30">Sponsored Editorial</p>
+              <p className="border-t border-beige pt-30">OPTION 1 € 6,000</p>
+              <p className="italic mb-30">
+                Brand partner’s visual assets accompanied by short text or
+                long-form article written by A Magazine team or contributing
+                editor.
+              </p>
+              <ul>
+                <li className="uppercase">- Website Article</li>
+                <li className="italic mb-30">
+                  1 x long-form (600 words +) article + image/video gallery on
+                  amagazinecuratedby.com/curatedfor
+                </li>
+                <li className="uppercase">- Social Media</li>
+                <li className="italic">2 x Instagram Feed Posts</li>
+                <li className="italic">
+                  1 x Sponsored Instagram Feed Porst Minimum 200,000 impressions
+                  reach, Direct Link to Brand partner website or to A MAGAZINE
+                  website
+                </li>
+                <li className="italic">
+                  2 x 24h Instagram Stories dedication of images / video
+                </li>
+              </ul>
+              <p className="border-t border-beige mt-30 pt-30">
+                OPTION 2 € 3,000
+              </p>
+              <p className="italic mb-30">
+                Brand partner’s visual assets published on Instagram accompanied
+                by editorial captions.
+              </p>
+              <ul>
+                <li className="uppercase">- Social Media</li>
+                <li className="italic">2 x Instagram Feed Posts</li>
+                <li className="italic">
+                  1 x Sponsored Instagram Feed Porst Minimum 200,000 impressions
+                  reach, Direct Link to Brand partner website or to A MAGAZINE
+                  website
+                </li>
+                <li className="italic">
+                  2 x 24h Instagram Stories dedication of images / video
+                </li>
+              </ul>
             </div>
           </div>
         </Section>
         <Section className="col-span-12 py-30 border-t border-beige">
-          <div className="col-span-12 mb-30 xl:col-span-4">
+          <div className="col-span-12 mb-30 2xl:col-span-4">
             <button type="button">
               A MAGAZINE <span className="italic">brand environment</span>
             </button>
           </div>
-          <div className="col-span-12 xl:col-span-8 grid grid-cols-8 uppercase">
+          <div className="col-span-12 2xl:col-span-8 grid grid-cols-8 uppercase">
             <ul className="order-0 col-span-8 sm:col-span-4 3md:col-span-2">
               <li>Absolut</li>
               <li>BDDW</li>
@@ -1000,47 +1418,51 @@ export default function SectionsGroup() {
           </div>
         </Section>
       </Section>
-      <Section className="bg-greyTeal text-black font-serif p-30">
-        <div className="col-span-4 font-sans">
+      <Section className="bg-greyTeal text-black font-serif p-30 gap-y-30">
+        <div className="col-span-12 2xl:col-span-4 font-sans">
           <button type="button" className="uppercase text-18">
             V. Team
           </button>
         </div>
-        <div className="col-span-4">
-          <ul>
-            <li className="mb-30">
+        <div className="col-span-12 2md:col-span-6 2xl:col-span-4">
+          <ul className="flex-list-50">
+            <li>
               <span className="uppercase">Publisher</span>
               <span>Evence-Charles Coppée</span>
             </li>
-            <li className="mb-30">
+            <li>
               <span className="uppercase">Editor in Chief</span>
               <span>
                 Dan Thawley
+                <br />
                 <span className="text-21">
                   +33 (0)6 01 15 45 57
+                  <br />
                   <a href="mailto:dan@amagazinecuratedby.com">
                     dan(at)amagazinecuratedby.com
                   </a>
                 </span>
               </span>
             </li>
-            <li className="mb-30">
+            <li>
               <span className="uppercase">Managing Editor</span>
               <span>
                 Thérèse Boon Falleur
+                <br />
                 <span className="text-21">
                   +33 (0)6 87 34 39 35
+                  <br />
                   <a href="mailto:therese@amagazinecuratedby.com">
                     therese(at)amagazinecuratedby.com
                   </a>
                 </span>
               </span>
             </li>
-            <li className="mb-30">
+            <li>
               <span className="uppercase">Editor at Large</span>
               <span>Blake Abbie</span>
             </li>
-            <li className="mb-30">
+            <li>
               <span className="uppercase">Art Direction</span>
               <span>
                 Mike Meiré – <span className="italic">Meiré und Meiré</span>
@@ -1052,13 +1474,13 @@ export default function SectionsGroup() {
             </li>
           </ul>
         </div>
-        <div className="col-span-4">
-          <p>
+        <div className="col-span-12 2md:col-span-6 2xl:col-span-4">
+          <p className="mb-30">
             A PUBLISHER collaborates on its different platforms with a global
             network of journalists and creatives from Paris, London, Milan,
             Berlin, New York, Tokyo, Shanghai, Delhi.
           </p>
-          <ul>
+          <ul className="mb-84">
             <li>
               <a
                 href="https://www.instagram.com/amagazinecuratedby"

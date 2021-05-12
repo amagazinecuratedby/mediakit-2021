@@ -23,6 +23,7 @@
 
 @tailwind base;
 @tailwind utilities;
+@tailwind components;
 
 @layer base {
   body {
@@ -48,5 +49,58 @@
     grid
     grid-cols-12
     col-span-12;
+  }
+}
+
+@layer components {
+  .grid p {
+    max-width: 95%;
+  }
+
+  .flex-list-50 li {
+    @apply flex
+    flex-col
+    justify-between
+    items-baseline
+    mb-30;
+  }
+
+  .flex-list-50 li:last-child {
+    @apply mb-0;
+  }
+
+  .flex-list-50 li > span {
+    flex: 0 0 50%;
+  }
+
+  @screen sm {
+    .flex-list-50 li {
+      @apply flex-row;
+    }
+  }
+
+  @screen 2md {
+    .grid p {
+      max-width: 90%;
+    }
+
+    .flex-list-50 li {
+      @apply flex-col;
+    }
+  }
+
+  @screen xl {
+    .flex-list-50 li {
+      @apply flex-row;
+    }
+  }
+
+  .flex-list-fixed li {
+    @apply flex
+    items-baseline;
+  }
+
+  .flex-list-fixed li span {
+    flex: 0 0 32px;
   }
 }
