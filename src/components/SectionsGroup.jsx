@@ -88,13 +88,13 @@ export default function SectionsGroup() {
           </p>
         </div>
       </Section>
-      <Section className="bg-red text-beige font-serif p-30 border-t border-red">
-        <div className="mb-30 col-span-12 xl:col-span-3">
+      <Section className="bg-red text-beige font-serif p-30 border-t border-red gap-y-30">
+        <div className="mb-30 col-span-12 2xl:col-span-3">
           <button type="button">
             A MAGAZINE <span className="italic">history</span>
           </button>
         </div>
-        <div className="col-span-4">
+        <div className="col-span-12 lg:col-span-6 2xl:col-span-4">
           <p className="mb-24">
             N°A featuring Dirk Van Saene was the first ever A MAGAZINE,
             initiated by Walter Van Beirendonck and art directed by Paul Boudens
@@ -113,6 +113,115 @@ export default function SectionsGroup() {
             <span className="italic">curated by</span> Maison Martin Margiela in
             2004.
           </p>
+        </div>
+        <div className="col-span-12 lg:col-span-6 2xl:col-span-4 grid grid-cols-4 xs:grid-rows-3 sm:grid-rows-2 gap-x-30 gap-y-30">
+          <div className="bg-black col-span-4 xs:col-span-2 row-span-2"></div>
+          <div
+            className="bg-black col-span-4 xs:col-span-2 sm:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-4 xs:col-span-2 sm:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-4 xs:col-span-2 sm:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-4 xs:col-span-2 sm:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+        </div>
+        <div className="col-span-12 2xl:col-span-8 2xl:col-start-4 grid grid-cols-8 gap-x-30 gap-y-30">
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
+          <div
+            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
+            style={{ height: "150px" }}
+          ></div>
         </div>
       </Section>
       <Section className="bg-beige text-red font-serif p-30 border-t border-red">
