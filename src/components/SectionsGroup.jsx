@@ -115,113 +115,89 @@ export default function SectionsGroup() {
           </p>
         </div>
         <div className="col-span-12 lg:col-span-6 2xl:col-span-4 grid grid-cols-4 xs:grid-rows-3 sm:grid-rows-2 gap-x-30 gap-y-30">
-          <div className="bg-black col-span-4 xs:col-span-2 row-span-2"></div>
-          <div
-            className="bg-black col-span-4 xs:col-span-2 sm:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-4 xs:col-span-2 sm:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-4 xs:col-span-2 sm:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-4 xs:col-span-2 sm:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
+          <div className="col-span-4 sm:col-span-2 row-span-2">
+            <img src="A.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-4 xs:col-span-2 sm:col-span-1 row-span-1">
+            <img src="B.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-4 xs:col-span-2 sm:col-span-1 row-span-1">
+            <img src="C.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-4 xs:col-span-2 sm:col-span-1 row-span-1">
+            <img src="D.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-4 xs:col-span-2 sm:col-span-1 row-span-1">
+            <img src="E.jpg" className="max-w-full w-full" />
+          </div>
         </div>
         <div className="col-span-12 2xl:col-span-8 2xl:col-start-4 grid grid-cols-8 gap-x-30 gap-y-30">
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
-          <div
-            className="bg-black col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1"
-            style={{ height: "150px" }}
-          ></div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="01.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="02.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="03.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="04.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="05.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="06.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="07.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="08.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="09.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="10.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="11.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="12.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="13.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="14.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="15.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="16.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="17.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="18.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="19.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="20.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="21.jpg" className="max-w-full w-full" />
+          </div>
+          <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
+            <img src="22.jpg" className="max-w-full w-full" />
+          </div>
         </div>
       </Section>
       <Section className="bg-beige text-red font-serif p-30 border-t border-red">
