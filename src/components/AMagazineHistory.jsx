@@ -6,19 +6,21 @@ export default function AMagazineHistory({ order, action, isActive }) {
   const [fullBtn, setFullBtn] = React.useState(!isActive)
 
   React.useEffect(() => {
-    if (!isActive && !fullBtn) {
+    if (fullBtn === isActive && isActive) {
+      setFullBtn(!isActive)
+    } else if (fullBtn === isActive && !isActive) {
       setTimeout(() => setFullBtn(!isActive), 400)
     }
   }, [isActive])
 
   return (
     <Section
-      className={`font-serif p-30 border-t border-red gap-y-30 overflow-hidden${
+      className={`font-serif p-30 pseudo-border-red gap-y-30 overflow-hidden${
         isActive ? " bg-red text-beige" : " bg-beige text-red"
       }`}
     >
       <div
-        className={`${fullBtn ? "col-span-12 2xl:col-span-3" : "col-span-12"}`}
+        className={`${!fullBtn ? "col-span-12 2xl:col-span-3" : "col-span-12"}`}
       >
         <button type="button" className="w-full" onClick={() => action(order)}>
           A MAGAZINE <span className="italic">history</span>

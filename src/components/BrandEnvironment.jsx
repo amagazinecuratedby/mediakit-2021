@@ -6,7 +6,9 @@ export default function BrandEnvironment({ order, action, isActive }) {
   const [fullBtn, setFullBtn] = React.useState(!isActive)
 
   React.useEffect(() => {
-    if (!isActive && !fullBtn) {
+    if (fullBtn === isActive && isActive) {
+      setFullBtn(!isActive)
+    } else if (fullBtn === isActive && !isActive) {
       setTimeout(() => setFullBtn(!isActive), 400)
     }
   }, [isActive])
@@ -14,7 +16,7 @@ export default function BrandEnvironment({ order, action, isActive }) {
   return (
     <Section className="col-span-12 py-30 border-t border-beige overflow-hidden gap-y-30">
       <div
-        className={`${fullBtn ? "col-span-12 2xl:col-span-3" : "col-span-12"}`}
+        className={`${!fullBtn ? "col-span-12 2xl:col-span-3" : "col-span-12"}`}
       >
         <button type="button" className="w-full" onClick={() => action(order)}>
           A MAGAZINE <span className="italic">brand environment</span>

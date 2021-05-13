@@ -136,4 +136,22 @@
   .flex-list-30 li span {
     flex: 0 0 30%;
   }
+
+  .pseudo-border-red {
+    @apply relative;
+  }
+
+  .pseudo-border-red:before {
+    content: "";
+    @apply block
+    border-t
+    border-red
+    absolute
+    top-0;
+    width: calc(100% - 60px);
+    height: 0;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
 }
