@@ -1,18 +1,12 @@
 const password = process.env.ACCESS_PASSWORD
 
-module.exports.handler = async (event, context, callback) => {
+module.exports.handler = async (event, context) => {
   const body = JSON.parse(event.body)
   const psw = body.psw?.replace(" ", "")
 
   if (psw && psw === password) {
-    return callback(null, {
-      statusCode: 200,
-      body: JSON.stringify({ msg: "success" }),
-    })
+    return { statusCode: 200 }
   }
 
-  return callback(null, {
-    statusCode: 500,
-    body: JSON.stringify({ msg: "error" }),
-  })
+  return { statusCode: 500 }
 }
