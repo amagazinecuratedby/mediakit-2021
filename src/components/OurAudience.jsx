@@ -37,7 +37,7 @@ export default function OurAudience({ order, action, isActive }) {
                 contemporary art and design – aesthetes who equally appreciate
                 the magazine’s elevated creative and intellectual content as
                 they do its premium production quality as a collectible,
-                book­like object. 
+                book-­like object. 
               </p>
             </div>
             <div className="col-span-12 md:col-span-6">

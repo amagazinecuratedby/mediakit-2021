@@ -24,8 +24,8 @@ export default function Website() {
             component and a dynamic creative news section. Each issue of A
             MAGAZINE <span className="italic">curated by</span> has its
             dedicated page where the theme of the magazine and its contributors
-            are presented alongside pictures and visual references. Our
-            collection of A PROJECT
+            are presented alongside the table of contents and visual excerpts.
+            Our collection of A PROJECT
             <span className="italic">curated by</span> will soon be accessible
             on this space too.
           </p>

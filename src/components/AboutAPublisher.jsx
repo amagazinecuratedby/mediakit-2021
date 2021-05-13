@@ -33,9 +33,9 @@ export default function AboutAPublisher({ order, action, isActive }) {
             <div className="col-span-12 3md:col-span-6">
               <p>
                 Today A PUBLISHER has expanded beyond producing the print title
-                A MAGAZINE <span className="italic">curated by</span>, to
-                include the creation of custom editorial content, exhibitions,
-                events, copywriting services and creative consulting.
+                A MAGAZINE <span className="italic">curated by</span> to include
+                the creation of custom editorial content, exhibitions, events,
+                copywriting services and creative consulting.
               </p>
             </div>
             <div className="col-span-12 3md:col-span-6">

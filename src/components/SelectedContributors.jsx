@@ -331,7 +331,7 @@ export default function SelectedContributors({ order, action, isActive }) {
                 </li>
                 <li>
                   <span />
-                  Matthew Lutz Kinoy
+                  Matthew Lutz-Kinoy
                 </li>
                 <li>
                   <span />
@@ -345,7 +345,7 @@ export default function SelectedContributors({ order, action, isActive }) {
               <ul className="col-span-10 sm:col-span-5 sm:order-2 md:col-span-3 md:order-5 lg2:col-span-2 lg2:order-4 flex-list-fixed">
                 <li>
                   <span />
-                  Michael Bailey Gates
+                  Michael Bailey-Gates
                 </li>
                 <li>
                   <span />

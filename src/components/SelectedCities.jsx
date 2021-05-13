@@ -53,7 +53,7 @@ export default function SelectedCities() {
             <li>Kyoto</li>
           </ul>
           <ul className="col-span-4 text-21 leading-27">
-            <li>Kuala Lampur</li>
+            <li>Kuala Lumpur</li>
             <li>Melbourne</li>
             <li>Nagoya</li>
             <li>New Delhi</li>

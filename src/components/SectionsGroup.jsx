@@ -57,7 +57,7 @@ export default function SectionsGroup() {
             designer invited as the ‘guest curator’ of each issue. In
             collaboration with our editorial team, the guest curator develops
             innovative, personalised content to express their aesthetic and
-            cultural values. Each issue celebrates this designer’s ethos: their
+            cultural values. Each issue celebrates the designer’s ethos: their
             people, their passions, their stories, emotions, fascinations,
             spontaneity and authenticity.
           </p>
@@ -122,8 +122,8 @@ export default function SectionsGroup() {
                   Throughout our twenty year history, A MAGAZINE has built an
                   engaged community of faithful readers, collectors and
                   followers around the globe – one that continues to grow with
-                  each new issue in a unique exchange with a designer or fashion
-                  house’s audience and our own.
+                  each new issue through the union of a designer or fashion
+                  house’s audience with our own.
                 </p>
                 <img
                   src="planisphere.jpg"

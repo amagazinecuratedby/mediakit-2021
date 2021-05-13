@@ -38,15 +38,14 @@ export default function AMagazineHistory({ order, action, isActive }) {
               <p className="mb-24">
                 N°A featuring Dirk Van Saene was the first ever A MAGAZINE,
                 initiated by Walter Van Beirendonck and art directed by Paul
-                Boudens for the 2001 Landed Geland fashion festival in Antwerp.
+                Boudens for the 2001 Landed-Geland fashion festival in Antwerp.
                 Before the name A MAGAZINE{" "}
                 <span className="italic">curated by</span> was created in 2004,
                 each issue was named after a letter of the alphabet, beginning
                 with the iconic red ‘A’ for Antwerp, a historic symbol of the
                 Belgian city. The project was incited by the designer Walter Van
-                Beirendonck, who invited Dirk Van Saene to be its first
-                ‘Featuring’ designer. Both were members of the famed ‘Antwerp
-                Six’.
+                Beirendonck, who invited Dirk Van Saene to be the first featured
+                designer. Both are members of the famed ‘Antwerp Six’.
               </p>
               <p>
                 It was followed by <span className="italic">N°B, N°C, N°D</span>{" "}

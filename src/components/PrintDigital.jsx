@@ -72,7 +72,7 @@ export default function PrintDigital({ order, action, isActive }) {
                   </li>
                   <li className="flex">
                     - SP Next to Masthead, TOC, Editor’s Letter{" "}
-                    <span className="italic ml-auto">€9,000</span>
+                    <span className="italic ml-auto">€ 9,000</span>
                   </li>
                   <li className="flex">
                     - SP <span className="italic ml-auto">€ 6,000</span>

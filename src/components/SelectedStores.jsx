@@ -42,9 +42,9 @@ export default function SelectedStores({ order, action, isActive }) {
                 markets, especially in secondary locations that are growing
                 focal areas for us in a time where online shipping costs from
                 Europe remain prohibitive for readers in the far reaches of the
-                globe. These partnerships continue to generate local marketing
-                activations and events outside of fashion weeks and the major
-                fashion capitals.
+                globe. These partnerships continue to generate discovery,
+                interest, local marketing activations and events outside of
+                fashion weeks and the major fashion capitals.
               </p>
             </div>
             <div className="col-span-12 lg:col-span-6 grid grid-cols-8 gap-x-12 text-21 leading-27">
@@ -125,7 +125,7 @@ export default function SelectedStores({ order, action, isActive }) {
                   Ofr – <span className="italic">Paris</span>
                 </li>
                 <li>
-                  One half in – <span className="italic">China (online)</span>
+                  One Half In – <span className="italic">China (online)</span>
                 </li>
                 <li>
                   Palais de Tokyo – <span className="italic">Paris</span>
