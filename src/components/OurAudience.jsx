@@ -14,9 +14,7 @@ export default function OurAudience({ order, action, isActive }) {
   return (
     <Section className="col-span-12 py-30 border-t border-black gap-y-30 overflow-hidden">
       <div
-        className={`${
-          fullBtn ? "col-span-12 lg:col-span-5 2xl:col-span-4" : "col-span-12"
-        }`}
+        className={`${fullBtn ? "col-span-12 2xl:col-span-3" : "col-span-12"}`}
       >
         <button type="button" className="w-full" onClick={() => action(order)}>
           <span className="italic">About</span> OUR AUDIENCE
@@ -28,10 +26,10 @@ export default function OurAudience({ order, action, isActive }) {
             accordion
             motionKey={`bottomLvl${order}`}
             isActive={isActive}
-            className="col-span-12 lg:col-span-7 2xl:col-span-4"
+            className="col-span-12 2xl:col-span-9 gap-y-30"
           >
-            <div className="col-span-12">
-              <p className="mb-24">
+            <div className="col-span-12 md:col-span-6">
+              <p>
                 Our audience consists of highly informed readers and consumers
                 whose primary interests revolve around the worlds of fashion,
                 contemporary art and design – aesthetes who equally appreciate
@@ -39,6 +37,8 @@ export default function OurAudience({ order, action, isActive }) {
                 they do its premium production quality as a collectible,
                 book­like object. 
               </p>
+            </div>
+            <div className="col-span-12 md:col-span-6">
               <p>
                 Whilst some readers purchase individual designer issues in line
                 with their personal tastes in fashion, others are avid fans of

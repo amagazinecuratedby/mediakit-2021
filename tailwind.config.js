@@ -25,6 +25,12 @@ module.exports = {
         345: "21.563rem",
         500: "31.25rem",
         "full-30": "calc(100% - 60px)",
+        1010: "63.125rem",
+      },
+      maxHeight: {
+        345: "21.563rem",
+        500: "31.25rem",
+        "screen-100": "calc(100% - 100px)",
       },
       spacing: {
         4: "0.25rem",

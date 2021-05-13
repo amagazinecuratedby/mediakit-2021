@@ -14,7 +14,7 @@ export default function BrandEnvironment({ order, action, isActive }) {
   return (
     <Section className="col-span-12 py-30 border-t border-beige overflow-hidden gap-y-30">
       <div
-        className={`${fullBtn ? "col-span-12 2xl:col-span-4" : "col-span-12"}`}
+        className={`${fullBtn ? "col-span-12 2xl:col-span-3" : "col-span-12"}`}
       >
         <button type="button" className="w-full" onClick={() => action(order)}>
           A MAGAZINE <span className="italic">brand environment</span>
@@ -26,10 +26,10 @@ export default function BrandEnvironment({ order, action, isActive }) {
             accordion
             motionKey={`bottomLvl${order}`}
             isActive={isActive}
-            className="col-span-12 2xl:col-span-8 gap-y-30"
+            className="col-span-12 2xl:col-span-9"
           >
-            <div className="col-span-12 grid grid-cols-8 uppercase">
-              <ul className="order-0 col-span-8 sm:col-span-4 3md:col-span-2">
+            <div className="col-span-12 grid grid-cols-12 gap-x-16 uppercase">
+              <ul className="order-0 col-span-12 sm:col-span-6 3md:col-span-3">
                 <li>Absolut</li>
                 <li>BDDW</li>
                 <li>Balenciaga</li>
@@ -46,7 +46,7 @@ export default function BrandEnvironment({ order, action, isActive }) {
                 <li>Cointreau</li>
                 <li>Colette</li>
               </ul>
-              <ul className="order-2 col-span-8 sm:col-span-4 3md:order-1 3md:col-span-2">
+              <ul className="order-2 col-span-12 sm:col-span-6 3md:order-1 3md:col-span-3">
                 <li>Comme Des Garçons</li>
                 <li>Delvaux</li>
                 <li>Diesel</li>
@@ -63,7 +63,7 @@ export default function BrandEnvironment({ order, action, isActive }) {
                 <li>Longchamp</li>
                 <li>Louis Vuitton</li>
               </ul>
-              <ul className="order-1 col-span-8 sm:col-span-4 3md:order-2 3md:col-span-2">
+              <ul className="order-1 col-span-12 sm:col-span-6 3md:order-2 3md:col-span-3">
                 <li>L’Oréal</li>
                 <li>MSGM</li>
                 <li>Marc Jacobs</li>
@@ -80,7 +80,7 @@ export default function BrandEnvironment({ order, action, isActive }) {
                 <li>Piper Heidsieck</li>
                 <li>Prada</li>
               </ul>
-              <ul className="order-3 col-span-8 sm:col-span-4 3md:order-0 3md:col-span-2">
+              <ul className="order-3 col-span-12 sm:col-span-6 3md:order-0 3md:col-span-3">
                 <li>Repossi</li>
                 <li>Rimowa</li>
                 <li>Roberto Cavalli</li>

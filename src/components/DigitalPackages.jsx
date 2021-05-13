@@ -14,7 +14,7 @@ export default function DigitalPackages({ order, action, isActive }) {
   return (
     <Section className="col-span-12 py-30 border-t border-beige gap-y-30 overflow-hidden">
       <div
-        className={`${fullBtn ? "col-span-12 2xl:col-span-4" : "col-span-12"}`}
+        className={`${fullBtn ? "col-span-12 2xl:col-span-3" : "col-span-12"}`}
       >
         <button
           type="button"
@@ -34,17 +34,17 @@ export default function DigitalPackages({ order, action, isActive }) {
             accordion
             motionKey={`bottomLvl${order}`}
             isActive={isActive}
-            className="col-span-12 2xl:col-span-8 gap-y-30"
+            className="col-span-12 2xl:col-span-9 gap-y-30"
           >
-            <div className="col-span-12 grid grid-cols-8 gap-x-12 gap-y-21">
-              <div className="col-span-12 2md:col-span-3 2xl:col-span-4">
+            <div className="col-span-12 grid grid-cols-12 gap-x-16 gap-y-21">
+              <div className="col-span-12 2md:col-span-5 2xl:col-span-6">
                 <p>
                   Photo shoot or video content produced by A PUBLISHER featuring
                   Brand partner’s collection, accessories, products accompanied
                   by short text articles.
                 </p>
               </div>
-              <div className="col-span-12 2md:col-span-5 2xl:col-span-4">
+              <div className="col-span-12 2md:col-span-7 2xl:col-span-6">
                 <p className="mb-30">PRODUCED ADVERTORIAL € 8,000</p>
                 <ul className="flex-list-fixed">
                   <li className="uppercase">- Website</li>
@@ -69,8 +69,8 @@ export default function DigitalPackages({ order, action, isActive }) {
                 </ul>
               </div>
             </div>
-            <div className="col-span-12 grid grid-cols-8 gap-x-12 border-t border-beige pt-30 gap-y-21">
-              <div className="col-span-12 2md:col-span-3 2xl:col-span-4 flex flex-col">
+            <div className="col-span-12 grid grid-cols-12 gap-x-16 border-t border-beige pt-30 gap-y-21">
+              <div className="col-span-12 2md:col-span-5 2xl:col-span-6 flex flex-col">
                 <p className="mb-30">
                   Rediffusion and social media promotion of Brand partner’s
                   provided visual assets with A MAGAZINE tone-of-voice.
@@ -93,7 +93,7 @@ export default function DigitalPackages({ order, action, isActive }) {
                   </small>
                 </p>
               </div>
-              <div className="col-span-12 2md:col-span-5 2xl:col-span-4">
+              <div className="col-span-12 2md:col-span-7 2xl:col-span-6">
                 <p className="uppercase mb-30">Sponsored Editorial</p>
                 <p className="border-t border-beige pt-30">OPTION 1 € 6,000</p>
                 <p className="italic mb-30">

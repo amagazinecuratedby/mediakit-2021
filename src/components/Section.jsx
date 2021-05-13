@@ -21,7 +21,7 @@ export default function Section({
         collapsed: { opacity: 0, height: 0 },
       }}
       transition={{ duration: 0.4, ease: "easeInOut" }}
-      className={`grid grid-cols-12 gap-x-16 ${className}`}
+      className={`grid grid-cols-12 gap-x-16 transition-colors duration-200 ease-linear ${className}`}
     >
       {children}
     </motion.section>

@@ -28,6 +28,8 @@
 @layer base {
   body {
     @apply text-23
+    w-screen
+    h-screen
     leading-27;
     font-kerning: normal;
     scroll-behavior: smooth;
@@ -35,6 +37,19 @@
     -webkit-font-smoothing: antialiased;
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     text-rendering: optimizeLegibility;
+    scroll-behavior: smooth;
+  }
+
+  #___gatsby,
+  #gatsby-focus-wrapper {
+    width: inherit;
+    height: 100%;
+  }
+
+  #gatsby-focus-wrapper {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: flex-start;
   }
 
   button {

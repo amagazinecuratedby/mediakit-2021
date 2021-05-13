@@ -95,7 +95,11 @@ export default function SectionsGroup() {
         action={bottomLevelHandler}
         isActive={bottomLevel === 3}
       />
-      <Section className="bg-greyTeal text-black font-serif p-30 gap-y-30 overflow-hidden">
+      <Section
+        className={`text-black font-serif p-30 gap-y-30 overflow-hidden ${
+          topLevel === 1 ? " bg-greyTeal" : " bg-white"
+        }`}
+      >
         <div className="col-span-12 font-sans">
           <button
             type="button"
@@ -114,7 +118,7 @@ export default function SectionsGroup() {
               className="col-span-12"
             >
               <div className="col-span-12 2md:col-span-8 text-29 leading-34">
-                <p>
+                <p className="mb-30">
                   Throughout our twenty year history, A MAGAZINE has built an
                   engaged community of faithful readers, collectors and
                   followers around the globe – one that continues to grow with
@@ -185,11 +189,7 @@ export default function SectionsGroup() {
                   <li>Twelve Books</li>
                 </ul>
               </div>
-              <SelectedCities
-                order={4}
-                action={bottomLevelHandler}
-                isActive={bottomLevel === 4}
-              />
+              <SelectedCities />
               <SelectedStores
                 order={5}
                 action={bottomLevelHandler}
@@ -204,14 +204,18 @@ export default function SectionsGroup() {
           )}
         </AnimatePresence>
       </Section>
-      <Section className="bg-greyTeal text-black font-serif p-30 gap-y-30 overflow-hidden">
+      <Section
+        className={`text-black font-serif p-30 gap-y-30 overflow-hidden ${
+          topLevel === 2 ? " bg-greyTeal" : " bg-white"
+        }`}
+      >
         <div className="col-span-12 font-sans">
           <button
             type="button"
             className="uppercase text-18 w-full"
             onClick={() => topLevelHandler(2)}
           >
-            II. Website &amp; Social Media
+            III. Website &amp; Social Media
           </button>
         </div>
         <AnimatePresence>
@@ -222,21 +226,17 @@ export default function SectionsGroup() {
               motionKey="topLvl2"
               className="col-span-12"
             >
-              <Instagram
-                order={7}
-                action={bottomLevelHandler}
-                isActive={bottomLevel === 7}
-              />
-              <Website
-                order={8}
-                action={bottomLevelHandler}
-                isActive={bottomLevel === 8}
-              />
+              <Instagram />
+              <Website />
             </Section>
           )}
         </AnimatePresence>
       </Section>
-      <Section className="bg-dark text-beige font-serif p-30 gap-y-30 overflow-hidden">
+      <Section
+        className={`font-serif p-30 gap-y-30 overflow-hidden${
+          topLevel === 3 ? " bg-dark text-beige" : " bg-white text-black"
+        }`}
+      >
         <div className="col-span-12 font-sans">
           <button
             type="button"
@@ -273,10 +273,14 @@ export default function SectionsGroup() {
           )}
         </AnimatePresence>
       </Section>
-      <Section className="bg-greyTeal text-black font-serif p-30 gap-y-30 overflow-hidden">
+      <Section
+        className={`text-black font-serif p-30 gap-y-30 overflow-hidden${
+          topLevel === 4 ? " bg-greyTeal" : " bg-white"
+        }`}
+      >
         <div
           className={`font-sans${
-            topLevel === 4 ? " col-span-12 2xl:col-span-4" : " col-span-12"
+            topLevel === 4 ? " col-span-12 2xl:col-span-3" : " col-span-12"
           }`}
         >
           <button
@@ -293,7 +297,7 @@ export default function SectionsGroup() {
               accordion
               isActive
               motionKey="topLvl4"
-              className="col-span-12 2xl:col-span-8"
+              className="col-span-12 2xl:col-span-9"
             >
               <div className="col-span-12 2md:col-span-6">
                 <ul className="flex-list-50">

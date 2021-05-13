@@ -12,7 +12,11 @@ export default function AMagazineHistory({ order, action, isActive }) {
   }, [isActive])
 
   return (
-    <Section className="bg-red text-beige font-serif p-30 border-t border-red gap-y-30 overflow-hidden">
+    <Section
+      className={`font-serif p-30 border-t border-red gap-y-30 overflow-hidden${
+        isActive ? " bg-red text-beige" : " bg-beige text-red"
+      }`}
+    >
       <div
         className={`${fullBtn ? "col-span-12 2xl:col-span-3" : "col-span-12"}`}
       >
