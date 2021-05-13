@@ -36,6 +36,14 @@
     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
     text-rendering: optimizeLegibility;
   }
+
+  button {
+    @apply text-left;
+  }
+
+  button:focus {
+    @apply outline-none;
+  }
 }
 
 @layer utilities {

@@ -81,125 +81,220 @@ export default function SectionsGroup() {
         </div>
       </Section>
       <AboutAPublisher
-        accordion
         order={1}
-        action={setBottomLevel}
-        parent={topLevel}
-        isActive={topLevel === 0 && bottomLevel === 1}
+        action={bottomLevelHandler}
+        isActive={bottomLevel === 1}
       />
-      <AMagazineHistory />
-      <SelectedContributors />
-      <Section className="bg-greyTeal text-black font-serif p-30 gap-y-30">
+      <AMagazineHistory
+        order={2}
+        action={bottomLevelHandler}
+        isActive={bottomLevel === 2}
+      />
+      <SelectedContributors
+        order={3}
+        action={bottomLevelHandler}
+        isActive={bottomLevel === 3}
+      />
+      <Section className="bg-greyTeal text-black font-serif p-30 gap-y-30 overflow-hidden">
         <div className="col-span-12 font-sans">
-          <button type="button" className="uppercase text-18">
+          <button
+            type="button"
+            className="uppercase text-18 w-full"
+            onClick={() => topLevelHandler(1)}
+          >
             II. Audience &amp; Distribution
           </button>
         </div>
-        <div className="col-span-12 2md:col-span-8 text-29 leading-34">
-          <p>
-            Throughout our twenty year history, A MAGAZINE has built an engaged
-            community of faithful readers, collectors and followers around the
-            globe – one that continues to grow with each new issue in a unique
-            exchange with a designer or fashion house’s audience and our own.
-          </p>
-          <img
-            src="planisphere.jpg"
-            alt="A MAGAZINE curated by Communities map"
-            className="max-w-full h-auto"
-          />
-        </div>
-        <div className="col-span-12 2md:col-span-4">
-          <ul className="flex-list-50 mb-30">
-            <li>
-              <span className="uppercase">Frequency</span>
-              <span>Biannual</span>
-            </li>
-            <li>
-              <span className="uppercase">
-                50+ countries
-                <br />
-                worldwide
-              </span>
-              <span>
-                Europe 48%
-                <br />
-                America 18%
-                <br />
-                Asia 25%
-                <br />
-                Rest of the world 9%
-              </span>
-            </li>
-            <li>
-              <span className="uppercase">Average print run per project</span>
-              <span>20,000 copies</span>
-            </li>
-            <li>
-              <span className="uppercase">Readership</span>
-              <span>100,000</span>
-            </li>
-            <li>
-              <span className="uppercase">Language</span>
-              <span>English</span>
-            </li>
-          </ul>
-          <p className="mb-30">
-            A MAGAZINE is sold online at{" "}
-            <a
-              href="https://amagazinecuratedby.com"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="italic"
+        <AnimatePresence>
+          {topLevel === 1 && (
+            <Section
+              accordion
+              isActive
+              motionKey="topLvl1"
+              className="col-span-12"
             >
-              amagazinecuratedby.com
-            </a>{" "}
-            and through the following distributors:
-          </p>
-          <ul>
-            <li>Boutique Mags/WhiteCirc</li>
-            <li>Export Press</li>
-            <li>Idea Books</li>
-            <li>IPS</li>
-            <li>KD Presse</li>
-            <li>Twelve Books</li>
-          </ul>
-        </div>
-        <SelectedCities />
-        <SelectedStores />
-        <OurAudience />
+              <div className="col-span-12 2md:col-span-8 text-29 leading-34">
+                <p>
+                  Throughout our twenty year history, A MAGAZINE has built an
+                  engaged community of faithful readers, collectors and
+                  followers around the globe – one that continues to grow with
+                  each new issue in a unique exchange with a designer or fashion
+                  house’s audience and our own.
+                </p>
+                <img
+                  src="planisphere.jpg"
+                  alt="A MAGAZINE curated by Communities map"
+                  className="max-w-full h-auto"
+                />
+              </div>
+              <div className="col-span-12 2md:col-span-4">
+                <ul className="flex-list-50 mb-30">
+                  <li>
+                    <span className="uppercase">Frequency</span>
+                    <span>Biannual</span>
+                  </li>
+                  <li>
+                    <span className="uppercase">
+                      50+ countries
+                      <br />
+                      worldwide
+                    </span>
+                    <span>
+                      Europe 48%
+                      <br />
+                      America 18%
+                      <br />
+                      Asia 25%
+                      <br />
+                      Rest of the world 9%
+                    </span>
+                  </li>
+                  <li>
+                    <span className="uppercase">
+                      Average print run per project
+                    </span>
+                    <span>20,000 copies</span>
+                  </li>
+                  <li>
+                    <span className="uppercase">Readership</span>
+                    <span>100,000</span>
+                  </li>
+                  <li>
+                    <span className="uppercase">Language</span>
+                    <span>English</span>
+                  </li>
+                </ul>
+                <p className="mb-30">
+                  A MAGAZINE is sold online at{" "}
+                  <a
+                    href="https://amagazinecuratedby.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="italic"
+                  >
+                    amagazinecuratedby.com
+                  </a>{" "}
+                  and through the following distributors:
+                </p>
+                <ul>
+                  <li>Boutique Mags/WhiteCirc</li>
+                  <li>Export Press</li>
+                  <li>Idea Books</li>
+                  <li>IPS</li>
+                  <li>KD Presse</li>
+                  <li>Twelve Books</li>
+                </ul>
+              </div>
+              <SelectedCities
+                order={4}
+                action={bottomLevelHandler}
+                isActive={bottomLevel === 4}
+              />
+              <SelectedStores
+                order={5}
+                action={bottomLevelHandler}
+                isActive={bottomLevel === 5}
+              />
+              <OurAudience
+                order={6}
+                action={bottomLevelHandler}
+                isActive={bottomLevel === 6}
+              />
+            </Section>
+          )}
+        </AnimatePresence>
       </Section>
-      <Section className="bg-greyTeal text-black font-serif p-30">
-        <div className="col-span-12 font-sans mb-30">
-          <button type="button" className="uppercase text-18">
+      <Section className="bg-greyTeal text-black font-serif p-30 gap-y-30 overflow-hidden">
+        <div className="col-span-12 font-sans">
+          <button
+            type="button"
+            className="uppercase text-18 w-full"
+            onClick={() => topLevelHandler(2)}
+          >
             II. Website &amp; Social Media
           </button>
         </div>
-        <Instagram />
-        <Website />
+        <AnimatePresence>
+          {topLevel === 2 && (
+            <Section
+              accordion
+              isActive
+              motionKey="topLvl2"
+              className="col-span-12"
+            >
+              <Instagram
+                order={7}
+                action={bottomLevelHandler}
+                isActive={bottomLevel === 7}
+              />
+              <Website
+                order={8}
+                action={bottomLevelHandler}
+                isActive={bottomLevel === 8}
+              />
+            </Section>
+          )}
+        </AnimatePresence>
       </Section>
-      <Section className="bg-dark text-beige font-serif p-30">
-        <div className="col-span-12 font-sans mb-30">
-          <button type="button" className="uppercase text-18">
+      <Section className="bg-dark text-beige font-serif p-30 gap-y-30 overflow-hidden">
+        <div className="col-span-12 font-sans">
+          <button
+            type="button"
+            className="uppercase text-18 w-full"
+            onClick={() => topLevelHandler(3)}
+          >
             IV. Media Placement Rates
           </button>
         </div>
-        <PrintDigital />
-        <DigitalPackages />
-        <BrandEnvironment />
+        <AnimatePresence>
+          {topLevel === 3 && (
+            <Section
+              accordion
+              isActive
+              motionKey="topLvl3"
+              className="col-span-12"
+            >
+              <PrintDigital
+                order={9}
+                action={bottomLevelHandler}
+                isActive={bottomLevel === 9}
+              />
+              <DigitalPackages
+                order={10}
+                action={bottomLevelHandler}
+                isActive={bottomLevel === 10}
+              />
+              <BrandEnvironment
+                order={11}
+                action={bottomLevelHandler}
+                isActive={bottomLevel === 11}
+              />
+            </Section>
+          )}
+        </AnimatePresence>
       </Section>
       <Section className="bg-greyTeal text-black font-serif p-30 gap-y-30 overflow-hidden">
-        <div className="col-span-12 2xl:col-span-4 font-sans">
+        <div
+          className={`font-sans${
+            topLevel === 4 ? " col-span-12 2xl:col-span-4" : " col-span-12"
+          }`}
+        >
           <button
             type="button"
-            className="uppercase text-18"
-            onClick={() => bottomLevelHandler(1)}
+            className="uppercase text-18 w-full"
+            onClick={() => topLevelHandler(4)}
           >
             V. Team
           </button>
         </div>
         <AnimatePresence>
-          {bottomLevel === 1 && (
-            <Section accordion isActive className="col-span-12 2xl:col-span-8">
+          {topLevel === 4 && (
+            <Section
+              accordion
+              isActive
+              motionKey="topLvl4"
+              className="col-span-12 2xl:col-span-8"
+            >
               <div className="col-span-12 2md:col-span-6">
                 <ul className="flex-list-50">
                   <li>
