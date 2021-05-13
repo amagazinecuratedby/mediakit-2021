@@ -297,7 +297,7 @@ export default function SectionsGroup() {
               accordion
               isActive
               motionKey="topLvl4"
-              className="col-span-12 2xl:col-span-9 pb-30"
+              className="col-span-12 2xl:col-span-9 pb-30 gap-y-30"
             >
               <div className="col-span-12 2md:col-span-6">
                 <ul className="flex-list-50">

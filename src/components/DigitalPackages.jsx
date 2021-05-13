@@ -60,7 +60,8 @@ export default function DigitalPackages({ order, action, isActive }) {
               </div>
               <div className="col-span-12 2md:col-span-7 2xl:col-span-6">
                 <p className="mb-30 w-full flex">
-                  PRODUCED ADVERTORIAL <span className="ml-auto">€ 8,000</span>
+                  PRODUCED ADVERTORIAL{" "}
+                  <span className="ml-auto flex-0-auto">€ 8,000</span>
                 </p>
                 <ul className="flex-list-fixed">
                   <li className="uppercase">- Website</li>
@@ -112,7 +113,7 @@ export default function DigitalPackages({ order, action, isActive }) {
               <div className="col-span-12 2md:col-span-7 2xl:col-span-6">
                 <p className="uppercase mb-30">Sponsored Editorial</p>
                 <p className="border-t border-beige pt-30 w-full flex">
-                  OPTION 1 <span className="ml-auto">€ 6,000</span>
+                  OPTION 1 <span className="ml-auto flex-0-auto">€ 6,000</span>
                 </p>
                 <p className="italic mb-30">
                   Brand partner’s visual assets accompanied by short text or
@@ -143,7 +144,7 @@ export default function DigitalPackages({ order, action, isActive }) {
                   </li>
                 </ul>
                 <p className="border-t border-beige mt-30 pt-30 w-full flex">
-                  OPTION 2 <span className="ml-auto">€ 3,000</span>
+                  OPTION 2 <span className="ml-auto flex-0-auto">€ 3,000</span>
                 </p>
                 <p className="italic mb-30">
                   Brand partner’s visual assets published on Instagram

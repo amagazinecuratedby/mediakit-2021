@@ -49,33 +49,40 @@ export default function PrintDigital({ order, action, isActive }) {
                 <p className="uppercase mb-30">Print Media Placement Rates</p>
                 <ul>
                   <li className="flex">
-                    - OBC <span className="italic ml-auto">€ 20,000</span>
+                    - OBC{" "}
+                    <span className="italic ml-auto flex-0-auto">€ 20,000</span>
                   </li>
                   <li className="flex">
-                    - IFC, DPS <span className="italic ml-auto">€ 18,000</span>
+                    - IFC, DPS{" "}
+                    <span className="italic ml-auto flex-0-auto">€ 18,000</span>
                   </li>
                   <li className="flex">
-                    - IBC, DPS <span className="italic ml-auto">€ 16,000</span>
+                    - IBC, DPS{" "}
+                    <span className="italic ml-auto flex-0-auto">€ 16,000</span>
                   </li>
                   <li className="flex">
-                    - IBC SP <span className="italic ml-auto">€ 13,000</span>
+                    - IBC SP{" "}
+                    <span className="italic ml-auto flex-0-auto">€ 13,000</span>
                   </li>
                   <li className="flex">
                     - 1 DPS with premium placement 1/2/3{" "}
-                    <span className="italic ml-auto">€ 15,000</span>
+                    <span className="italic ml-auto flex-0-auto">€ 15,000</span>
                   </li>
                   <li className="flex">
-                    - 1 DPS <span className="italic ml-auto">€ 12,000</span>
+                    - 1 DPS{" "}
+                    <span className="italic ml-auto flex-0-auto">€ 12,000</span>
                   </li>
                   <li className="flex">
-                    - 2 DPS <span className="italic ml-auto">€ 20,000</span>
+                    - 2 DPS{" "}
+                    <span className="italic ml-auto flex-0-auto">€ 20,000</span>
                   </li>
                   <li className="flex">
                     - SP Next to Masthead, TOC, Editor’s Letter{" "}
-                    <span className="italic ml-auto">€ 9,000</span>
+                    <span className="italic ml-auto flex-0-auto">€ 9,000</span>
                   </li>
                   <li className="flex">
-                    - SP <span className="italic ml-auto">€ 6,000</span>
+                    - SP{" "}
+                    <span className="italic ml-auto flex-0-auto">€ 6,000</span>
                   </li>
                 </ul>
               </div>

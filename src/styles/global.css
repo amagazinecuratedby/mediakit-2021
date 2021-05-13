@@ -96,6 +96,10 @@
     flex: 0 0 50%;
   }
 
+  .flex-list-50 li > span:first-child {
+    @apply pr-21;
+  }
+
   @screen sm {
     .flex-list-50 li {
       @apply flex-row;

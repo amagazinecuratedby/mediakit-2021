@@ -44,6 +44,7 @@ module.exports = {
         21: "1.313rem",
         24: "1.5rem",
         30: "1.875rem",
+        32: "2rem",
         42: "2.625rem",
         48: "3rem",
         49: "3.063rem",
@@ -62,6 +63,7 @@ module.exports = {
         serif: "'Caslon Pro', 'Caslon', serif",
       },
       fontSize: {
+        11: "0.688rem",
         18: "1rem",
         20: "1.125rem",
         21: "1.188rem",
@@ -71,11 +73,15 @@ module.exports = {
         37: "2.188rem",
       },
       lineHeight: {
+        11: "0.688rem",
         24: "1.375rem",
         27: "1.563rem",
         34: "2rem",
         37: "2.188rem",
         39: "2.313rem",
+      },
+      flex: {
+        "0-auto": "0 0 auto",
       },
     },
   },
