@@ -20,17 +20,18 @@ module.exports = {
         red: "#af171a",
         greyTeal: "#f7f7f7",
         dark: "#282828",
+        grey: "#adadad",
       },
       maxWidth: {
         345: "21.563rem",
         500: "31.25rem",
         "full-30": "calc(100% - 60px)",
-        1010: "63.125rem",
+        "55p": "55%",
       },
       maxHeight: {
         345: "21.563rem",
         500: "31.25rem",
-        "screen-100": "calc(100% - 100px)",
+        "screen-65": "calc(100vh - 65px)",
       },
       spacing: {
         4: "0.25rem",
@@ -49,6 +50,10 @@ module.exports = {
         56: "3.5rem",
         78: "4.875rem",
         84: "5.25rem",
+        "15p": "15%",
+        "40p": "40%",
+        "1/2": "50%",
+        "60p": "60%",
       },
       fontFamily: {
         sans:
