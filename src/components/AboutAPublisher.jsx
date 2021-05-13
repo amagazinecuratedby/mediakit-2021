@@ -14,7 +14,7 @@ export default function AboutAPublisher({ order, action, isActive }) {
   return (
     <Section className="bg-beige text-red font-serif p-30 overflow-hidden gap-y-30">
       <div
-        className={`${fullBtn ? "col-span-12 xl:col-span-3" : "col-span-12"}`}
+        className={`${fullBtn ? "col-span-12 2xl:col-span-3" : "col-span-12"}`}
       >
         <button type="button" className="w-full" onClick={() => action(order)}>
           <span className="italic">About</span> A PUBLISHER
@@ -26,9 +26,9 @@ export default function AboutAPublisher({ order, action, isActive }) {
             accordion
             motionKey={`bottomLvl${order}`}
             isActive={isActive}
-            className="col-span-12 xl:col-span-9 gap-y-30"
+            className="col-span-12 2xl:col-span-9 gap-y-30"
           >
-            <div className="col-span-12 3md:col-span-5">
+            <div className="col-span-12 3md:col-span-6">
               <p>
                 Today A PUBLISHER has expanded beyond producing the print title
                 A MAGAZINE <span className="italic">curated by</span>, to
@@ -36,7 +36,7 @@ export default function AboutAPublisher({ order, action, isActive }) {
                 events, copywriting services and creative consulting.
               </p>
             </div>
-            <div className="col-span-12 3md:col-span-7">
+            <div className="col-span-12 3md:col-span-6">
               <p className="mb-21">
                 A MAGAZINE <span className="italic">curated by</span>
               </p>
