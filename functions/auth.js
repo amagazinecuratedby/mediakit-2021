@@ -5,8 +5,14 @@ module.exports.handler = async (event, context, callback) => {
   const psw = body.psw?.replace(" ", "")
 
   if (psw && psw === password) {
-    return callback(null, { statusCode: 200 })
+    return callback(null, {
+      statusCode: 200,
+      body: JSON.stringify({ msg: "success" }),
+    })
   }
 
-  return callback(null, { statusCode: 500 })
+  return callback(null, {
+    statusCode: 500,
+    body: JSON.stringify({ msg: "error" }),
+  })
 }
