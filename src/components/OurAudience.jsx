@@ -26,7 +26,7 @@ export default function OurAudience({ order, action, isActive }) {
             accordion
             motionKey={`bottomLvl${order}`}
             isActive={isActive}
-            className="col-span-12 2xl:col-span-9 gap-y-30"
+            className="col-span-12 2xl:col-span-9 gap-y-30 pb-30"
           >
             <div className="col-span-12 md:col-span-6">
               <p>

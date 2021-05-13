@@ -9,7 +9,7 @@ export default function Instagram() {
           A MAGAZINE <span className="italic">instagram</span>
         </p>
       </div>
-      <Section className="col-span-12 2xl:col-span-9 gap-y-30">
+      <Section className="col-span-12 2xl:col-span-9 gap-y-30 pb-30">
         <div className="col-span-12">
           <p>
             <a

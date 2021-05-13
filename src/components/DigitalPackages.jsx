@@ -1,4 +1,5 @@
-import { AnimatePresence } from "framer-motion"
+import { AnimatePresence, motion } from "framer-motion"
+
 import React from "react"
 import Section from "./Section.jsx"
 
@@ -16,17 +17,28 @@ export default function DigitalPackages({ order, action, isActive }) {
       <div
         className={`${fullBtn ? "col-span-12 2xl:col-span-3" : "col-span-12"}`}
       >
-        <button
-          type="button"
-          className="mb-30 w-full"
-          onClick={() => action(order)}
-        >
+        <button type="button" className="w-full" onClick={() => action(order)}>
           A MAGAZINE <span className="italic">digital packages rates</span>
         </button>
-        <p className="max-w-345">
-          In addition to the print advertising space, we offer digital content
-          packages throughout the year.
-        </p>
+        <AnimatePresence>
+          {isActive && (
+            <motion.p
+              key="paragraph"
+              initial="hidden"
+              animate="visible"
+              exit="hidden"
+              variants={{
+                visible: { opacity: 1 },
+                hidden: { opacity: 0 },
+              }}
+              transition={{ duration: 0.4, ease: "easeInOut" }}
+              className="max-w-345 mt-30"
+            >
+              In addition to the print advertising space, we offer digital
+              content packages throughout the year.
+            </motion.p>
+          )}
+        </AnimatePresence>
       </div>
       <AnimatePresence>
         {isActive && (
@@ -45,7 +57,9 @@ export default function DigitalPackages({ order, action, isActive }) {
                 </p>
               </div>
               <div className="col-span-12 2md:col-span-7 2xl:col-span-6">
-                <p className="mb-30">PRODUCED ADVERTORIAL € 8,000</p>
+                <p className="mb-30 w-full flex">
+                  PRODUCED ADVERTORIAL <span className="ml-auto">€ 8,000</span>
+                </p>
                 <ul className="flex-list-fixed">
                   <li className="uppercase">- Website</li>
                   <li className="italic mb-30">
@@ -95,7 +109,9 @@ export default function DigitalPackages({ order, action, isActive }) {
               </div>
               <div className="col-span-12 2md:col-span-7 2xl:col-span-6">
                 <p className="uppercase mb-30">Sponsored Editorial</p>
-                <p className="border-t border-beige pt-30">OPTION 1 € 6,000</p>
+                <p className="border-t border-beige pt-30 w-full flex">
+                  OPTION 1 <span className="ml-auto">€ 6,000</span>
+                </p>
                 <p className="italic mb-30">
                   Brand partner’s visual assets accompanied by short text or
                   long-form article written by A Magazine team or contributing
@@ -124,8 +140,8 @@ export default function DigitalPackages({ order, action, isActive }) {
                     / video
                   </li>
                 </ul>
-                <p className="border-t border-beige mt-30 pt-30">
-                  OPTION 2 € 3,000
+                <p className="border-t border-beige mt-30 pt-30 w-full flex">
+                  OPTION 2 <span className="ml-auto">€ 3,000</span>
                 </p>
                 <p className="italic mb-30">
                   Brand partner’s visual assets published on Instagram

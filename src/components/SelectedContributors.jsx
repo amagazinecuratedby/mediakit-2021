@@ -26,7 +26,7 @@ export default function SelectedContributors({ order, action, isActive }) {
             accordion
             motionKey={`bottomLvl${order}`}
             isActive={isActive}
-            className="col-span-12 2xl:col-span-9 gap-y-30"
+            className="col-span-12 2xl:col-span-9 gap-y-30 mb-30"
           >
             <div className="col-span-12 md:col-span-8 mb-21">
               <p>

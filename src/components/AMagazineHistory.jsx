@@ -30,7 +30,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
             accordion
             motionKey={`bottomLvl${order}`}
             isActive={isActive}
-            className="col-span-12 2xl:col-span-9 gap-y-30"
+            className="col-span-12 2xl:col-span-9 gap-y-30 mb-30"
           >
             <div className="col-span-12 lg:col-span-6">
               <p className="mb-24">

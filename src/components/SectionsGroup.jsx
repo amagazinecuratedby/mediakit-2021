@@ -72,7 +72,7 @@ export default function SectionsGroup() {
             inspiring minds of today.
           </p>
         </div>
-        <div className="col-span-12 text-center 3md:col-span-5 3md:text-left">
+        <div className="col-span-12 text-center 3md:col-span-5 3md:text-left 3md:pl-1/10">
           <img
             src="margiela-big.jpg"
             alt="A Magazine curated by - Maison Martin Margiela 2021 Cover"
@@ -97,7 +97,7 @@ export default function SectionsGroup() {
       />
       <Section
         className={`text-black font-serif p-30 gap-y-30 overflow-hidden ${
-          topLevel === 1 ? " bg-greyTeal" : " bg-white"
+          topLevel === 1 ? " bg-greyTeal pb-0" : " bg-white"
         }`}
       >
         <div className="col-span-12 font-sans">
@@ -117,7 +117,7 @@ export default function SectionsGroup() {
               motionKey="topLvl1"
               className="col-span-12"
             >
-              <div className="col-span-12 2md:col-span-8 text-29 leading-34">
+              <div className="col-span-12 2md:col-span-7 text-29 leading-34">
                 <p className="mb-30">
                   Throughout our twenty year history, A MAGAZINE has built an
                   engaged community of faithful readers, collectors and
@@ -131,7 +131,7 @@ export default function SectionsGroup() {
                   className="max-w-full h-auto"
                 />
               </div>
-              <div className="col-span-12 2md:col-span-4">
+              <div className="col-span-12 2md:col-span-5 2md:pl-1/10">
                 <ul className="flex-list-50 mb-30">
                   <li>
                     <span className="uppercase">Frequency</span>
@@ -234,7 +234,7 @@ export default function SectionsGroup() {
       </Section>
       <Section
         className={`font-serif p-30 gap-y-30 overflow-hidden${
-          topLevel === 3 ? " bg-dark text-beige" : " bg-white text-black"
+          topLevel === 3 ? " bg-dark text-beige pb-0" : " bg-white text-black"
         }`}
       >
         <div className="col-span-12 font-sans">
@@ -297,7 +297,7 @@ export default function SectionsGroup() {
               accordion
               isActive
               motionKey="topLvl4"
-              className="col-span-12 2xl:col-span-9"
+              className="col-span-12 2xl:col-span-9 pb-30"
             >
               <div className="col-span-12 2md:col-span-6">
                 <ul className="flex-list-50">

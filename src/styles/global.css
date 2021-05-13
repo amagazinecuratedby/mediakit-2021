@@ -76,7 +76,7 @@
 }
 
 @layer components {
-  .grid p {
+  .grid p:not(.w-full) {
     max-width: 95%;
   }
 
@@ -103,7 +103,7 @@
   }
 
   @screen 2md {
-    .grid p {
+    .grid p:not(.w-full) {
       max-width: 90%;
     }
 

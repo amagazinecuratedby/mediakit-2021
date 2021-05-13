@@ -26,7 +26,7 @@ export default function BrandEnvironment({ order, action, isActive }) {
             accordion
             motionKey={`bottomLvl${order}`}
             isActive={isActive}
-            className="col-span-12 2xl:col-span-9"
+            className="col-span-12 2xl:col-span-9 pb-30"
           >
             <div className="col-span-12 grid grid-cols-12 gap-x-16 uppercase">
               <ul className="order-0 col-span-12 sm:col-span-6 3md:col-span-3">
