@@ -31,16 +31,16 @@ export default function Index() {
         <meta name="robots" content="noindex" />
       </Helmet>
       <Header />
-      {/* <AnimatePresence initial={false}>
+      <AnimatePresence initial={false}>
         {!isAuth && <AuthScreen action={auth} authError={authError} />}
-      </AnimatePresence> */}
-      {/* <AnimatePresence>
-        {isAuth && ( */}
-      <motion.section key="sections-group">
-        <SectionsGroup />
-      </motion.section>
-      {/* )}
-      </AnimatePresence> */}
+      </AnimatePresence>
+      <AnimatePresence>
+        {isAuth && (
+          <motion.section key="sections-group">
+            <SectionsGroup />
+          </motion.section>
+        )}
+      </AnimatePresence>
     </>
   )
 }
