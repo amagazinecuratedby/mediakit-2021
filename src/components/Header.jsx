@@ -16,7 +16,7 @@ export default function Header() {
             Go on our website
           </a>
         </p>
-        <p className="col-span-6 2xl:col-span-4 text-right">
+        <p className="col-span-6 2xl:col-span-4 w-full text-right">
           For any enquiries, don't hesitate to{" "}
           <a href="#" rel="noopener" className="underline hover:no-underline">
             contact us
