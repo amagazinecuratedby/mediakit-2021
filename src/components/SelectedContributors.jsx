@@ -14,7 +14,7 @@ export default function SelectedContributors({ order, action, isActive }) {
   }, [isActive])
 
   return (
-    <Section className="bg-beige text-red font-serif p-30 pseudo-border-red overflow-hidden gap-y-30">
+    <Section className="bg-beige text-red font-serif p-21 md:p-30 pseudo-border-red overflow-hidden gap-y-21 md:gap-y-30">
       <div
         className={`${!fullBtn ? "col-span-12 2xl:col-span-3" : "col-span-12"}`}
       >
@@ -28,7 +28,7 @@ export default function SelectedContributors({ order, action, isActive }) {
             accordion
             motionKey={`bottomLvl${order}`}
             isActive={isActive}
-            className="col-span-12 2xl:col-span-9 gap-y-30 mb-30"
+            className="col-span-12 2xl:col-span-9 gap-y-21 md:gap-y-30 mb-21 md:mb-30"
           >
             <div className="col-span-12 md:col-span-8 mb-21">
               <p>

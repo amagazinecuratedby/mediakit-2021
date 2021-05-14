@@ -3,13 +3,13 @@ import Section from "./Section.jsx"
 
 export default function Instagram() {
   return (
-    <Section className="col-span-12 py-30 border-t border-black gap-y-30 overflow-hidden">
+    <Section className="col-span-12 py-21 md:py-30 border-t border-black gap-y-21 md:gap-y-30 overflow-hidden">
       <div className="col-span-12 2xl:col-span-3">
         <p>
           A MAGAZINE <span className="italic">instagram</span>
         </p>
       </div>
-      <Section className="col-span-12 2xl:col-span-9 gap-y-30 pb-30">
+      <Section className="col-span-12 2xl:col-span-9 gap-y-21 md:gap-y-30 pb-21 md:pb-30">
         <div className="col-span-12">
           <p>
             <a
@@ -24,13 +24,13 @@ export default function Instagram() {
         </div>
         <div className="col-span-12 2md:col-span-6">
           <ul className="flex-list-30">
-            <li className="mb-30">
+            <li className="mb-21 md:mb-30">
               CORE TARGET AUDIENCE <span>20 - 60 yo</span>
             </li>
             <li>
               FEMALE <span>60%</span>
             </li>
-            <li className="mb-30">
+            <li className="mb-21 md:mb-30">
               MALE <span>40%</span>
             </li>
             <li>AGE SPLIT</li>
@@ -50,7 +50,7 @@ export default function Instagram() {
         </div>
         <div className="col-span-12 2md:col-span-6">
           <ul className="flex-list-30">
-            <li className="mb-30">
+            <li className="mb-21 md:mb-30">
               ANNUAL SOCIAL MEDIA PLATFORMS GROWTH <span>20% per annum</span>
             </li>
             <li>DATA PER MONTH</li>

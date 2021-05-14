@@ -84,7 +84,7 @@
     flex-col
     justify-between
     items-baseline
-    mb-30;
+    mb-21 md:mb-30;
   }
 
   .flex-list-50 li:last-child {
@@ -151,10 +151,16 @@
     border-red
     absolute
     top-0;
-    width: calc(100% - 60px);
+    width: calc(100% - 48px);
     height: 0;
     position: absolute;
     left: 50%;
     transform: translateX(-50%);
+  }
+
+  @screen md {
+    .pseudo-border-red:before {
+      width: calc(100% - 60px);
+    }
   }
 }

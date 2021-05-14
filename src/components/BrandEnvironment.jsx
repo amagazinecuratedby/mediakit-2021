@@ -14,7 +14,7 @@ export default function BrandEnvironment({ order, action, isActive }) {
   }, [isActive])
 
   return (
-    <Section className="col-span-12 py-30 border-t border-beige overflow-hidden gap-y-30">
+    <Section className="col-span-12 py-21 md:py-30 border-t border-beige overflow-hidden gap-y-21 md:gap-y-30">
       <div
         className={`${!fullBtn ? "col-span-12 2xl:col-span-3" : "col-span-12"}`}
       >
@@ -28,7 +28,7 @@ export default function BrandEnvironment({ order, action, isActive }) {
             accordion
             motionKey={`bottomLvl${order}`}
             isActive={isActive}
-            className="col-span-12 2xl:col-span-9 pb-30"
+            className="col-span-12 2xl:col-span-9 pb-21 md:pb-30"
           >
             <div className="col-span-12 grid grid-cols-12 gap-x-16 uppercase">
               <ul className="order-0 col-span-12 sm:col-span-6 3md:col-span-3">

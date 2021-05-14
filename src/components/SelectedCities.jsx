@@ -3,13 +3,13 @@ import Section from "./Section.jsx"
 
 export default function SelectedCities() {
   return (
-    <Section className="col-span-12 py-30 gap-y-30 overflow-hidden gap-x-0">
+    <Section className="col-span-12 py-21 md:py-30 gap-y-21 md:gap-y-30 overflow-hidden gap-x-0">
       <div className="col-span-12 2xl:col-span-3">
         <p>
           A MAGAZINE <span className="italic">selected cities</span>
         </p>
       </div>
-      <Section className="col-span-12 2xl:col-span-9 gap-y-30">
+      <Section className="col-span-12 2xl:col-span-9 gap-y-21 md:gap-y-30">
         <div className="col-span-12 sm:col-span-6 lg2:col-span-3 grid grid-cols-8">
           <p className="italic uppercase col-span-8 mb-24">
             North &amp; South America

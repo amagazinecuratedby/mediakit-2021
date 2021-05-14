@@ -44,7 +44,7 @@ export default function SectionsGroup() {
 
   return (
     <>
-      <Section className="bg-beige text-red p-30 gap-y-30">
+      <Section className="bg-beige text-red p-21 md:p-30 gap-y-21 md:gap-y-30">
         <div className="font-serif col-span-12 3md:col-span-7 text-29 leading-34">
           <p className="text-37 leading-39 mb-42">
             A MAGAZINE <span className="italic">curated by</span>
@@ -96,7 +96,7 @@ export default function SectionsGroup() {
         isActive={bottomLevel === 3}
       />
       <Section
-        className={`text-black font-serif p-30 gap-y-30 overflow-hidden ${
+        className={`text-black font-serif p-21 md:p-30 gap-y-21 md:gap-y-30 overflow-hidden ${
           topLevel === 1 ? " bg-greyTeal pb-0" : " bg-white"
         }`}
       >
@@ -117,8 +117,8 @@ export default function SectionsGroup() {
               motionKey="topLvl1"
               className="col-span-12"
             >
-              <div className="col-span-12 2md:col-span-7 text-29 leading-34">
-                <p className="mb-30">
+              <div className="col-span-12 2md:col-span-7 text-29 leading-34 pb-21 md:pb-30 2md:pb-0">
+                <p className="mb-21 md:mb-30">
                   Throughout our twenty year history, A MAGAZINE has built an
                   engaged community of faithful readers, collectors and
                   followers around the globe – one that continues to grow with
@@ -132,7 +132,7 @@ export default function SectionsGroup() {
                 />
               </div>
               <div className="col-span-12 2md:col-span-5 2md:pl-1/10">
-                <ul className="flex-list-50 mb-30">
+                <ul className="flex-list-50 mb-21 md:mb-30">
                   <li>
                     <span className="uppercase">Frequency</span>
                     <span>Biannual</span>
@@ -168,7 +168,7 @@ export default function SectionsGroup() {
                     <span>English</span>
                   </li>
                 </ul>
-                <p className="mb-30">
+                <p className="mb-21 md:mb-30">
                   A MAGAZINE is sold online at{" "}
                   <a
                     href="https://amagazinecuratedby.com"
@@ -205,7 +205,7 @@ export default function SectionsGroup() {
         </AnimatePresence>
       </Section>
       <Section
-        className={`text-black font-serif p-30 gap-y-30 overflow-hidden ${
+        className={`text-black font-serif p-21 md:p-30 gap-y-21 md:gap-y-30 overflow-hidden ${
           topLevel === 2 ? " bg-greyTeal" : " bg-white"
         }`}
       >
@@ -233,7 +233,7 @@ export default function SectionsGroup() {
         </AnimatePresence>
       </Section>
       <Section
-        className={`font-serif p-30 gap-y-30 overflow-hidden${
+        className={`font-serif p-21 md:p-30 gap-y-21 md:gap-y-30 overflow-hidden${
           topLevel === 3 ? " bg-dark text-beige pb-0" : " bg-white text-black"
         }`}
       >
@@ -274,7 +274,7 @@ export default function SectionsGroup() {
         </AnimatePresence>
       </Section>
       <Section
-        className={`text-black font-serif p-30 gap-y-30 overflow-hidden${
+        className={`text-black font-serif p-21 md:p-30 gap-y-21 md:gap-y-30 overflow-hidden${
           topLevel === 4 ? " bg-greyTeal" : " bg-white"
         }`}
       >
@@ -297,7 +297,7 @@ export default function SectionsGroup() {
               accordion
               isActive
               motionKey="topLvl4"
-              className="col-span-12 2xl:col-span-9 pb-30 gap-y-30"
+              className="col-span-12 2xl:col-span-9 pb-21 md:pb-30 gap-y-21 md:gap-y-30"
             >
               <div className="col-span-12 2md:col-span-6">
                 <ul className="flex-list-50">
@@ -351,7 +351,7 @@ export default function SectionsGroup() {
                 </ul>
               </div>
               <div className="col-span-12 2md:col-span-6">
-                <p className="mb-30">
+                <p className="mb-21 md:mb-30">
                   A PUBLISHER collaborates on its different platforms with a
                   global network of journalists and creatives from Paris,
                   London, Milan, Berlin, New York, Tokyo, Shanghai, Delhi.

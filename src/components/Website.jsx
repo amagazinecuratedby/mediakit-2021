@@ -3,13 +3,13 @@ import Section from "./Section.jsx"
 
 export default function Website() {
   return (
-    <Section className="col-span-12 py-30 border-t border-black gap-y-30 overflow-hidden">
+    <Section className="col-span-12 py-21 md:py-30 border-t border-black gap-y-21 md:gap-y-30 overflow-hidden">
       <div className="col-span-12 2xl:col-span-3">
         <p>
           A MAGAZINE <span className="italic">website</span>
         </p>
       </div>
-      <Section className="col-span-12 2xl:col-span-9 gap-y-30">
+      <Section className="col-span-12 2xl:col-span-9 gap-y-21 md:gap-y-30">
         <div className="col-span-12 lg:col-span-6">
           <p className="mb-24">
             <a
