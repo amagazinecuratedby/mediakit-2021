@@ -28,7 +28,19 @@ export default function Index() {
   return (
     <>
       <Helmet>
+        <html lang="en" />
+        <meta charSet="utf-8" />
+        <title>MediaKit • A Magazine Curated by</title>
         <meta name="robots" content="noindex" />
+        <link rel="canonical" href="https://mediakit.amagazinecuratedby.com/" />
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta
+          name="description"
+          content="A Magazine Curated By is a fashion magazine that explores the universe of a chosen fashion designer in each issue. We invite a guest curator – an international fashion designer, group or house – to develop innovative, personalised content to express their aesthetic and cultural values. Each issue celebrates this designer’s ethos: their people, their passion, their stories, emotions, fascinations, spontaneity and authenticity."
+        />
+        <meta name="copyright" content="A MAGAZINE curated by" />
+        <meta name="language" content="en" />
       </Helmet>
       <Header />
       <AnimatePresence initial={false}>
