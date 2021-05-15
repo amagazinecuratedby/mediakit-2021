@@ -3,15 +3,15 @@ import Section from "./Section.jsx"
 
 export default function SelectedCities() {
   return (
-    <Section className="col-span-12 py-21 md:py-30 gap-y-21 md:gap-y-30 overflow-hidden gap-x-0">
+    <Section className="col-span-12 py-20 md:py-30 gap-y-20 md:gap-y-30 mt-20 md:mt-30 border-t border-black overflow-hidden gap-x-0">
       <div className="col-span-12 xl:col-span-3">
         <p>
           A MAGAZINE <span className="italic">selected cities</span>
         </p>
       </div>
-      <Section className="col-span-12 xl:col-span-9 gap-y-21 md:gap-y-30">
+      <Section className="col-span-12 xl:col-span-9 gap-y-20 md:gap-y-30">
         <div className="col-span-12 sm:col-span-6 lg2:col-span-3 grid grid-cols-8">
-          <p className="italic uppercase col-span-8 mb-24">
+          <p className="italic uppercase col-span-8 mb-25">
             North &amp; South America
           </p>
           <ul className="col-span-4 text-21 leading-27">
@@ -38,7 +38,7 @@ export default function SelectedCities() {
           </ul>
         </div>
         <div className="col-span-12 sm:col-span-6 lg2:col-span-3 grid grid-cols-8">
-          <p className="italic uppercase col-span-8 mb-24">
+          <p className="italic uppercase col-span-8 mb-25">
             Asia &amp; Oceania
           </p>
           <ul className="col-span-4 text-21 leading-27">
@@ -65,7 +65,7 @@ export default function SelectedCities() {
           </ul>
         </div>
         <div className="col-span-12 lg2:col-span-6 grid grid-cols-8">
-          <p className="italic uppercase col-span-8 mb-24">
+          <p className="italic uppercase col-span-8 mb-25">
             Europe &amp; Africa
           </p>
           <ul className="col-span-4 sm:col-span-2 text-21 leading-27">

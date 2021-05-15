@@ -3,7 +3,7 @@ import React from "react"
 export default function Header() {
   return (
     <header className="font-sans uppercase bg-dark text-white text-18 sticky top-0">
-      <div className="container py-21 px-21 md:px-30">
+      <div className="container py-20 px-20 md:px-30">
         <h1 className="font-serif text-30 leading-30 col-span-4">
           A MAGAZINE <span className="italic normal-case">Media Kit 2021</span>
         </h1>

@@ -14,7 +14,7 @@ export default function SelectedStores({ order, action, isActive }) {
   }, [isActive])
 
   return (
-    <Section className="col-span-12 py-21 md:py-30 border-t border-black gap-y-21 md:gap-y-30 overflow-hidden">
+    <Section className="col-span-12 py-20 md:py-30 border-t border-black gap-y-20 md:gap-y-30 overflow-hidden">
       <div
         className={`${!fullBtn ? "col-span-12 xl:col-span-3" : "col-span-12"}`}
       >
@@ -28,10 +28,10 @@ export default function SelectedStores({ order, action, isActive }) {
             accordion
             motionKey={`bottomLvl${order}`}
             isActive={isActive}
-            className="col-span-12 xl:col-span-9 gap-y-21 md:gap-y-30"
+            className="col-span-12 xl:col-span-9 gap-y-20 md:gap-y-30"
           >
             <div className="col-span-12 lg:col-span-6">
-              <p className="mb-24">
+              <p className="mb-25">
                 In recent years, a solid partnership with global distributors
                 has been complimented by new direct retailer relationships with
                 art and design bookstores, concept stores, museum shops and

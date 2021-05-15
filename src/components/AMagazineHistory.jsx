@@ -15,7 +15,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
 
   return (
     <Section
-      className={`font-serif p-21 md:p-30 pseudo-border-red gap-y-21 md:gap-y-30 overflow-hidden${
+      className={`font-serif p-20 md:p-30 pseudo-border-red gap-y-20 md:gap-y-30 overflow-hidden${
         isActive ? " bg-red text-beige" : " bg-beige text-red"
       }`}
     >
@@ -32,10 +32,10 @@ export default function AMagazineHistory({ order, action, isActive }) {
             accordion
             motionKey={`bottomLvl${order}`}
             isActive={isActive}
-            className="col-span-12 xl:col-span-9 gap-y-21 md:gap-y-30 mb-21 md:mb-30"
+            className="col-span-12 xl:col-span-9 gap-y-20 md:gap-y-30 mb-20 md:mb-30"
           >
             <div className="col-span-12 lg:col-span-6">
-              <p className="mb-24">
+              <p className="mb-25">
                 N°A featuring Dirk Van Saene was the first ever A MAGAZINE,
                 initiated by Walter Van Beirendonck and art directed by Paul
                 Boudens for the 2001 Landed-Geland fashion festival in Antwerp.

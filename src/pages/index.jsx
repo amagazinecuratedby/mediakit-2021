@@ -8,7 +8,9 @@ import SectionsGroup from "../components/SectionsGroup"
 import axios from "axios"
 
 export default function Index() {
-  const [isAuth, setIsAuth] = React.useState(false)
+  const [isAuth, setIsAuth] = React.useState(
+    process.env.NODE_ENV !== "production"
+  )
   const [authError, setAuthError] = React.useState(false)
 
   async function auth(e, psw) {
@@ -46,9 +48,11 @@ export default function Index() {
         <meta name="language" content="en" />
       </Helmet>
       <Header />
-      <AnimatePresence initial={false}>
-        {!isAuth && <AuthScreen action={auth} authError={authError} />}
-      </AnimatePresence>
+      {process.env.NODE_ENV === "production" && (
+        <AnimatePresence initial={false}>
+          {!isAuth && <AuthScreen action={auth} authError={authError} />}
+        </AnimatePresence>
+      )}
       <AnimatePresence>
         {isAuth && (
           <motion.section key="sections-group">

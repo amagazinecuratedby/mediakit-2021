@@ -14,7 +14,7 @@ export default function BrandEnvironment({ order, action, isActive }) {
   }, [isActive])
 
   return (
-    <Section className="col-span-12 py-21 md:py-30 border-t border-beige overflow-hidden gap-y-21 md:gap-y-30">
+    <Section className="col-span-12 py-20 md:py-30 border-t border-beige overflow-hidden gap-y-20 md:gap-y-30">
       <div
         className={`${!fullBtn ? "col-span-12 xl:col-span-3" : "col-span-12"}`}
       >

@@ -88,7 +88,7 @@
     flex-col
     justify-between
     items-baseline
-    mb-21 md:mb-30;
+    mb-20 md:mb-30;
   }
 
   .flex-list-50 li:last-child {

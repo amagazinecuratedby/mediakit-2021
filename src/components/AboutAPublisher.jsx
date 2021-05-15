@@ -14,7 +14,7 @@ export default function AboutAPublisher({ order, action, isActive }) {
   }, [isActive])
 
   return (
-    <Section className="bg-beige text-red font-serif p-21 md:p-30 pseudo-border-red overflow-hidden gap-y-21 md:gap-y-30">
+    <Section className="bg-beige text-red font-serif p-20 md:p-30 pseudo-border-red overflow-hidden gap-y-20 md:gap-y-30">
       <div
         className={`${!fullBtn ? "col-span-12 xl:col-span-3" : "col-span-12"}`}
       >
@@ -28,7 +28,7 @@ export default function AboutAPublisher({ order, action, isActive }) {
             accordion
             motionKey={`bottomLvl${order}`}
             isActive={isActive}
-            className="col-span-12 xl:col-span-9 gap-y-21 md:gap-y-30"
+            className="col-span-12 xl:col-span-9 gap-y-20 md:gap-y-30"
           >
             <div className="col-span-12 3md:col-span-6">
               <p>
@@ -39,7 +39,7 @@ export default function AboutAPublisher({ order, action, isActive }) {
               </p>
             </div>
             <div className="col-span-12 3md:col-span-6">
-              <p className="mb-21">
+              <p className="mb-20">
                 A MAGAZINE <span className="italic">curated by</span>
               </p>
               <p className="mb-42 indent">
@@ -50,7 +50,7 @@ export default function AboutAPublisher({ order, action, isActive }) {
                 magazines featuring some of the greatest names in 21st century
                 avant-garde fashion.
               </p>
-              <p className="mb-21 ">
+              <p className="mb-20 ">
                 A PROJECT <span className="italic">curated by</span>
               </p>
               <p className="mb-42 indent">
@@ -63,7 +63,7 @@ export default function AboutAPublisher({ order, action, isActive }) {
                 mono-branded entity and invaluable marketing tool for corporate
                 gifting and traditional distribution.
               </p>
-              <p className="mb-21">
+              <p className="mb-20">
                 CONTENT <span className="italic">curated for</span>
               </p>
               <p className="mb-42 indent">

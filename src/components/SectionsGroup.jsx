@@ -1,7 +1,6 @@
-import { AnimatePresence, motion } from "framer-motion"
-
 import AMagazineHistory from "./AMagazineHistory.jsx"
 import AboutAPublisher from "./AboutAPublisher.jsx"
+import { AnimatePresence } from "framer-motion"
 import BrandEnvironment from "./BrandEnvironment.jsx"
 import DigitalPackages from "./DigitalPackages.jsx"
 import Instagram from "./Instagram.jsx"
@@ -12,6 +11,7 @@ import Section from "./Section.jsx"
 import SelectedCities from "./SelectedCities.jsx"
 import SelectedContributors from "./SelectedContributors.jsx"
 import SelectedStores from "./SelectedStores.jsx"
+import Team from "./Team.jsx"
 import Website from "./Website.jsx"
 
 // add smoothscroll
@@ -46,7 +46,7 @@ export default function SectionsGroup() {
 
   return (
     <>
-      <Section className="bg-beige text-red p-21 md:p-30 gap-y-21 md:gap-y-30">
+      <Section className="bg-beige text-red p-20 md:p-30 gap-y-20 md:gap-y-30">
         <div className="font-serif col-span-12 3md:col-span-7 text-29 leading-34">
           <p className="text-37 leading-39 mb-42">
             A MAGAZINE <span className="italic">curated by</span>
@@ -98,11 +98,11 @@ export default function SectionsGroup() {
         isActive={bottomLevel === 3}
       />
       <Section
-        className={`text-black font-serif px-21 pt-21 md:px-30 md:pt-30 gap-y-21 md:gap-y-30 overflow-hidden ${
-          topLevel === 1 ? " bg-greyTeal" : " bg-white pb-21 md:pb-30"
+        className={`text-black font-serif px-20 pt-25 md:px-30 md:pt-35 gap-y-20 md:gap-y-30 overflow-hidden ${
+          topLevel === 1 ? " bg-greyTeal" : " bg-white"
         }`}
       >
-        <div className="col-span-12 font-sans">
+        <div className="col-span-12 font-sans pb-25 md:pb-35">
           <button
             type="button"
             className="uppercase text-18 w-full"
@@ -120,7 +120,7 @@ export default function SectionsGroup() {
               className="col-span-12"
             >
               <div className="col-span-12 2md:col-span-7 text-29 leading-34 pb-21 md:pb-30 2md:pb-0">
-                <p className="mb-21 md:mb-30">
+                <p className="mb-20 md:mb-30">
                   Throughout our twenty year history, A MAGAZINE has built an
                   engaged community of faithful readers, collectors and
                   followers around the globe – one that continues to grow with
@@ -134,7 +134,7 @@ export default function SectionsGroup() {
                 />
               </div>
               <div className="col-span-12 2md:col-span-5 2md:pl-1/10">
-                <ul className="flex-list-50 mb-21 md:mb-30">
+                <ul className="flex-list-50 mb-20 md:mb-30">
                   <li>
                     <span className="uppercase">Frequency</span>
                     <span>Biannual</span>
@@ -170,7 +170,7 @@ export default function SectionsGroup() {
                     <span>English</span>
                   </li>
                 </ul>
-                <p className="mb-21 md:mb-30">
+                <p className="mb-20 md:mb-30">
                   A MAGAZINE is sold online at{" "}
                   <a
                     href="https://amagazinecuratedby.com"
@@ -207,11 +207,11 @@ export default function SectionsGroup() {
         </AnimatePresence>
       </Section>
       <Section
-        className={`text-black font-serif p-21 md:p-30 gap-y-21 md:gap-y-30 overflow-hidden ${
+        className={`text-black font-serif px-20 pt-25 md:px-30 md:pt-35 overflow-hidden ${
           topLevel === 2 ? " bg-greyTeal" : " bg-white"
         }`}
       >
-        <div className="col-span-12 font-sans">
+        <div className="col-span-12 font-sans pb-25 md:pb-35">
           <button
             type="button"
             className="uppercase text-18 w-full"
@@ -235,13 +235,11 @@ export default function SectionsGroup() {
         </AnimatePresence>
       </Section>
       <Section
-        className={`font-serif px-21 md:px-30 pt-21 md:pt-30 gap-y-21 md:gap-y-30 overflow-hidden${
-          topLevel === 3
-            ? " bg-dark text-beige"
-            : " bg-white text-black pb-21 md:pb-30"
+        className={`font-serif px-20 md:px-30 pt-25 md:pt-35 overflow-hidden${
+          topLevel === 3 ? " bg-dark text-beige" : " bg-white text-black"
         }`}
       >
-        <div className="col-span-12 font-sans">
+        <div className="col-span-12 font-sans pb-25 md:pb-35">
           <button
             type="button"
             className="uppercase text-18 w-full"
@@ -277,118 +275,7 @@ export default function SectionsGroup() {
           )}
         </AnimatePresence>
       </Section>
-      <Section
-        className={`text-black font-serif p-21 md:p-30 gap-y-21 md:gap-y-30 overflow-hidden${
-          topLevel === 4 ? " bg-greyTeal" : " bg-white"
-        }`}
-      >
-        <div
-          className={`font-sans${
-            topLevel === 4 ? " col-span-12 xl:col-span-3" : " col-span-12"
-          }`}
-        >
-          <button
-            type="button"
-            className="uppercase text-18 w-full"
-            onClick={() => topLevelHandler(4)}
-          >
-            V. Team
-          </button>
-        </div>
-        <AnimatePresence>
-          {topLevel === 4 && (
-            <Section
-              accordion
-              isActive
-              motionKey="topLvl4"
-              className="col-span-12 xl:col-span-9 pb-21 md:pb-30 gap-y-21 md:gap-y-30"
-            >
-              <div className="col-span-12 2md:col-span-6">
-                <ul className="flex-list-50">
-                  <li>
-                    <span className="uppercase">Publisher</span>
-                    <span>Evence-Charles Coppée</span>
-                  </li>
-                  <li>
-                    <span className="uppercase">Editor in Chief</span>
-                    <span>
-                      Dan Thawley
-                      <br />
-                      <span className="text-21">
-                        +33 (0)6 01 15 45 57
-                        <br />
-                        <a href="mailto:dan@amagazinecuratedby.com">
-                          dan(at)amagazinecuratedby.com
-                        </a>
-                      </span>
-                    </span>
-                  </li>
-                  <li>
-                    <span className="uppercase">Managing Editor</span>
-                    <span>
-                      Thérèse Boon Falleur
-                      <br />
-                      <span className="text-21">
-                        +33 (0)6 87 34 39 35
-                        <br />
-                        <a href="mailto:therese@amagazinecuratedby.com">
-                          therese(at)amagazinecuratedby.com
-                        </a>
-                      </span>
-                    </span>
-                  </li>
-                  <li>
-                    <span className="uppercase">Editor at Large</span>
-                    <span>Blake Abbie</span>
-                  </li>
-                  <li>
-                    <span className="uppercase">Art Direction</span>
-                    <span>
-                      Mike Meiré –{" "}
-                      <span className="italic">Meiré und Meiré</span>
-                    </span>
-                  </li>
-                  <li>
-                    <span className="uppercase">Moving Image</span>
-                    <span>Alexandre Silberstein</span>
-                  </li>
-                </ul>
-              </div>
-              <div className="col-span-12 2md:col-span-6 flex flex-col">
-                <p className="mb-21 md:mb-30">
-                  A PUBLISHER collaborates on its different platforms with a
-                  global network of journalists and creatives from Paris,
-                  London, Milan, Berlin, New York, Tokyo, Shanghai, Delhi.
-                </p>
-                <ul className="mb-21 md:mb-30">
-                  <li>
-                    <a
-                      href="https://www.instagram.com/amagazinecuratedby"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      @amagazinecuratedby
-                    </a>
-                  </li>
-                  <li>
-                    <a
-                      href="https://amagazinecuratedby.com"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      www.amagazinecuratedby.com
-                    </a>
-                  </li>
-                </ul>
-                <p className="mt-auto">
-                  Please enquire with our team for our most recent distribution,
-                  website and social media data.
-                </p>
-              </div>
-            </Section>
-          )}
-        </AnimatePresence>
-      </Section>
+      <Team order={4} action={topLevelHandler} isActive={topLevel === 4} />
     </>
   )
 }
