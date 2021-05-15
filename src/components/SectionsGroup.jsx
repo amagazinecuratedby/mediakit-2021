@@ -13,6 +13,7 @@ import SelectedContributors from "./SelectedContributors.jsx"
 import SelectedStores from "./SelectedStores.jsx"
 import Team from "./Team.jsx"
 import Website from "./Website.jsx"
+import smoothScroll from "../smoothscroll.js"
 
 // add smoothscroll
 
@@ -20,19 +21,24 @@ export default function SectionsGroup() {
   const [topLevel, setTopLevel] = React.useState(null)
   const [bottomLevel, setBottomLevel] = React.useState(null)
 
-  function topLevelHandler(index) {
+  function topLevelHandler(e, index) {
     setBottomLevel(null)
 
     if (index !== topLevel) {
-      return setTopLevel(index)
+      setTopLevel(index)
+
+      return setTimeout(() => smoothScroll(e.target), 500)
     }
 
     return setTopLevel(null)
   }
 
-  function bottomLevelHandler(index) {
+  function bottomLevelHandler(e, index) {
     if (index && index !== bottomLevel) {
-      return setBottomLevel(index)
+      setBottomLevel(index)
+      return setTimeout(() => {
+        smoothScroll(e.target)
+      }, 500)
     }
 
     return setBottomLevel(null)
@@ -106,7 +112,7 @@ export default function SectionsGroup() {
           <button
             type="button"
             className="uppercase text-18 w-full"
-            onClick={() => topLevelHandler(1)}
+            onClick={(e) => topLevelHandler(e, 1)}
           >
             II. Audience &amp; Distribution
           </button>
@@ -215,7 +221,7 @@ export default function SectionsGroup() {
           <button
             type="button"
             className="uppercase text-18 w-full"
-            onClick={() => topLevelHandler(2)}
+            onClick={(e) => topLevelHandler(e, 2)}
           >
             III. Website &amp; Social Media
           </button>
@@ -243,7 +249,7 @@ export default function SectionsGroup() {
           <button
             type="button"
             className="uppercase text-18 w-full"
-            onClick={() => topLevelHandler(3)}
+            onClick={(e) => topLevelHandler(e, 3)}
           >
             IV. Media Placement Rates
           </button>

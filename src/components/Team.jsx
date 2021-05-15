@@ -27,7 +27,7 @@ export default function Team({ order, action, isActive }) {
         <button
           type="button"
           className="uppercase text-18 w-full"
-          onClick={() => action(order)}
+          onClick={(e) => action(e, order)}
         >
           V. Team
         </button>

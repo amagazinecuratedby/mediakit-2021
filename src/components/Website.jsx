@@ -41,8 +41,9 @@ export default function Website() {
         <div className="col-span-12 lg:col-span-6">
           <img
             src="ordinateur.jpg"
-            alt="A MAGAZINE curate by website"
-            className="max-w-full h-auto"
+            alt="A MAGAZINE curated by website"
+            style={{ maxHeight: "260px" }}
+            className="max-w-full w-auto h-auto"
           />
         </div>
       </Section>

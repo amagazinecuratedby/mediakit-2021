@@ -18,7 +18,11 @@ export default function SelectedStores({ order, action, isActive }) {
       <div
         className={`${!fullBtn ? "col-span-12 xl:col-span-3" : "col-span-12"}`}
       >
-        <button type="button" className="w-full" onClick={() => action(order)}>
+        <button
+          type="button"
+          className="w-full"
+          onClick={(e) => action(e, order)}
+        >
           A MAGAZINE <span className="italic">selected stores</span>
         </button>
       </div>
