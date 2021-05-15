@@ -16,7 +16,7 @@ export default function PrintDigital({ order, action, isActive }) {
   return (
     <Section className="col-span-12 py-21 md:py-30 border-t border-beige overflow-hidden gap-y-21 md:gap-y-30">
       <div
-        className={`${!fullBtn ? "col-span-12 2xl:col-span-3" : "col-span-12"}`}
+        className={`${!fullBtn ? "col-span-12 xl:col-span-3" : "col-span-12"}`}
       >
         <button type="button" className="w-full" onClick={() => action(order)}>
           A MAGAZINE <span className="italic">print + digital rates</span>
@@ -28,10 +28,10 @@ export default function PrintDigital({ order, action, isActive }) {
             accordion
             motionKey={`bottomLvl${order}`}
             isActive={isActive}
-            className="col-span-12 2xl:col-span-9 gap-y-21 md:gap-y-30"
+            className="col-span-12 xl:col-span-9 gap-y-21 md:gap-y-30"
           >
             <div className="col-span-12 grid grid-cols-12 gap-x-16 gap-y-21">
-              <div className="col-span-12 2md:col-span-5 2xl:col-span-6 flex flex-col">
+              <div className="col-span-12 2md:col-span-5 xl:col-span-6 flex flex-col">
                 <p className="mb-21 md:mb-30">
                   For each bi-annual issue of A MAGAZINE, print advertising
                   insertions are accompanied by a complimentary digital
@@ -45,7 +45,7 @@ export default function PrintDigital({ order, action, isActive }) {
                   <li>* IBC: Inside Back Cover</li>
                 </ul>
               </div>
-              <div className="col-span-12 2md:col-span-7 2xl:col-span-6">
+              <div className="col-span-12 2md:col-span-7 xl:col-span-6">
                 <p className="uppercase mb-21 md:mb-30">
                   Print Media Placement Rates
                 </p>
@@ -90,30 +90,26 @@ export default function PrintDigital({ order, action, isActive }) {
               </div>
             </div>
             <div className="col-span-12 grid grid-cols-12 gap-x-16 border-t border-beige pt-21 md:pt-30 gap-y-21">
-              <div className="col-span-12 2md:col-span-5 2xl:col-span-6 flex flex-col">
+              <div className="col-span-12 2md:col-span-5 xl:col-span-6 flex flex-col">
                 <p className="mb-21 md:mb-30">
                   Each print media placement rate includes the following digital
                   integration.
                 </p>
                 <p className="text-20 leading-27 mt-auto mb-21 md:mb-30">
-                  <small>
-                    Seasonal timing / posting dates to be defined in
-                    consultation with the Brand partner.
-                  </small>
+                  Seasonal timing / posting dates to be defined in consultation
+                  with the Brand partner.
                 </p>
                 <p className="text-20 leading-27">
-                  <small>
-                    All advertising enquiries to{" "}
-                    <a
-                      href="mailto:advertising@amagazinecuratedby.com"
-                      className="italic"
-                    >
-                      advertising@amagazinecuratedby.com
-                    </a>
-                  </small>
+                  All advertising enquiries to{" "}
+                  <a
+                    href="mailto:advertising@amagazinecuratedby.com"
+                    className="italic"
+                  >
+                    advertising@amagazinecuratedby.com
+                  </a>
                 </p>
               </div>
-              <div className="col-span-12 2md:col-span-7 2xl:col-span-6">
+              <div className="col-span-12 2md:col-span-7 xl:col-span-6">
                 <p className="uppercase">
                   VALUE-ADDED DIGITAL INTEGRATION EDITORIAL CONTENT
                   <span className="italic">incl.</span>

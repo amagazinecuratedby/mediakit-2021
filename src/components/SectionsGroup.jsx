@@ -21,6 +21,8 @@ export default function SectionsGroup() {
   const [bottomLevel, setBottomLevel] = React.useState(null)
 
   function topLevelHandler(index) {
+    setBottomLevel(null)
+
     if (index !== topLevel) {
       return setTopLevel(index)
     }
@@ -96,8 +98,8 @@ export default function SectionsGroup() {
         isActive={bottomLevel === 3}
       />
       <Section
-        className={`text-black font-serif p-21 md:p-30 gap-y-21 md:gap-y-30 overflow-hidden ${
-          topLevel === 1 ? " bg-greyTeal pb-0" : " bg-white"
+        className={`text-black font-serif px-21 pt-21 md:px-30 md:pt-30 gap-y-21 md:gap-y-30 overflow-hidden ${
+          topLevel === 1 ? " bg-greyTeal" : " bg-white pb-21 md:pb-30"
         }`}
       >
         <div className="col-span-12 font-sans">
@@ -233,8 +235,10 @@ export default function SectionsGroup() {
         </AnimatePresence>
       </Section>
       <Section
-        className={`font-serif p-21 md:p-30 gap-y-21 md:gap-y-30 overflow-hidden${
-          topLevel === 3 ? " bg-dark text-beige pb-0" : " bg-white text-black"
+        className={`font-serif px-21 md:px-30 pt-21 md:pt-30 gap-y-21 md:gap-y-30 overflow-hidden${
+          topLevel === 3
+            ? " bg-dark text-beige"
+            : " bg-white text-black pb-21 md:pb-30"
         }`}
       >
         <div className="col-span-12 font-sans">
@@ -280,7 +284,7 @@ export default function SectionsGroup() {
       >
         <div
           className={`font-sans${
-            topLevel === 4 ? " col-span-12 2xl:col-span-3" : " col-span-12"
+            topLevel === 4 ? " col-span-12 xl:col-span-3" : " col-span-12"
           }`}
         >
           <button
@@ -297,7 +301,7 @@ export default function SectionsGroup() {
               accordion
               isActive
               motionKey="topLvl4"
-              className="col-span-12 2xl:col-span-9 pb-21 md:pb-30 gap-y-21 md:gap-y-30"
+              className="col-span-12 xl:col-span-9 pb-21 md:pb-30 gap-y-21 md:gap-y-30"
             >
               <div className="col-span-12 2md:col-span-6">
                 <ul className="flex-list-50">
@@ -350,13 +354,13 @@ export default function SectionsGroup() {
                   </li>
                 </ul>
               </div>
-              <div className="col-span-12 2md:col-span-6">
+              <div className="col-span-12 2md:col-span-6 flex flex-col">
                 <p className="mb-21 md:mb-30">
                   A PUBLISHER collaborates on its different platforms with a
                   global network of journalists and creatives from Paris,
                   London, Milan, Berlin, New York, Tokyo, Shanghai, Delhi.
                 </p>
-                <ul className="mb-84">
+                <ul className="mb-21 md:mb-30">
                   <li>
                     <a
                       href="https://www.instagram.com/amagazinecuratedby"
@@ -376,7 +380,7 @@ export default function SectionsGroup() {
                     </a>
                   </li>
                 </ul>
-                <p>
+                <p className="mt-auto">
                   Please enquire with our team for our most recent distribution,
                   website and social media data.
                 </p>

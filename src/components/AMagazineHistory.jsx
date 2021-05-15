@@ -20,7 +20,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
       }`}
     >
       <div
-        className={`${!fullBtn ? "col-span-12 2xl:col-span-3" : "col-span-12"}`}
+        className={`${!fullBtn ? "col-span-12 xl:col-span-3" : "col-span-12"}`}
       >
         <button type="button" className="w-full" onClick={() => action(order)}>
           A MAGAZINE <span className="italic">history</span>
@@ -32,7 +32,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
             accordion
             motionKey={`bottomLvl${order}`}
             isActive={isActive}
-            className="col-span-12 2xl:col-span-9 gap-y-21 md:gap-y-30 mb-21 md:mb-30"
+            className="col-span-12 xl:col-span-9 gap-y-21 md:gap-y-30 mb-21 md:mb-30"
           >
             <div className="col-span-12 lg:col-span-6">
               <p className="mb-24">

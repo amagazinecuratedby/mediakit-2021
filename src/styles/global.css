@@ -26,6 +26,10 @@
 @tailwind components;
 
 @layer base {
+  html {
+    font-size: 13px;
+  }
+
   body {
     @apply text-23
     w-screen

@@ -4,12 +4,12 @@ import Section from "./Section.jsx"
 export default function Instagram() {
   return (
     <Section className="col-span-12 py-21 md:py-30 border-t border-black gap-y-21 md:gap-y-30 overflow-hidden">
-      <div className="col-span-12 2xl:col-span-3">
+      <div className="col-span-12 xl:col-span-3">
         <p>
           A MAGAZINE <span className="italic">instagram</span>
         </p>
       </div>
-      <Section className="col-span-12 2xl:col-span-9 gap-y-21 md:gap-y-30 pb-21 md:pb-30">
+      <Section className="col-span-12 xl:col-span-9 gap-y-21 md:gap-y-30 pb-21 md:pb-30">
         <div className="col-span-12">
           <p>
             <a

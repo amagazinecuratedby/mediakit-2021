@@ -17,10 +17,10 @@ export default function DigitalPackages({ order, action, isActive }) {
   return (
     <Section className="col-span-12 py-21 md:py-30 border-t border-beige gap-y-21 md:gap-y-30 overflow-hidden">
       <div
-        className={`${!fullBtn ? "col-span-12 2xl:col-span-3" : "col-span-12"}`}
+        className={`${!fullBtn ? "col-span-12 xl:col-span-3" : "col-span-12"}`}
       >
         <button type="button" className="w-full" onClick={() => action(order)}>
-          A MAGAZINE <span className="italic">digital packages rates</span>
+          A MAGAZINE <span className="italic">digital rates</span>
         </button>
         <AnimatePresence>
           {isActive && (
@@ -48,17 +48,17 @@ export default function DigitalPackages({ order, action, isActive }) {
             accordion
             motionKey={`bottomLvl${order}`}
             isActive={isActive}
-            className="col-span-12 2xl:col-span-9 gap-y-21 md:gap-y-30"
+            className="col-span-12 xl:col-span-9 gap-y-21 md:gap-y-30"
           >
             <div className="col-span-12 grid grid-cols-12 gap-x-16 gap-y-21">
-              <div className="col-span-12 2md:col-span-5 2xl:col-span-6">
+              <div className="col-span-12 2md:col-span-5 xl:col-span-6">
                 <p>
                   Photo shoot or video content produced by A PUBLISHER featuring
                   Brand partner’s collection, accessories, products accompanied
                   by short text articles.
                 </p>
               </div>
-              <div className="col-span-12 2md:col-span-7 2xl:col-span-6">
+              <div className="col-span-12 2md:col-span-7 xl:col-span-6">
                 <p className="mb-21 md:mb-30 w-full flex">
                   PRODUCED ADVERTORIAL{" "}
                   <span className="ml-auto flex-0-auto">€ 8,000</span>
@@ -87,30 +87,26 @@ export default function DigitalPackages({ order, action, isActive }) {
               </div>
             </div>
             <div className="col-span-12 grid grid-cols-12 gap-x-16 border-t border-beige pt-21 md:pt-30 gap-y-21">
-              <div className="col-span-12 2md:col-span-5 2xl:col-span-6 flex flex-col">
+              <div className="col-span-12 2md:col-span-5 xl:col-span-6 flex flex-col">
                 <p className="mb-21 md:mb-30">
                   Rediffusion and social media promotion of Brand partner’s
                   provided visual assets with A MAGAZINE tone-of-voice.
                 </p>
                 <p className="text-20 leading-27 mt-auto mb-21 md:mb-30">
-                  <small>
-                    Seasonal timing / posting dates to be defined in
-                    consultation with the Brand partner.
-                  </small>
+                  Seasonal timing / posting dates to be defined in consultation
+                  with the Brand partner.
                 </p>
                 <p className="text-20 leading-27">
-                  <small>
-                    All advertising enquiries to{" "}
-                    <a
-                      href="mailto:advertising@amagazinecuratedby.com"
-                      className="italic"
-                    >
-                      advertising@amagazinecuratedby.com
-                    </a>
-                  </small>
+                  All advertising enquiries to{" "}
+                  <a
+                    href="mailto:advertising@amagazinecuratedby.com"
+                    className="italic"
+                  >
+                    advertising@amagazinecuratedby.com
+                  </a>
                 </p>
               </div>
-              <div className="col-span-12 2md:col-span-7 2xl:col-span-6">
+              <div className="col-span-12 2md:col-span-7 xl:col-span-6">
                 <p className="uppercase mb-21 md:mb-30">Sponsored Editorial</p>
                 <p className="border-t border-beige pt-21 md:pt-30 w-full flex">
                   OPTION 1 <span className="ml-auto flex-0-auto">€ 6,000</span>

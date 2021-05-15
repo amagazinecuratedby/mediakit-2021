@@ -4,12 +4,12 @@ import Section from "./Section.jsx"
 export default function Website() {
   return (
     <Section className="col-span-12 py-21 md:py-30 border-t border-black gap-y-21 md:gap-y-30 overflow-hidden">
-      <div className="col-span-12 2xl:col-span-3">
+      <div className="col-span-12 xl:col-span-3">
         <p>
           A MAGAZINE <span className="italic">website</span>
         </p>
       </div>
-      <Section className="col-span-12 2xl:col-span-9 gap-y-21 md:gap-y-30">
+      <Section className="col-span-12 xl:col-span-9 gap-y-21 md:gap-y-30">
         <div className="col-span-12 lg:col-span-6">
           <p className="mb-24">
             <a
@@ -25,7 +25,7 @@ export default function Website() {
             MAGAZINE <span className="italic">curated by</span> has its
             dedicated page where the theme of the magazine and its contributors
             are presented alongside the table of contents and visual excerpts.
-            Our collection of A PROJECT
+            Our collection of A PROJECT{" "}
             <span className="italic">curated by</span> will soon be accessible
             on this space too.
           </p>
