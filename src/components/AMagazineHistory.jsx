@@ -59,18 +59,21 @@ export default function AMagazineHistory({ order, action, isActive }) {
                 Margiela in 2004.
               </p>
             </div>
-            <div className="col-span-12 lg:col-span-6 grid grid-cols-4 xs:grid-rows-3 sm:grid-rows-2 gap-x-32 gap-y-32 font-sans text-11 leading-tight">
+            <div className="col-span-12 lg:col-span-6 grid grid-cols-4 xs:grid-rows-3 sm:grid-rows-2 gap-x-60 gap-y-40 font-sans text-11 leading-tight">
               <div className="col-span-4 sm:col-span-2 row-span-2">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2002
                   </figcaption>
                   <img src="A.jpg" className="max-w-full w-full shadow-lg" />
                 </figure>
-                <p>
-                  <span>A</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A
+                  </span>
                   <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
+                    <span className="italic">N°A</span> MAGAZINE{" "}
+                    <span className="italic">curated by</span>
                     <br />
                     Dirk Van Saene
                   </span>
@@ -78,15 +81,17 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-4 xs:col-span-2 sm:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2002
                   </figcaption>
                   <img src="B.jpg" className="max-w-full w-full shadow-lg" />
                 </figure>
-                <p>
-                  <span>B</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    B
+                  </span>
                   <span className="font-serif">
-                    N°B Featuring
+                    <span className="italic">N°B</span> Featuring
                     <br />
                     Bernard Willhelm
                   </span>
@@ -94,15 +99,17 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-4 xs:col-span-2 sm:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2002
                   </figcaption>
                   <img src="C.jpg" className="max-w-full w-full shadow-lg" />
                 </figure>
-                <p>
-                  <span>C</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    C
+                  </span>
                   <span className="font-serif">
-                    N°C Featuring
+                    <span className="italic">N°C</span> Featuring
                     <br />
                     Hussein Chalayan
                   </span>
@@ -110,15 +117,17 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-4 xs:col-span-2 sm:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2003
                   </figcaption>
                   <img src="D.jpg" className="max-w-full w-full shadow-lg" />
                 </figure>
-                <p>
-                  <span>D</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    D
+                  </span>
                   <span className="font-serif">
-                    N°D Featuring
+                    <span className="italic">N°D</span> Featuring
                     <br />
                     Olivier Theyskens
                   </span>
@@ -126,31 +135,35 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-4 xs:col-span-2 sm:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2003
                   </figcaption>
                   <img src="E.jpg" className="max-w-full w-full shadow-lg" />
                 </figure>
-                <p>
-                  <span>E</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    E
+                  </span>
                   <span className="font-serif">
-                    N°E Featuring
+                    <span className="italic">N°E</span> Featuring
                     <br />
                     Viktor & Rolf
                   </span>
                 </p>
               </div>
             </div>
-            <div className="col-span-12 grid grid-cols-8 gap-x-32 gap-y-32 font-sans text-11 leading-tight">
+            <div className="col-span-12 grid grid-cols-8 gap-x-60 gap-y-40 font-sans text-11 leading-tight">
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2004
                   </figcaption>
                   <img src="01.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#1</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#1
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -160,13 +173,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2005
                   </figcaption>
                   <img src="02.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#2</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#2
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -176,13 +191,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2005
                   </figcaption>
                   <img src="03.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#3</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#3
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -192,13 +209,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2006
                   </figcaption>
                   <img src="04.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#4</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#4
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -208,13 +227,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2007
                   </figcaption>
                   <img src="05.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#5</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#5
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -224,13 +245,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2007
                   </figcaption>
                   <img src="06.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#6</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#6
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -240,13 +263,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2008
                   </figcaption>
                   <img src="07.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#7</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#7
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -256,13 +281,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2008
                   </figcaption>
                   <img src="08.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#8</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#8
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -272,13 +299,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2009
                   </figcaption>
                   <img src="09.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#9</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#9
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -288,13 +317,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2010
                   </figcaption>
                   <img src="10.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#10</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#10
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -304,13 +335,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2011
                   </figcaption>
                   <img src="11.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#11</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#11
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -320,13 +353,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2013
                   </figcaption>
                   <img src="12.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#12</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#12
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -336,13 +371,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2014
                   </figcaption>
                   <img src="13.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#13</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#13
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -352,13 +389,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2015
                   </figcaption>
                   <img src="14.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#14</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#14
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -368,13 +407,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2016
                   </figcaption>
                   <img src="15.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#15</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#15
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -384,13 +425,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2016
                   </figcaption>
                   <img src="16.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#16</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#16
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -400,13 +443,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2017
                   </figcaption>
                   <img src="17.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#17</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#17
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -416,13 +461,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2018
                   </figcaption>
                   <img src="18.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#18</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#18
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -432,13 +479,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2019
                   </figcaption>
                   <img src="19.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#19</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#19
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -448,13 +497,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2019
                   </figcaption>
                   <img src="20.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#20</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#20
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -464,13 +515,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2020
                   </figcaption>
                   <img src="21.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#21</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#21
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
@@ -480,13 +533,15 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
               <div className="col-span-8 xs:col-span-4 sm:col-span-2 2md:col-span-1 row-span-1">
                 <figure className="relative">
-                  <figcaption className="absolute transform -rotate-90 origin-bottom-left bottom-0">
+                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
                     2021 Limited Edition Reprint
                   </figcaption>
                   <img src="22.jpg" className="max-w-full w-full" />
                 </figure>
-                <p>
-                  <span>A#1</span>
+                <p className="pt-8 relative">
+                  <span className="inline-block absolute -left-10 transform -translate-x-full">
+                    A#1
+                  </span>
                   <span className="font-serif">
                     A MAGAZINE <span className="italic">curated by</span>
                     <br />
