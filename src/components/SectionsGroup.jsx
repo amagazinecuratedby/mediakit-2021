@@ -80,7 +80,7 @@ export default function SectionsGroup() {
             inspiring minds of today.
           </p>
         </div>
-        <div className="col-span-12 text-center 3md:col-span-5 3md:text-left 3md:pl-1/10">
+        <div className="col-span-12 text-center mb-40 md:mb-30 3md:col-span-5 3md:text-left 3md:pl-1/10">
           <img
             src="margiela-big.jpg"
             alt="A Magazine curated by - Maison Martin Margiela 2021 Cover"

@@ -183,4 +183,12 @@ h1:after {
       width: calc(100% - 60px);
     }
   }
+
+  @screen maxSm {
+    .overflow-grid {
+      @apply overflow-x-scroll
+      grid-flow-col;
+      grid-template-columns: repeat(2, minmax(300px, 1fr));
+    }
+  }
 }

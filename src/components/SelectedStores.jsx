@@ -51,8 +51,8 @@ export default function SelectedStores({ order, action, isActive }) {
                 fashion weeks and the major fashion capitals.
               </p>
             </div>
-            <div className="col-span-12 lg:col-span-6 grid grid-cols-8 gap-x-12 text-21 leading-27">
-              <ul className="col-span-8 sm:col-span-4">
+            <div className="col-span-12 overflow-grid lg:col-span-6 grid sm:grid-cols-8 gap-x-12 text-21 leading-27">
+              <ul className="sm:col-span-4">
                 <li>
                   11o – <span className="italic">Copenhagen</span>
                 </li>
@@ -124,7 +124,7 @@ export default function SelectedStores({ order, action, isActive }) {
                   Not Just A Library – <span className="italic">Taipei</span>
                 </li>
               </ul>
-              <ul className="col-span-8 sm:col-span-4">
+              <ul className="sm:col-span-4">
                 <li>
                   Ofr – <span className="italic">Paris</span>
                 </li>
