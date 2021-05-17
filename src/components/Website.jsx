@@ -16,7 +16,7 @@ export default function Website() {
               href="https://amagazinecuratedby.com"
               target="_blank"
               rel="noopener noreferrer"
-              className="italic"
+              className="italic transition-opacity opacity-100 hover:opacity-75"
             >
               www.amagazinecuratedby.com
             </a>{" "}

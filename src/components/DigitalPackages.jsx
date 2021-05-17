@@ -104,7 +104,7 @@ export default function DigitalPackages({ order, action, isActive }) {
                   All advertising enquiries to{" "}
                   <a
                     href="mailto:advertising@amagazinecuratedby.com"
-                    className="italic"
+                    className="italic transition-opacity opacity-100 hover:opacity-75"
                   >
                     advertising@amagazinecuratedby.com
                   </a>
@@ -176,7 +176,7 @@ export default function DigitalPackages({ order, action, isActive }) {
                   All advertising enquiries to{" "}
                   <a
                     href="mailto:advertising@amagazinecuratedby.com"
-                    className="italic"
+                    className="italic transition-opacity opacity-100 hover:opacity-75"
                   >
                     advertising@amagazinecuratedby.com
                   </a>

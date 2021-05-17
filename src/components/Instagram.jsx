@@ -16,7 +16,7 @@ export default function Instagram() {
               href="https://www.instagram.com/amagazinecuratedby"
               target="_blank"
               rel="noopener noreferrer"
-              className="italic"
+              className="italic transition-opacity opacity-100 hover:opacity-75"
             >
               @amagazinecuratedby
             </a>

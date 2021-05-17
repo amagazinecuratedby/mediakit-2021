@@ -54,7 +54,11 @@ export default function Team({ order, action, isActive }) {
                     <span className="text-21">
                       +33 (0)6 01 15 45 57
                       <br />
-                      <a href="mailto:dan@amagazinecuratedby.com">
+                      <a
+                        href="mailto:dan@amagazinecuratedby.com"
+                        rel="noreferrer"
+                        className="transition-opacity opacity-100 hover:opacity-75"
+                      >
                         dan(at)amagazinecuratedby.com
                       </a>
                     </span>
@@ -68,7 +72,11 @@ export default function Team({ order, action, isActive }) {
                     <span className="text-21">
                       +33 (0)6 87 34 39 35
                       <br />
-                      <a href="mailto:therese@amagazinecuratedby.com">
+                      <a
+                        href="mailto:therese@amagazinecuratedby.com"
+                        rel="noreferrer"
+                        className="transition-opacity opacity-100 hover:opacity-75"
+                      >
                         therese(at)amagazinecuratedby.com
                       </a>
                     </span>
@@ -101,7 +109,8 @@ export default function Team({ order, action, isActive }) {
                   <a
                     href="https://www.instagram.com/amagazinecuratedby"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noreferrer"
+                    className="transition-opacity opacity-100 hover:opacity-75"
                   >
                     @amagazinecuratedby
                   </a>
@@ -110,7 +119,8 @@ export default function Team({ order, action, isActive }) {
                   <a
                     href="https://amagazinecuratedby.com"
                     target="_blank"
-                    rel="noopener noreferrer"
+                    rel="noreferrer"
+                    className="transition-opacity opacity-100 hover:opacity-75"
                   >
                     www.amagazinecuratedby.com
                   </a>
