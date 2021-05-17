@@ -116,7 +116,7 @@ h1:after {
   }
 
   .flex-list-50 li > span:first-child {
-    @apply pr-21;
+    padding-right: 3.2rem;
   }
 
   @screen sm {

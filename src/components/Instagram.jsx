@@ -51,7 +51,7 @@ export default function Instagram() {
         <div className="col-span-12 2md:col-span-6">
           <ul className="flex-list-30">
             <li className="mb-20 md:mb-30">
-              ANNUAL SOCIAL MEDIA PLATFORMS GROWTH <span>20% per annum</span>
+              INSTAGRAM AUDIENCE GROWTH <span>20% per annum</span>
             </li>
             <li>DATA PER MONTH</li>
             <li>

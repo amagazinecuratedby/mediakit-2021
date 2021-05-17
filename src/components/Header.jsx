@@ -10,18 +10,24 @@ export default function Header() {
           A MAGAZINE <span className="italic normal-case">Media Kit 2021</span>
         </h1>
         <p className="col-span-8 w-full text-right hidden invisible 3md:block 3md:visible">
+          Visit{" "}
           <a
             href="https://amagazinecuratedby.com/"
             target="_blank"
             rel="noopener noreferrer"
+            className="underline hover:no-underline"
           >
-            Go on our website
+            amagazinecuratedby.com
           </a>
           <span className="inline-block mx-8">|</span>
-          For any enquiries, don't hesitate to{" "}
-          <a href="#" rel="noopener" className="underline hover:no-underline">
-            contact us
-          </a>
+          <a
+            href="mailto:info@amagazinecuratedby.com"
+            rel="noopener"
+            className="underline hover:no-underline"
+          >
+            Contact
+          </a>{" "}
+          our team
         </p>
         <p className="col-span-3 w-full flex justify-end items-baseline 3md:hidden 3md:invisible">
           <a

@@ -245,299 +245,411 @@ export default function AMagazineHistory({ order, action, isActive }) {
                 </p>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2004
-                  </figcaption>
-                  <img src="01.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#1
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Maison Martin Margiela
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/martin-margiela/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2004
+                    </figcaption>
+                    <img src="01.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#1
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Maison Martin Margiela
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2005
-                  </figcaption>
-                  <img src="02.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#2
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Yohji Yamamoto
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/yohji-yamamoto/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2005
+                    </figcaption>
+                    <img src="02.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#2
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Yohji Yamamoto
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2005
-                  </figcaption>
-                  <img src="03.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#3
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Haider Ackermann
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/haider-ackermann/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2005
+                    </figcaption>
+                    <img src="03.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#3
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Haider Ackermann
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2006
-                  </figcaption>
-                  <img src="04.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#4
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Jun Takahashi
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/jun-takahashi/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2006
+                    </figcaption>
+                    <img src="04.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#4
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Jun Takahashi
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2007
-                  </figcaption>
-                  <img src="05.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#5
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Martine Sitbon
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/martine-sitbon/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2007
+                    </figcaption>
+                    <img src="05.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#5
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Martine Sitbon
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2007
-                  </figcaption>
-                  <img src="06.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#6
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Veronique Branquinho
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/veronique-branquinho/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2007
+                    </figcaption>
+                    <img src="06.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#6
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Veronique Branquinho
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2008
-                  </figcaption>
-                  <img src="07.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#7
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Kris Van Assche
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/kris-van-assche/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2008
+                    </figcaption>
+                    <img src="07.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#7
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Kris Van Assche
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2008
-                  </figcaption>
-                  <img src="08.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#8
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Riccardo Tisci
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/riccardo-tisci/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2008
+                    </figcaption>
+                    <img src="08.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#8
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Riccardo Tisci
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2009
-                  </figcaption>
-                  <img src="09.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#9
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Proenza Schouler
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/proenza-schouler/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2009
+                    </figcaption>
+                    <img src="09.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#9
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Proenza Schouler
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2010
-                  </figcaption>
-                  <img src="10.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#10
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Giambattista Valli
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/giambattista-valli/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2010
+                    </figcaption>
+                    <img src="10.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#10
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Giambattista Valli
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2011
-                  </figcaption>
-                  <img src="11.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#11
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Rodarte
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/rodarte/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2011
+                    </figcaption>
+                    <img src="11.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#11
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Rodarte
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2013
-                  </figcaption>
-                  <img src="12.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#12
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Stephen Jones
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/issue-3/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2013
+                    </figcaption>
+                    <img src="12.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#12
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Stephen Jones
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2014
-                  </figcaption>
-                  <img src="13.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#13
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Iris Van Herpen
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/iris-van-herpen/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2014
+                    </figcaption>
+                    <img src="13.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#13
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Iris Van Herpen
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2015
-                  </figcaption>
-                  <img src="14.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#14
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Delfina Delettrez
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/delfina-delettrez/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2015
+                    </figcaption>
+                    <img src="14.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#14
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Delfina Delettrez
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2016
-                  </figcaption>
-                  <img src="15.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#15
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Thom Browne
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/thom-browne/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2016
+                    </figcaption>
+                    <img src="15.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#15
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Thom Browne
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2016
-                  </figcaption>
-                  <img src="16.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#16
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Alessandro Michele
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/alessandro-michele/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2016
+                    </figcaption>
+                    <img src="16.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#16
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Alessandro Michele
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
                 <a
                   href="https://amagazinecuratedby.com/collection/eckhaus-latta/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
                     <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
@@ -558,94 +670,129 @@ export default function AMagazineHistory({ order, action, isActive }) {
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2018
-                  </figcaption>
-                  <img src="18.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#18
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Simone Rocha
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/simone-rocha/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2018
+                    </figcaption>
+                    <img src="18.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#18
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Simone Rocha
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2019
-                  </figcaption>
-                  <img src="19.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#19
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Kim Jones
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/kim-jones/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2019
+                    </figcaption>
+                    <img src="19.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#19
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Kim Jones
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2019
-                  </figcaption>
-                  <img src="20.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#20
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Pierpaolo Piccioli
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/pierpaolo-piccioli/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2019
+                    </figcaption>
+                    <img src="20.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#20
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Pierpaolo Piccioli
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2020
-                  </figcaption>
-                  <img src="21.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#21
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Lucie and Luke Meier
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/lucie-and-luke-meier/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2020
+                    </figcaption>
+                    <img src="21.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#21
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Lucie and Luke Meier
+                    </span>
+                  </p>
+                </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
-                <figure className="relative">
-                  <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                    2021 Limited Edition Reprint
-                  </figcaption>
-                  <img src="22.jpg" className="max-w-full w-full" />
-                </figure>
-                <p className="pt-8 relative">
-                  <span className="inline-block absolute -left-10 transform -translate-x-full">
-                    A#1
-                  </span>
-                  <span className="font-serif">
-                    A MAGAZINE <span className="italic">curated by</span>
-                    <br />
-                    Maison Martin Margiela
-                  </span>
-                </p>
+                <a
+                  href="https://amagazinecuratedby.com/collection/martin-margiela/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
+                      2021 Limited Edition Reprint
+                    </figcaption>
+                    <img src="22.jpg" className="max-w-full w-full" />
+                  </figure>
+                  <p className="pt-8 relative">
+                    <span className="inline-block absolute -left-10 transform -translate-x-full">
+                      A#1
+                    </span>
+                    <span className="font-serif">
+                      A MAGAZINE <span className="italic">curated by</span>
+                      <br />
+                      Maison Martin Margiela
+                    </span>
+                  </p>
+                </a>
               </div>
             </div>
           </Section>
