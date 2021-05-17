@@ -96,11 +96,11 @@ export default function DigitalPackages({ order, action, isActive }) {
                   Rediffusion and social media promotion of Brand partner’s
                   provided visual assets with A MAGAZINE tone-of-voice.
                 </p>
-                <p className="text-20 leading-27 mt-auto mb-20 md:mb-30">
+                <p className="text-20 leading-27 mt-auto mb-20 md:mb-30 hidden invisible 2md:block 2md:visible">
                   Seasonal timing / posting dates to be defined in consultation
                   with the Brand partner.
                 </p>
-                <p className="text-20 leading-27">
+                <p className="text-20 leading-27 hidden invisible 2md:block 2md:visible">
                   All advertising enquiries to{" "}
                   <a
                     href="mailto:advertising@amagazinecuratedby.com"
@@ -117,7 +117,7 @@ export default function DigitalPackages({ order, action, isActive }) {
                 </p>
                 <p className="italic mb-20 md:mb-30">
                   Brand partner’s visual assets accompanied by short text or
-                  long-form article written by A Magazine team or contributing
+                  long-form article written by A MAGAZINE team or contributing
                   editor.
                 </p>
                 <ul className="flex-list-fixed">
@@ -168,6 +168,19 @@ export default function DigitalPackages({ order, action, isActive }) {
                     / video
                   </li>
                 </ul>
+                <p className="text-20 leading-27 mt-60 mb-20 md:mb-30 2md:hidden 2md:invisible">
+                  Seasonal timing / posting dates to be defined in consultation
+                  with the Brand partner.
+                </p>
+                <p className="text-20 leading-27 2md:hidden 2md:invisible">
+                  All advertising enquiries to{" "}
+                  <a
+                    href="mailto:advertising@amagazinecuratedby.com"
+                    className="italic"
+                  >
+                    advertising@amagazinecuratedby.com
+                  </a>
+                </p>
               </div>
             </div>
           </Section>

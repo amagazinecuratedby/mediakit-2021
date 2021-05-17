@@ -99,11 +99,11 @@ export default function PrintDigital({ order, action, isActive }) {
                   Each print media placement rate includes the following digital
                   integration.
                 </p>
-                <p className="text-20 leading-27 mt-auto mb-20 md:mb-30">
+                <p className="text-20 leading-27 mt-auto mb-20 md:mb-30 hidden invisible 2md:block 2md:visible">
                   Seasonal timing / posting dates to be defined in consultation
                   with the Brand partner.
                 </p>
-                <p className="text-20 leading-27">
+                <p className="text-20 leading-27 hidden invisible 2md:block 2md:visible">
                   All advertising enquiries to{" "}
                   <a
                     href="mailto:advertising@amagazinecuratedby.com"
@@ -144,6 +144,19 @@ export default function PrintDigital({ order, action, isActive }) {
                     / video
                   </li>
                 </ul>
+                <p className="text-20 leading-27 mt-60 mb-20 md:mb-30 2md:hidden 2md:invisible">
+                  Seasonal timing / posting dates to be defined in consultation
+                  with the Brand partner.
+                </p>
+                <p className="text-20 leading-27 2md:hidden 2md:invisible">
+                  All advertising enquiries to{" "}
+                  <a
+                    href="mailto:advertising@amagazinecuratedby.com"
+                    className="italic"
+                  >
+                    advertising@amagazinecuratedby.com
+                  </a>
+                </p>
               </div>
             </div>
           </Section>
