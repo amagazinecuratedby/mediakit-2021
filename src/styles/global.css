@@ -190,5 +190,15 @@ h1:after {
       grid-flow-col;
       grid-template-columns: repeat(2, minmax(300px, 1fr));
     }
+
+    .overflow-grid-4 {
+      grid-template-columns: repeat(4, minmax(300px, 1fr));
+    }
+  }
+
+  @screen maxXxs {
+    .overflow-grid {
+      grid-template-columns: repeat(2, minmax(265px, 1fr));
+    }
   }
 }

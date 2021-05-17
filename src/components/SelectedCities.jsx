@@ -9,8 +9,8 @@ export default function SelectedCities() {
           A MAGAZINE <span className="italic">selected cities</span>
         </p>
       </div>
-      <Section className="col-span-12 xl:col-span-9 gap-y-20 md:gap-y-30">
-        <div className="col-span-12 sm:col-span-6 lg2:col-span-3 grid grid-cols-8">
+      <Section className="col-span-12 overflow-grid overflow-grid-4 xl:col-span-9 gap-y-20 md:gap-y-30">
+        <div className="col-span-1 sm:col-span-6 lg2:col-span-3 grid grid-cols-8">
           <p className="italic uppercase col-span-8 mb-25">
             North &amp; South America
           </p>
@@ -37,7 +37,7 @@ export default function SelectedCities() {
             <li>Vancouver </li>
           </ul>
         </div>
-        <div className="col-span-12 sm:col-span-6 lg2:col-span-3 grid grid-cols-8">
+        <div className="col-span-1 sm:col-span-6 lg2:col-span-3 grid grid-cols-8">
           <p className="italic uppercase col-span-8 mb-25">
             Asia &amp; Oceania
           </p>
@@ -64,11 +64,11 @@ export default function SelectedCities() {
             <li>Sydney</li>
           </ul>
         </div>
-        <div className="col-span-12 lg2:col-span-6 grid grid-cols-8">
+        <div className="col-span-2 sm:col-span-12 lg2:col-span-6 grid grid-cols-8">
           <p className="italic uppercase col-span-8 mb-25">
             Europe &amp; Africa
           </p>
-          <ul className="col-span-4 sm:col-span-2 text-21 leading-27">
+          <ul className="col-span-2 sm:col-span-2 text-21 leading-27">
             <li>Amsterdam</li>
             <li>Antwerp</li>
             <li>Athens</li>
@@ -79,7 +79,7 @@ export default function SelectedCities() {
             <li>Bucharest</li>
             <li>Cape Town</li>
           </ul>
-          <ul className="col-span-4 order-2 sm:order-1 sm:col-span-2 text-21 leading-27">
+          <ul className="col-span-2 order-2 sm:order-1 sm:col-span-2 text-21 leading-27">
             <li>Copenhagen</li>
             <li>Dusseldorf</li>
             <li>Florence</li>
@@ -90,7 +90,7 @@ export default function SelectedCities() {
             <li>London</li>
             <li>Madrid</li>
           </ul>
-          <ul className="col-span-4 order-1 sm:order-2 sm:col-span-2 text-21 leading-27">
+          <ul className="col-span-2 order-1 sm:order-2 sm:col-span-2 text-21 leading-27">
             <li>Malmö</li>
             <li>Manchester</li>
             <li>Marseille</li>
@@ -101,7 +101,7 @@ export default function SelectedCities() {
             <li>Oslo</li>
             <li>Paris</li>
           </ul>
-          <ul className="order-3 col-span-4 sm:col-span-2 text-21 leading-27">
+          <ul className="col-span-2 order-3 sm:col-span-2 text-21 leading-27">
             <li>Porto</li>
             <li>Rome</li>
             <li>St. Petersburg</li>
