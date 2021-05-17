@@ -2,7 +2,12 @@ import { AnimatePresence } from "framer-motion"
 import React from "react"
 import Section from "./Section.jsx"
 
-export default function SelectedContributors({ order, action, isActive }) {
+export default function SelectedContributors({
+  order,
+  action,
+  isActive,
+  isPreviousActive,
+}) {
   const [fullBtn, setFullBtn] = React.useState(!isActive)
 
   React.useEffect(() => {
@@ -14,7 +19,11 @@ export default function SelectedContributors({ order, action, isActive }) {
   }, [isActive])
 
   return (
-    <Section className="bg-beige text-red font-serif p-20 md:p-30 pseudo-border-red overflow-hidden gap-y-20 md:gap-y-30">
+    <Section
+      className={`bg-beige text-red font-serif p-20 md:p-30 pseudo-border-red overflow-hidden gap-y-20 md:gap-y-30${
+        isPreviousActive ? " pseudo-border-red--hidden" : ""
+      }`}
+    >
       <div
         className={`${!fullBtn ? "col-span-12 xl:col-span-3" : "col-span-12"}`}
       >
@@ -43,8 +52,8 @@ export default function SelectedContributors({ order, action, isActive }) {
                 invites an elite level of collaborators.
               </p>
             </div>
-            <div className="col-span-12 grid grid-cols-10 gap-x-12 text-18 leading-24">
-              <ul className="col-span-10 sm:col-span-5 md:col-span-3 lg2:col-span-2 flex-list-fixed">
+            <div className="col-span-12 hidden invisible sm:visible sm:grid grid-cols-10 gap-x-12 text-18 leading-24">
+              <ul className="col-span-5 md:col-span-3 lg2:col-span-2 flex-list-fixed">
                 <li>
                   <span className="italic">A -</span>Aaron Siskind
                 </li>
@@ -124,7 +133,7 @@ export default function SelectedContributors({ order, action, isActive }) {
                 </li>
                 <li>
                   <span />
-                  Coco Capitan
+                  Coco Capitán
                 </li>
                 <li>
                   <span />
@@ -135,10 +144,11 @@ export default function SelectedContributors({ order, action, isActive }) {
                   Craig Green
                 </li>
                 <li>
-                  <span className="italic">D -</span>Craig McDean
+                  <span />
+                  Craig McDean
                 </li>
                 <li>
-                  <span />
+                  <span className="italic">D -</span>
                   David Armstrong
                 </li>
                 <li>
@@ -146,7 +156,7 @@ export default function SelectedContributors({ order, action, isActive }) {
                   David Sims
                 </li>
               </ul>
-              <ul className="col-span-10 sm:col-span-5 sm:order-3 md:col-span-3 md:order-4 lg2:col-span-2 lg2:order-2 flex-list-fixed">
+              <ul className="col-span-5 order-3 md:col-span-3 md:order-4 lg2:col-span-2 lg2:order-2 flex-list-fixed">
                 <li>
                   <span className="italic">E -</span>Elle Fanning
                 </li>
@@ -243,7 +253,7 @@ export default function SelectedContributors({ order, action, isActive }) {
                   Julia Hetta
                 </li>
               </ul>
-              <ul className="col-span-10 sm:col-span-5 sm:order-5 md:col-span-3 md:order-2 lg2:col-span-2 lg2:order-3 flex-list-fixed">
+              <ul className="col-span-5 order-5 md:col-span-3 md:order-2 lg2:col-span-2 lg2:order-3 flex-list-fixed">
                 <li>
                   <span />
                   Julianne Moore
@@ -346,7 +356,7 @@ export default function SelectedContributors({ order, action, isActive }) {
                   Mert & Marcus
                 </li>
               </ul>
-              <ul className="col-span-10 sm:col-span-5 sm:order-2 md:col-span-3 md:order-5 lg2:col-span-2 lg2:order-4 flex-list-fixed">
+              <ul className="col-span-5 order-2 md:col-span-3 md:order-5 lg2:col-span-2 lg2:order-4 flex-list-fixed">
                 <li>
                   <span />
                   Michael Bailey-Gates
@@ -448,7 +458,7 @@ export default function SelectedContributors({ order, action, isActive }) {
                   Sarah Moon
                 </li>
               </ul>
-              <ul className="col-span-10 sm:col-span-5 sm:order-4 md:col-span-3 md:order-3 lg2:col-span-2 lg2:order-5 flex-list-fixed">
+              <ul className="col-span-5 order-4 md:col-span-3 md:order-3 lg2:col-span-2 lg2:order-5 flex-list-fixed">
                 <li>
                   <span />
                   Saskia de Brauw
@@ -501,14 +511,15 @@ export default function SelectedContributors({ order, action, isActive }) {
                   Tim Burton
                 </li>
                 <li>
-                  <span />
+                  <span className="italic">V -</span>
                   Valerie Steele
                 </li>
                 <li>
-                  <span className="italic">V -</span>Vivienne Westwood
+                  <span />
+                  Vivienne Westwood
                 </li>
                 <li>
-                  <span />
+                  <span className="italic">W -</span>
                   Walter Van Beirendonck
                 </li>
                 <li>
@@ -539,6 +550,14 @@ export default function SelectedContributors({ order, action, isActive }) {
                 </li>
               </ul>
             </div>
+            <p className="col-span-12 sm:hidden sm:invisible">
+              Annie Leibovitz, Baz Luhrmann, Coco Capitán, David Sims, Eugene
+              Souleiman, Florence Welch, Glen Luchford, Hans Ulricht Obrist,
+              Irving Penn, Joe McKenna, Katerina Jebb, Luca Guadagnino, Marina
+              Abramovic, Nan Goldin, Olivier Theyskens, Paolo Roversi, Rei
+              Kawakubo, Slim Aarons, Tilda Swinton, Vivienne Westwood, Wim
+              Wenders, Yelena Yemchuk, Zaha Hadid
+            </p>
           </Section>
         )}
       </AnimatePresence>

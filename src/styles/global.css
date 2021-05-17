@@ -178,9 +178,21 @@ h1:after {
     transform: translateX(-50%);
   }
 
+  .pseudo-border-red--hidden:before {
+    @apply border-transparent;
+  }
+
   @screen md {
     .pseudo-border-red:before {
       width: calc(100% - 60px);
+    }
+  }
+
+  @screen maxMd {
+    .overflow-grid-27 {
+      @apply overflow-x-scroll
+      grid-flow-col;
+      grid-template-columns: repeat(27, minmax(300px, 1fr));
     }
   }
 

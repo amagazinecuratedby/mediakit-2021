@@ -102,6 +102,7 @@ export default function SectionsGroup() {
         order={3}
         action={bottomLevelHandler}
         isActive={bottomLevel === 3}
+        isPreviousActive={bottomLevel === 2}
       />
       <Section
         className={`text-black font-serif px-20 pt-25 md:px-30 md:pt-35 gap-y-20 md:gap-y-30 overflow-hidden ${

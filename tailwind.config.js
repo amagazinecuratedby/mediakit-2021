@@ -15,6 +15,7 @@ module.exports = {
       "3xl": "1675px",
       maxXxs: { max: "330px" },
       maxSm: { max: "639px" },
+      maxMd: { max: "767px" },
     },
     extend: {
       colors: {

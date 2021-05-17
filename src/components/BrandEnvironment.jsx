@@ -34,8 +34,8 @@ export default function BrandEnvironment({ order, action, isActive }) {
             isActive={isActive}
             className="col-span-12 xl:col-span-9 pb-21 md:pb-30"
           >
-            <div className="col-span-12 grid grid-cols-12 gap-x-16 uppercase">
-              <ul className="order-0 col-span-12 sm:col-span-6 3md:col-span-3">
+            <div className="col-span-12 hidden invisible sm:grid sm:visible grid-cols-12 gap-x-16 uppercase">
+              <ul className="order-0 col-span-6 3md:col-span-3">
                 <li>Absolut</li>
                 <li>BDDW</li>
                 <li>Balenciaga</li>
@@ -52,7 +52,7 @@ export default function BrandEnvironment({ order, action, isActive }) {
                 <li>Cointreau</li>
                 <li>Colette</li>
               </ul>
-              <ul className="order-2 col-span-12 sm:col-span-6 3md:order-1 3md:col-span-3">
+              <ul className="order-2 col-span-6 3md:order-1 3md:col-span-3">
                 <li>Comme Des Garçons</li>
                 <li>Delvaux</li>
                 <li>Diesel</li>
@@ -69,7 +69,7 @@ export default function BrandEnvironment({ order, action, isActive }) {
                 <li>Longchamp</li>
                 <li>Louis Vuitton</li>
               </ul>
-              <ul className="order-1 col-span-12 sm:col-span-6 3md:order-2 3md:col-span-3">
+              <ul className="order-1 col-span-6 3md:order-2 3md:col-span-3">
                 <li>L’Oréal</li>
                 <li>MSGM</li>
                 <li>Marc Jacobs</li>
@@ -86,7 +86,7 @@ export default function BrandEnvironment({ order, action, isActive }) {
                 <li>Piper Heidsieck</li>
                 <li>Prada</li>
               </ul>
-              <ul className="order-3 col-span-12 sm:col-span-6 3md:order-0 3md:col-span-3">
+              <ul className="order-3 col-span-6 3md:order-0 3md:col-span-3">
                 <li>Repossi</li>
                 <li>Rimowa</li>
                 <li>Roberto Cavalli</li>
@@ -103,6 +103,11 @@ export default function BrandEnvironment({ order, action, isActive }) {
                 <li>Y-3</li>
               </ul>
             </div>
+            <p className="col-span-12 sm:hidden sm:invisible">
+              BALENCIAGA, BIRKENSTOCK, BOTTEGA VENETA, CHANEL, CHLOÉ, CHRISTIAN
+              DIOR, GIVENCHY, GUCCI, FENDI, HERMÈS, JIL SANDER, MONCLER,
+              VALENTINO
+            </p>
           </Section>
         )}
       </AnimatePresence>
