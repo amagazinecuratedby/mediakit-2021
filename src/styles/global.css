@@ -164,25 +164,29 @@ h1:after {
     @apply relative;
   }
 
+  .pseudo-border-red--both:after,
   .pseudo-border-red:before {
     content: "";
     @apply block
     border-t
     border-red
-    absolute
-    top-0;
+    absolute;
     width: calc(100% - 48px);
     height: 0;
-    position: absolute;
     left: 50%;
     transform: translateX(-50%);
   }
 
-  .pseudo-border-red--hidden:before {
-    @apply border-transparent;
+  .pseudo-border-red:before {
+    @apply top-0;
+  }
+
+  .pseudo-border-red--both:after {
+    @apply bottom-0;
   }
 
   @screen md {
+    .pseudo-border-red--both:after,
     .pseudo-border-red:before {
       width: calc(100% - 60px);
     }

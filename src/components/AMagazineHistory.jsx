@@ -15,8 +15,10 @@ export default function AMagazineHistory({ order, action, isActive }) {
 
   return (
     <Section
-      className={`font-serif p-20 md:p-30 pseudo-border-red gap-y-20 md:gap-y-30 overflow-hidden${
-        isActive ? " bg-red text-beige" : " bg-beige text-red"
+      className={`font-serif p-20 md:p-30 pseudo-border-red pseudo-border-red--both gap-y-20 md:gap-y-30 overflow-hidden${
+        isActive
+          ? " bg-red text-beige"
+          : " bg-beige text-red hover:bg-red hover:text-beige"
       }`}
     >
       <div

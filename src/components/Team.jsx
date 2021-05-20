@@ -16,7 +16,7 @@ export default function Team({ order, action, isActive }) {
   return (
     <Section
       className={`text-black font-serif px-20 md:px-30 pt-25 md:pt-35 overflow-hidden${
-        isActive ? " bg-greyTeal" : " bg-white"
+        isActive ? " bg-greyTeal" : " bg-white hover:bg-greyTeal"
       }`}
     >
       <div

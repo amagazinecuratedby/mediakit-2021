@@ -102,11 +102,10 @@ export default function SectionsGroup() {
         order={3}
         action={bottomLevelHandler}
         isActive={bottomLevel === 3}
-        isPreviousActive={bottomLevel === 2}
       />
       <Section
         className={`text-black font-serif px-20 pt-25 md:px-30 md:pt-35 gap-y-20 md:gap-y-30 overflow-hidden ${
-          topLevel === 1 ? " bg-greyTeal" : " bg-white"
+          topLevel === 1 ? " bg-greyTeal" : " bg-white hover:bg-greyTeal"
         }`}
       >
         <div className="col-span-12 font-sans pb-25 md:pb-35">
@@ -215,7 +214,7 @@ export default function SectionsGroup() {
       </Section>
       <Section
         className={`text-black font-serif px-20 pt-25 md:px-30 md:pt-35 overflow-hidden ${
-          topLevel === 2 ? " bg-greyTeal" : " bg-white"
+          topLevel === 2 ? " bg-greyTeal" : " bg-white hover:bg-greyTeal"
         }`}
       >
         <div className="col-span-12 font-sans pb-25 md:pb-35">
@@ -243,7 +242,9 @@ export default function SectionsGroup() {
       </Section>
       <Section
         className={`font-serif px-20 md:px-30 pt-25 md:pt-35 overflow-hidden${
-          topLevel === 3 ? " bg-dark text-beige" : " bg-white text-black"
+          topLevel === 3
+            ? " bg-dark text-beige"
+            : " bg-white text-black hover:bg-dark hover:text-beige"
         }`}
       >
         <div className="col-span-12 font-sans pb-25 md:pb-35">

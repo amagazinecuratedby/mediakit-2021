@@ -2,12 +2,7 @@ import { AnimatePresence } from "framer-motion"
 import React from "react"
 import Section from "./Section.jsx"
 
-export default function SelectedContributors({
-  order,
-  action,
-  isActive,
-  isPreviousActive,
-}) {
+export default function SelectedContributors({ order, action, isActive }) {
   const [fullBtn, setFullBtn] = React.useState(!isActive)
 
   React.useEffect(() => {
@@ -19,11 +14,7 @@ export default function SelectedContributors({
   }, [isActive])
 
   return (
-    <Section
-      className={`bg-beige text-red font-serif p-20 md:p-30 pseudo-border-red overflow-hidden gap-y-20 md:gap-y-30${
-        isPreviousActive ? " pseudo-border-red--hidden" : ""
-      }`}
-    >
+    <Section className="bg-beige text-red font-serif p-20 md:p-30 overflow-hidden gap-y-20 md:gap-y-30">
       <div
         className={`${!fullBtn ? "col-span-12 xl:col-span-3" : "col-span-12"}`}
       >
