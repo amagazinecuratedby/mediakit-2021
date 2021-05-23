@@ -27,7 +27,13 @@
 
 @layer base {
   html {
-    font-size: 13px;
+    font-size: 12px;
+  }
+
+  @screen xl {
+    html {
+      font-size: 14px;
+    }
   }
 
   body {
@@ -107,6 +113,10 @@ h1:after {
     mb-20 md:mb-30;
   }
 
+  .flex-list-50.team {
+    @apply mb-30;
+  }
+
   .flex-list-50 li:last-child {
     @apply mb-0;
   }
@@ -117,6 +127,12 @@ h1:after {
 
   .flex-list-50 li > span:first-child {
     padding-right: 3.2rem;
+  }
+
+  @screen xs {
+    .flex-list-50.team li {
+      @apply flex-row;
+    }
   }
 
   @screen sm {
@@ -130,13 +146,17 @@ h1:after {
       max-width: 90%;
     }
 
-    .flex-list-50 li {
+    .flex-list-50:not(.team) li {
       @apply flex-col;
+    }
+
+    .flex-list-50.team {
+      @apply mb-0;
     }
   }
 
   @screen xl {
-    .flex-list-50 li {
+    .flex-list-50:not(.team) li {
       @apply flex-row;
     }
   }
@@ -147,7 +167,7 @@ h1:after {
   }
 
   .flex-list-fixed li span {
-    flex: 0 0 32px;
+    flex: 0 0 23px;
   }
 
   .flex-list-30 li {

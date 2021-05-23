@@ -32,7 +32,7 @@ export default function SelectedStores({ order, action, isActive }) {
             accordion
             motionKey={`bottomLvl${order}`}
             isActive={isActive}
-            className="col-span-12 xl:col-span-9 gap-y-20 md:gap-y-30"
+            className="col-span-12 xl:col-span-9 gap-y-20 md:gap-y-30 pb-21 md:pb-30"
           >
             <div className="col-span-12 lg:col-span-6">
               <p className="mb-25">

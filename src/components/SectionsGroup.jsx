@@ -111,7 +111,7 @@ export default function SectionsGroup() {
         <div className="col-span-12 font-sans pb-25 md:pb-35">
           <button
             type="button"
-            className="uppercase text-18 w-full"
+            className="uppercase text-24 w-full"
             onClick={(e) => topLevelHandler(e, 1)}
           >
             II. Audience &amp; Distribution
@@ -140,7 +140,7 @@ export default function SectionsGroup() {
                 />
               </div>
               <div className="col-span-12 2md:col-span-5 2md:pl-1/10">
-                <ul className="flex-list-50 mb-20 md:mb-30">
+                <ul className="flex-list-50 mb-30 md:mb-48">
                   <li>
                     <span className="uppercase">Frequency</span>
                     <span>Biannual</span>
@@ -197,16 +197,21 @@ export default function SectionsGroup() {
                   <li>Twelve Books</li>
                 </ul>
               </div>
-              <SelectedCities />
-              <SelectedStores
+              <OurAudience
                 order={5}
                 action={bottomLevelHandler}
-                isActive={bottomLevel === 5}
+                // isActive={bottomLevel === 5}
+                isActive={true}
               />
-              <OurAudience
+              <SelectedCities
                 order={6}
                 action={bottomLevelHandler}
                 isActive={bottomLevel === 6}
+              />
+              <SelectedStores
+                order={7}
+                action={bottomLevelHandler}
+                isActive={bottomLevel === 7}
               />
             </Section>
           )}
@@ -220,7 +225,7 @@ export default function SectionsGroup() {
         <div className="col-span-12 font-sans pb-25 md:pb-35">
           <button
             type="button"
-            className="uppercase text-18 w-full"
+            className="uppercase text-24 w-full"
             onClick={(e) => topLevelHandler(e, 2)}
           >
             III. Website &amp; Social Media
@@ -250,7 +255,7 @@ export default function SectionsGroup() {
         <div className="col-span-12 font-sans pb-25 md:pb-35">
           <button
             type="button"
-            className="uppercase text-18 w-full"
+            className="uppercase text-24 w-full"
             onClick={(e) => topLevelHandler(e, 3)}
           >
             IV. Media Placement Rates

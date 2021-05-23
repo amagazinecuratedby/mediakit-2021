@@ -35,7 +35,7 @@ export default function AboutAPublisher({ order, action, isActive }) {
             className="col-span-12 xl:col-span-9 gap-y-20 md:gap-y-30"
           >
             <div className="col-span-12 3md:col-span-6">
-              <p>
+              <p className="mb-42">
                 Today A PUBLISHER has expanded beyond producing the print title
                 A MAGAZINE <span className="italic">curated by</span> to include
                 the creation of custom editorial content, exhibitions, events,
@@ -46,7 +46,7 @@ export default function AboutAPublisher({ order, action, isActive }) {
               <p className="mb-20">
                 A MAGAZINE <span className="italic">curated by</span>
               </p>
-              <p className="mb-42 indent">
+              <p className="mb-20 md:mb-42 indent">
                 A dedicated print magazine guest edited by an independent
                 fashion designer or the creative director of a fashion house.
                 Entirely unique yet immediately recognisable with our signature
@@ -57,7 +57,7 @@ export default function AboutAPublisher({ order, action, isActive }) {
               <p className="mb-20 ">
                 A PROJECT <span className="italic">curated by</span>
               </p>
-              <p className="mb-42 indent">
+              <p className="mb-20 md:mb-42 indent">
                 A thematic editorial project developed in total collaboration
                 with a brand or house focusing on a specific topic. The format
                 of (subject)
@@ -70,7 +70,7 @@ export default function AboutAPublisher({ order, action, isActive }) {
               <p className="mb-20">
                 CONTENT <span className="italic">curated for</span>
               </p>
-              <p className="mb-42 indent">
+              <p className="mb-20 md:mb-42 indent">
                 Endless possibilities, for the here & now. Custom editorial and
                 advertorial content, copywriting services and creative
                 consulting for print and digital projects from the A MAGAZINE{" "}

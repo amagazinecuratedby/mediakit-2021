@@ -9,7 +9,7 @@ import axios from "axios"
 
 export default function Index() {
   const [isAuth, setIsAuth] = React.useState(
-    process.env.NODE_ENV !== "production"
+    process.env.NODE_ENV === "production"
   )
   const [authError, setAuthError] = React.useState(false)
 
@@ -48,7 +48,7 @@ export default function Index() {
         <meta name="language" content="en" />
       </Helmet>
       <Header />
-      {process.env.NODE_ENV === "production" && (
+      {process.env.NODE_ENV !== "production" && (
         <AnimatePresence initial={false}>
           {!isAuth && <AuthScreen action={auth} authError={authError} />}
         </AnimatePresence>

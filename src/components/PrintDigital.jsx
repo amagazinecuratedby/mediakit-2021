@@ -41,7 +41,7 @@ export default function PrintDigital({ order, action, isActive }) {
                   insertions are accompanied by a complimentary digital
                   integration and sponsored promotion.
                 </p>
-                <ul className="text-20 leading-27 mt-auto">
+                <ul className="text-20 leading-27 mt-auto hidden invisible 2md:block 2md:visible">
                   <li>* SP: Single Page</li>
                   <li>* DPS: Double Page Spread</li>
                   <li>* OBC: Outside Back Cover</li>
@@ -91,15 +91,22 @@ export default function PrintDigital({ order, action, isActive }) {
                     <span className="italic ml-auto flex-0-auto">€ 6,000</span>
                   </li>
                 </ul>
+                <ul className="text-20 leading-27 mt-20 2md:hidden 2md:invisible">
+                  <li>* SP: Single Page</li>
+                  <li>* DPS: Double Page Spread</li>
+                  <li>* OBC: Outside Back Cover</li>
+                  <li>* IFC: Inside Front Cover</li>
+                  <li>* IBC: Inside Back Cover</li>
+                </ul>
               </div>
             </div>
             <div className="col-span-12 grid grid-cols-12 gap-x-16 border-t border-beige pt-21 md:pt-30 gap-y-20">
               <div className="col-span-12 2md:col-span-5 xl:col-span-6 flex flex-col">
-                <p className="mb-20 md:mb-30">
+                <p className="mb-20 md:mb-30 hidden invisible 2md:block 2md:visible">
                   Each print media placement rate includes the following digital
                   integration.
                 </p>
-                <p className="text-20 leading-27 mt-auto mb-20 md:mb-30 hidden invisible 2md:block 2md:visible">
+                <p className="text-20 leading-27 mt-auto hidden invisible 2md:block 2md:visible">
                   Seasonal timing / posting dates to be defined in consultation
                   with the Brand partner.
                 </p>
@@ -114,25 +121,33 @@ export default function PrintDigital({ order, action, isActive }) {
                 </p>
               </div>
               <div className="col-span-12 2md:col-span-7 xl:col-span-6">
-                <p className="uppercase">
+                <p className="2md:mb-30 w-full flex">
                   VALUE-ADDED DIGITAL INTEGRATION EDITORIAL CONTENT
-                  <span className="italic">incl.</span>
+                  <span className="ml-auto flex-0-auto italic">incl.</span>
+                </p>
+                <p className="mb-20 md:mb-30 2md:hidden 2md:invisible">
+                  Each print media placement rate includes the following digital
+                  integration.
                 </p>
                 <p className="italic mb-20 md:mb-30">
                   Brand partner’s visual assets accompanied by short text or
                   long-form article written by A MAGAZINE team or contributing
                   editor.
                 </p>
-                <ul className="flex-list-fixed">
+                <ul>
                   <li className="uppercase">- Website</li>
                   <li className="italic mb-20 md:mb-30">
-                    <span>1 x </span>written article + image/video gallery on
+                    1 x written article + image/video gallery on
                     amagazinecuratedby.com/curatedfor
                   </li>
+                </ul>
+                <ul className="flex-list-fixed">
                   <li className="uppercase">- Social Media</li>
-                  <li className="italic">1 x Instagram Feed Post</li>
                   <li className="italic">
-                    <span>1 x </span>Sponsored Instagram Feed Post
+                    <span>1 x</span>Instagram Feed Post
+                  </li>
+                  <li className="italic">
+                    <span>1 x</span>Sponsored Instagram Feed Post
                     <br />
                     Minimum 100,000 impressions reach,
                     <br />
@@ -140,8 +155,8 @@ export default function PrintDigital({ order, action, isActive }) {
                     website
                   </li>
                   <li className="italic">
-                    <span>2 x </span>24h Instagram Stories dedication of images
-                    / video
+                    <span>2 x</span>24h Instagram Stories dedication of images /
+                    video
                   </li>
                 </ul>
                 <p className="text-20 leading-27 mt-60 mb-20 md:mb-30 2md:hidden 2md:invisible">

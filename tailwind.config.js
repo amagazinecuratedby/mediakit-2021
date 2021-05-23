@@ -20,13 +20,14 @@ module.exports = {
     extend: {
       colors: {
         beige: "#fefaf1",
-        red: "#af171a",
+        red: "#cc1e20",
         greyTeal: "#f7f7f7",
         dark: "#282828",
         grey: "#adadad",
       },
       maxWidth: {
         345: "21.563rem",
+        480: "31.25rem",
         500: "31.25rem",
         "full-30": "calc(100% - 60px)",
         "55p": "55%",
@@ -59,6 +60,7 @@ module.exports = {
         60: "3.75rem",
         78: "4.875rem",
         84: "5.25rem",
+        "20vh": "20vh",
         "15p": "15%",
         "40p": "40%",
         "1/2": "50%",

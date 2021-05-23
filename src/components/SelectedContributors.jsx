@@ -34,13 +34,20 @@ export default function SelectedContributors({ order, action, isActive }) {
             isActive={isActive}
             className="col-span-12 xl:col-span-9 gap-y-20 md:gap-y-30 mb-20 md:mb-30"
           >
-            <div className="col-span-12 md:col-span-8 mb-20">
-              <p>
+            <div className="col-span-12 md:col-span-8 sm:mb-20">
+              <p className="hidden invisible sm:visible sm:block">
                 As A MAGAZINE <span className="italic">curated by</span>’s guest
                 editor changes every time, so do the magazine’s contributors.
                 From fashion’s most accomplished creatives to art world stars,
                 internationally acclaimed writers and researchers, each issue
                 invites an elite level of collaborators.
+              </p>
+              <p className="sm:invisible sm:hidden">
+                As A MAGAZINE <span className="italic">curated by</span>’s guest
+                editor changes every time, so do the magazine’s contributors.
+                From fashion’s most accomplished creatives to art world stars,
+                internationally acclaimed writers and researchers, each issue
+                invites an elite level of collaborators such as:
               </p>
             </div>
             <div className="col-span-12 hidden invisible sm:visible sm:grid grid-cols-10 gap-x-12 text-18 leading-24">
@@ -547,7 +554,7 @@ export default function SelectedContributors({ order, action, isActive }) {
               Irving Penn, Joe McKenna, Katerina Jebb, Luca Guadagnino, Marina
               Abramovic, Nan Goldin, Olivier Theyskens, Paolo Roversi, Rei
               Kawakubo, Slim Aarons, Tilda Swinton, Vivienne Westwood, Wim
-              Wenders, Yelena Yemchuk, Zaha Hadid
+              Wenders, Yelena Yemchuk, Zaha Hadid...
             </p>
           </Section>
         )}

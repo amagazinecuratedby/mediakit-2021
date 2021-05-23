@@ -56,7 +56,7 @@ export default function DigitalPackages({ order, action, isActive }) {
           >
             <div className="col-span-12 grid grid-cols-12 gap-x-16 gap-y-20">
               <div className="col-span-12 2md:col-span-5 xl:col-span-6">
-                <p>
+                <p className="invisible hidden 2md:visible 2md:block">
                   Photo shoot or video content produced by A PUBLISHER featuring
                   Brand partner’s collection, accessories, products accompanied
                   by short text articles.
@@ -67,16 +67,25 @@ export default function DigitalPackages({ order, action, isActive }) {
                   PRODUCED ADVERTORIAL{" "}
                   <span className="ml-auto flex-0-auto">€ 8,000</span>
                 </p>
-                <ul className="flex-list-fixed">
+                <p className="mb-20 md:mb-30 2md:invisible 2md:hidden">
+                  Photo shoot or video content produced by A PUBLISHER featuring
+                  Brand partner’s collection, accessories, products accompanied
+                  by short text articles.
+                </p>
+                <ul>
                   <li className="uppercase">- Website</li>
                   <li className="italic mb-20 md:mb-30">
-                    <span>1 x </span>written article + image/video gallery on
+                    1 x written article + image/video gallery on
                     amagazinecuratedby.com/curatedfor
                   </li>
+                </ul>
+                <ul className="flex-list-fixed">
                   <li className="uppercase">- Social Media</li>
-                  <li className="italic">3 x Instagram Feed Posts</li>
                   <li className="italic">
-                    <span>1 x </span>Sponsored Instagram Feed Post
+                    <span>3 x</span>Instagram Feed Posts
+                  </li>
+                  <li className="italic">
+                    <span>1 x</span>Sponsored Instagram Feed Post
                     <br />
                     Minimum 200,000 impressions reach,
                     <br />
@@ -84,19 +93,19 @@ export default function DigitalPackages({ order, action, isActive }) {
                     website
                   </li>
                   <li className="italic">
-                    <span>2 x </span>24h Instagram Stories dedication of images
-                    / video
+                    <span>2 x</span>24h Instagram Stories dedication of images /
+                    video
                   </li>
                 </ul>
               </div>
             </div>
             <div className="col-span-12 grid grid-cols-12 gap-x-16 border-t border-beige pt-21 md:pt-30 gap-y-20">
               <div className="col-span-12 2md:col-span-5 xl:col-span-6 flex flex-col">
-                <p className="mb-20 md:mb-30">
+                <p className="mb-20 md:mb-30 hidden invisible 2md:block 2md:visible">
                   Rediffusion and social media promotion of Brand partner’s
                   provided visual assets with A MAGAZINE tone-of-voice.
                 </p>
-                <p className="text-20 leading-27 mt-auto mb-20 md:mb-30 hidden invisible 2md:block 2md:visible">
+                <p className="text-20 leading-27 mt-auto hidden invisible 2md:block 2md:visible">
                   Seasonal timing / posting dates to be defined in consultation
                   with the Brand partner.
                 </p>
@@ -112,6 +121,10 @@ export default function DigitalPackages({ order, action, isActive }) {
               </div>
               <div className="col-span-12 2md:col-span-7 xl:col-span-6">
                 <p className="uppercase mb-20 md:mb-30">Sponsored Editorial</p>
+                <p className="mb-30 2md:hidden 2md:invisible">
+                  Rediffusion and social media promotion of Brand partner’s
+                  provided visual assets with A MAGAZINE tone-of-voice.
+                </p>
                 <p className="border-t border-beige pt-21 md:pt-30 w-full flex">
                   OPTION 1 <span className="ml-auto flex-0-auto">€ 6,000</span>
                 </p>
@@ -120,18 +133,20 @@ export default function DigitalPackages({ order, action, isActive }) {
                   long-form article written by A MAGAZINE team or contributing
                   editor.
                 </p>
-                <ul className="flex-list-fixed">
+                <ul>
                   <li className="uppercase">- Website Article</li>
                   <li className="italic mb-20 md:mb-30">
-                    <span>1 x </span>long-form (600 words +) article +
-                    image/video gallery on amagazinecuratedby.com/curatedfor
+                    1 x long-form (600 words +) article + image/video gallery on
+                    amagazinecuratedby.com/curatedfor
                   </li>
+                </ul>
+                <ul className="flex-list-fixed">
                   <li className="uppercase">- Social Media</li>
                   <li className="italic">
-                    <span>2 x </span>Instagram Feed Posts
+                    <span>2 x</span>Instagram Feed Posts
                   </li>
                   <li className="italic">
-                    <span>1 x </span>Sponsored Instagram Feed Post
+                    <span>1 x</span>Sponsored Instagram Feed Post
                     <br />
                     Minimum 200,000 impressions reach,
                     <br />
@@ -139,8 +154,8 @@ export default function DigitalPackages({ order, action, isActive }) {
                     website
                   </li>
                   <li className="italic">
-                    <span>2 x </span>24h Instagram Stories dedication of images
-                    / video
+                    <span>2 x</span>24h Instagram Stories dedication of images /
+                    video
                   </li>
                 </ul>
                 <p className="border-t border-beige mt-20 md:mt-30 pt-21 md:pt-30 w-full flex">
@@ -153,10 +168,10 @@ export default function DigitalPackages({ order, action, isActive }) {
                 <ul className="flex-list-fixed">
                   <li className="uppercase">- Social Media</li>
                   <li className="italic">
-                    <span>2 x </span>Instagram Feed Posts
+                    <span>2 x</span>Instagram Feed Posts
                   </li>
                   <li className="italic">
-                    <span>1 x </span>Sponsored Instagram Feed Post
+                    <span>1 x</span>Sponsored Instagram Feed Post
                     <br />
                     Minimum 200,000 impressions reach,
                     <br />
@@ -164,8 +179,8 @@ export default function DigitalPackages({ order, action, isActive }) {
                     website
                   </li>
                   <li className="italic">
-                    <span>2 x </span>24h Instagram Stories dedication of images
-                    / video
+                    <span>2 x</span>24h Instagram Stories dedication of images /
+                    video
                   </li>
                 </ul>
                 <p className="text-20 leading-27 mt-60 mb-20 md:mb-30 2md:hidden 2md:invisible">

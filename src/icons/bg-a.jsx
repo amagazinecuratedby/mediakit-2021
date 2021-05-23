@@ -6,7 +6,7 @@ export default function BgA() {
       data-name="Layer 1"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 206.06 233"
-      className="max-w-55p max-h-screen-65 absolute bottom-0 transform -translate-x-15p z-0"
+      className="max-h-screen-65 absolute bottom-0 md:transform md:max-w-55p md:-translate-x-15p z-0"
     >
       <defs />
       <path

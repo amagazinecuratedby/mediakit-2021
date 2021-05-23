@@ -14,7 +14,7 @@ export default function OurAudience({ order, action, isActive }) {
   }, [isActive])
 
   return (
-    <Section className="col-span-12 py-20 md:py-30 border-t border-black gap-y-20 md:gap-y-30 overflow-hidden">
+    <Section className="col-span-12 py-20 md:py-30 mt-20 md:mt-30 border-t border-black gap-y-20 md:gap-y-30 overflow-hidden">
       <div
         className={`${!fullBtn ? "col-span-12 xl:col-span-3" : "col-span-12"}`}
       >
