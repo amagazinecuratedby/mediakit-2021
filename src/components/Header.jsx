@@ -4,7 +4,7 @@ import React from "react"
 
 export default function Header() {
   return (
-    <header className="font-sans uppercase bg-dark text-white text-18 sticky top-0 z-10">
+    <header className="font-sans uppercase bg-black text-white text-18 sticky top-0 z-10">
       <div className="grid grid-cols-12 gap-x-16 py-20 px-20 md:px-30">
         <h1 className="font-serif text-30 leading-30 col-span-9 3md:col-span-4">
           A MAGAZINE{" "}
