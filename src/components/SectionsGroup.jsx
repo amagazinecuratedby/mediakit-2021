@@ -140,7 +140,7 @@ export default function SectionsGroup() {
                 />
               </div>
               <div className="col-span-12 2md:col-span-5 2md:pl-1/10">
-                <ul className="flex-list-50 mb-30 md:mb-48">
+                <ul className="flex-list-50 mb-30 md:mb-48 lg:mb-60">
                   <li>
                     <span className="uppercase">Frequency</span>
                     <span>Biannual</span>
@@ -200,8 +200,7 @@ export default function SectionsGroup() {
               <OurAudience
                 order={5}
                 action={bottomLevelHandler}
-                // isActive={bottomLevel === 5}
-                isActive={true}
+                isActive={bottomLevel === 5}
               />
               <SelectedCities
                 order={6}

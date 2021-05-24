@@ -99,7 +99,7 @@ export default function DigitalPackages({ order, action, isActive }) {
                 </ul>
               </div>
             </div>
-            <div className="col-span-12 grid grid-cols-12 gap-x-16 border-t border-beige pt-21 md:pt-30 gap-y-20">
+            <div className="col-span-12 grid grid-cols-12 gap-x-16 border-t border-beige 2md:pt-30 gap-y-20">
               <div className="col-span-12 2md:col-span-5 xl:col-span-6 flex flex-col">
                 <p className="mb-20 md:mb-30 hidden invisible 2md:block 2md:visible">
                   Rediffusion and social media promotion of Brand partner’s
@@ -120,12 +120,12 @@ export default function DigitalPackages({ order, action, isActive }) {
                 </p>
               </div>
               <div className="col-span-12 2md:col-span-7 xl:col-span-6">
-                <p className="uppercase mb-20 md:mb-30">Sponsored Editorial</p>
+                <p className="uppercase mb-20 2md:mb-30">Sponsored Editorial</p>
                 <p className="mb-30 2md:hidden 2md:invisible">
                   Rediffusion and social media promotion of Brand partner’s
                   provided visual assets with A MAGAZINE tone-of-voice.
                 </p>
-                <p className="border-t border-beige pt-21 md:pt-30 w-full flex">
+                <p className="2md:border-t 2md:border-beige 2md:pt-30 w-full flex">
                   OPTION 1 <span className="ml-auto flex-0-auto">€ 6,000</span>
                 </p>
                 <p className="italic mb-20 md:mb-30">
@@ -158,7 +158,7 @@ export default function DigitalPackages({ order, action, isActive }) {
                     video
                   </li>
                 </ul>
-                <p className="border-t border-beige mt-20 md:mt-30 pt-21 md:pt-30 w-full flex">
+                <p className="2md:border-t 2md:border-beige mt-20 md:mt-30 pt-21 md:pt-30 w-full flex">
                   OPTION 2 <span className="ml-auto flex-0-auto">€ 3,000</span>
                 </p>
                 <p className="italic mb-20 md:mb-30">
@@ -183,7 +183,7 @@ export default function DigitalPackages({ order, action, isActive }) {
                     video
                   </li>
                 </ul>
-                <p className="text-20 leading-27 mt-60 mb-20 md:mb-30 2md:hidden 2md:invisible">
+                <p className="text-20 leading-27 mt-60 mb-20 2md:mb-30 2md:hidden 2md:invisible">
                   Seasonal timing / posting dates to be defined in consultation
                   with the Brand partner.
                 </p>

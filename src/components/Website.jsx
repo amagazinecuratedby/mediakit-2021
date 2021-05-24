@@ -42,8 +42,7 @@ export default function Website() {
           <img
             src="ordinateur.jpg"
             alt="A MAGAZINE curated by website"
-            style={{ maxHeight: "260px" }}
-            className="max-w-full w-auto h-auto"
+            className="max-w-full w-auto h-auto max-h-200 2xl:max-h-260"
           />
         </div>
       </Section>

@@ -33,6 +33,8 @@ module.exports = {
         "55p": "55%",
       },
       maxHeight: {
+        200: "18.182rem",
+        260: "18.571rem",
         345: "21.563rem",
         500: "31.25rem",
         "screen-65": "calc(100vh - 65px)",

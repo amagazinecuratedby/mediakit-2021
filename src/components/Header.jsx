@@ -7,10 +7,7 @@ export default function Header() {
     <header className="font-sans uppercase bg-black text-white text-18 sticky top-0 z-10">
       <div className="grid grid-cols-12 gap-x-16 py-20 px-20 md:px-30">
         <h1 className="font-serif text-30 leading-30 col-span-9 3md:col-span-4">
-          A MAGAZINE{" "}
-          <span className="italic normal-case">
-            Media Kit <i className="hidden xs:inline-block">2021</i>
-          </span>
+          A MAGAZINE <span className="italic normal-case">Media Kit</span>
         </h1>
         <p className="col-span-8 w-full text-right hidden invisible 3md:block 3md:visible">
           Visit{" "}

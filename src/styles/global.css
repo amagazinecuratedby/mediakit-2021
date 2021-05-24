@@ -27,10 +27,10 @@
 
 @layer base {
   html {
-    font-size: 12px;
+    font-size: 11px;
   }
 
-  @screen xl {
+  @screen 2xl {
     html {
       font-size: 14px;
     }

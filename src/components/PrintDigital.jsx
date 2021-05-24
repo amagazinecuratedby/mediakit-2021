@@ -100,7 +100,7 @@ export default function PrintDigital({ order, action, isActive }) {
                 </ul>
               </div>
             </div>
-            <div className="col-span-12 grid grid-cols-12 gap-x-16 border-t border-beige pt-21 md:pt-30 gap-y-20">
+            <div className="col-span-12 grid grid-cols-12 gap-x-16 border-t border-beige 2md:pt-30 gap-y-20">
               <div className="col-span-12 2md:col-span-5 xl:col-span-6 flex flex-col">
                 <p className="mb-20 md:mb-30 hidden invisible 2md:block 2md:visible">
                   Each print media placement rate includes the following digital
@@ -121,8 +121,10 @@ export default function PrintDigital({ order, action, isActive }) {
                 </p>
               </div>
               <div className="col-span-12 2md:col-span-7 xl:col-span-6">
-                <p className="2md:mb-30 w-full flex">
-                  VALUE-ADDED DIGITAL INTEGRATION EDITORIAL CONTENT
+                <p className="w-full flex">
+                  VALUE-ADDED DIGITAL INTEGRATION
+                  <br />
+                  EDITORIAL CONTENT
                   <span className="ml-auto flex-0-auto italic">incl.</span>
                 </p>
                 <p className="mb-20 md:mb-30 2md:hidden 2md:invisible">
@@ -159,7 +161,7 @@ export default function PrintDigital({ order, action, isActive }) {
                     video
                   </li>
                 </ul>
-                <p className="text-20 leading-27 mt-60 mb-20 md:mb-30 2md:hidden 2md:invisible">
+                <p className="text-20 leading-27 mt-60 2md:mb-30 2md:hidden 2md:invisible">
                   Seasonal timing / posting dates to be defined in consultation
                   with the Brand partner.
                 </p>
