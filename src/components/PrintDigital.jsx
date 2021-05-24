@@ -35,7 +35,7 @@ export default function PrintDigital({ order, action, isActive }) {
             className="col-span-12 xl:col-span-9 gap-y-20 md:gap-y-30 pb-20 md:pb-30"
           >
             <div className="col-span-12 grid grid-cols-12 gap-x-16 gap-y-20">
-              <div className="col-span-12 2md:col-span-5 xl:col-span-6 flex flex-col">
+              <div className="col-span-12 2md:col-span-5 xl:col-span-6 flex flex-col order-first 2md:order-last">
                 <p className="mb-20 md:mb-30">
                   For each bi-annual issue of A MAGAZINE, print advertising
                   insertions are accompanied by a complimentary digital
@@ -101,7 +101,7 @@ export default function PrintDigital({ order, action, isActive }) {
               </div>
             </div>
             <div className="col-span-12 grid grid-cols-12 gap-x-16 border-t border-beige 2md:pt-30 gap-y-20">
-              <div className="col-span-12 2md:col-span-5 xl:col-span-6 flex flex-col">
+              <div className="col-span-12 2md:col-span-5 xl:col-span-6 flex flex-col order-first 2md:order-last">
                 <p className="mb-20 md:mb-30 hidden invisible 2md:block 2md:visible">
                   Each print media placement rate includes the following digital
                   integration.
@@ -146,10 +146,10 @@ export default function PrintDigital({ order, action, isActive }) {
                 <ul className="flex-list-fixed">
                   <li className="uppercase">- Social Media</li>
                   <li className="italic">
-                    <span>1 x</span>Instagram Feed Post
+                    <span>1 x </span>Instagram Feed Post
                   </li>
                   <li className="italic">
-                    <span>1 x</span>Sponsored Instagram Feed Post
+                    <span>1 x </span>Sponsored Instagram Feed Post
                     <br />
                     Minimum 100,000 impressions reach,
                     <br />
@@ -157,8 +157,8 @@ export default function PrintDigital({ order, action, isActive }) {
                     website
                   </li>
                   <li className="italic">
-                    <span>2 x</span>24h Instagram Stories dedication of images /
-                    video
+                    <span>2 x </span>24h Instagram Stories dedication of images
+                    / video
                   </li>
                 </ul>
                 <p className="text-20 leading-27 mt-60 2md:mb-30 2md:hidden 2md:invisible">
