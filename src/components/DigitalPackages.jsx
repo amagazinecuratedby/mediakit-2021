@@ -55,14 +55,14 @@ export default function DigitalPackages({ order, action, isActive }) {
             className="col-span-12 xl:col-span-9 gap-y-20 md:gap-y-30 pb-20 md:pb-30"
           >
             <div className="col-span-12 grid grid-cols-12 gap-x-16 gap-y-20">
-              <div className="col-span-12 2md:col-span-5 xl:col-span-6 order-first 2md:order-last">
+              <div className="col-span-12 2md:col-span-5 2md:col-start-8 order-first 2md:order-last">
                 <p className="invisible hidden 2md:visible 2md:block">
                   Photo shoot or video content produced by A PUBLISHER featuring
                   Brand partner’s collection, accessories, products accompanied
                   by short text articles.
                 </p>
               </div>
-              <div className="col-span-12 2md:col-span-7 xl:col-span-6">
+              <div className="col-span-12 2md:col-span-6">
                 <p className="mb-20 md:mb-30 w-full flex">
                   PRODUCED ADVERTORIAL{" "}
                   <span className="ml-auto flex-0-auto">€ 8,000</span>
@@ -100,10 +100,15 @@ export default function DigitalPackages({ order, action, isActive }) {
               </div>
             </div>
             <div className="col-span-12 grid grid-cols-12 gap-x-16 border-t border-beige 2md:pt-30 gap-y-20">
-              <div className="col-span-12 order-first 2md:order-last 2md:col-span-5 xl:col-span-6 flex flex-col">
+              <div className="col-span-12 order-first 2md:order-last 2md:col-span-5 2md:col-start-8 flex flex-col">
                 <p className="mb-20 md:mb-30 hidden invisible 2md:block 2md:visible">
                   Rediffusion and social media promotion of Brand partner’s
                   provided visual assets with A MAGAZINE tone-of-voice.
+                </p>
+                <p className="italic hidden 2md:block mb-30">
+                  Brand partner’s visual assets published on Instagram
+                  accompanied by editorial captions with A MAGAZINE
+                  tone-of-voice.
                 </p>
                 <p className="text-20 leading-27 mt-auto hidden invisible 2md:block 2md:visible">
                   Seasonal timing / posting dates to be defined in consultation
@@ -119,16 +124,16 @@ export default function DigitalPackages({ order, action, isActive }) {
                   </a>
                 </p>
               </div>
-              <div className="col-span-12 2md:col-span-7 xl:col-span-6">
+              <div className="col-span-12 2md:col-span-6">
                 <p className="uppercase mb-20 2md:mb-30">Sponsored Editorial</p>
                 <p className="mb-30 2md:hidden 2md:invisible">
                   Rediffusion and social media promotion of Brand partner’s
                   provided visual assets with A MAGAZINE tone-of-voice.
                 </p>
-                <p className="2md:border-t 2md:border-beige 2md:pt-30 w-full flex">
+                <p className="2md:pt-30 w-full flex 2md:mb-30">
                   OPTION 1 <span className="ml-auto flex-0-auto">€ 6,000</span>
                 </p>
-                <p className="italic mb-20 md:mb-30">
+                <p className="italic mb-20 2md:hidden">
                   Brand partner’s visual assets accompanied by short text or
                   long-form article written by A MAGAZINE team or contributing
                   editor.
@@ -158,12 +163,13 @@ export default function DigitalPackages({ order, action, isActive }) {
                     video
                   </li>
                 </ul>
-                <p className="2md:border-t 2md:border-beige mt-20 md:mt-30 pt-21 md:pt-30 w-full flex">
+                <p className="mt-20 md:mt-30 pt-21 md:pt-30 2md:mb-30 w-full flex">
                   OPTION 2 <span className="ml-auto flex-0-auto">€ 3,000</span>
                 </p>
-                <p className="italic mb-20 md:mb-30">
+                <p className="italic mb-20 2md:hidden">
                   Brand partner’s visual assets published on Instagram
-                  accompanied by editorial captions.
+                  accompanied by editorial captions with A MAGAZINE
+                  tone-of-voice.
                 </p>
                 <ul className="flex-list-fixed">
                   <li className="uppercase">- Social Media</li>

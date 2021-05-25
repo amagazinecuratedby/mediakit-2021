@@ -189,12 +189,66 @@ export default function SectionsGroup() {
                   and through the following distributors:
                 </p>
                 <ul>
-                  <li>Boutique Mags/WhiteCirc</li>
-                  <li>Export Press</li>
-                  <li>Idea Books</li>
-                  <li>IPS</li>
-                  <li>KD Presse</li>
-                  <li>Twelve Books</li>
+                  <li>
+                    <a
+                      href="https://www.boutiquemags.com/"
+                      rel="noreferrer"
+                      target="_blank"
+                      className="transition-opacity opacity-100 hover:opacity-75"
+                    >
+                      Boutique Mags/WhiteCirc
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.exportpress.com/"
+                      rel="noreferrer"
+                      target="_blank"
+                      className="transition-opacity opacity-100 hover:opacity-75"
+                    >
+                      Export Press
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.ideabooks.nl/"
+                      rel="noreferrer"
+                      target="_blank"
+                      className="transition-opacity opacity-100 hover:opacity-75"
+                    >
+                      Idea Books
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.ipsdiffusion.com/"
+                      rel="noreferrer"
+                      target="_blank"
+                      className="transition-opacity opacity-100 hover:opacity-75"
+                    >
+                      IPS
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://www.kdpresse.com/"
+                      rel="noreferrer"
+                      target="_blank"
+                      className="transition-opacity opacity-100 hover:opacity-75"
+                    >
+                      KD Presse
+                    </a>
+                  </li>
+                  <li>
+                    <a
+                      href="https://twelve-books.com/"
+                      rel="noreferrer"
+                      target="_blank"
+                      className="transition-opacity opacity-100 hover:opacity-75"
+                    >
+                      Twelve Books
+                    </a>
+                  </li>
                 </ul>
               </div>
               <OurAudience

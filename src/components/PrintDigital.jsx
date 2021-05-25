@@ -35,7 +35,7 @@ export default function PrintDigital({ order, action, isActive }) {
             className="col-span-12 xl:col-span-9 gap-y-20 md:gap-y-30 pb-20 md:pb-30"
           >
             <div className="col-span-12 grid grid-cols-12 gap-x-16 gap-y-20">
-              <div className="col-span-12 2md:col-span-5 xl:col-span-6 flex flex-col order-first 2md:order-last">
+              <div className="col-span-12 2md:col-span-5 2md:col-start-8 flex flex-col order-first 2md:order-last">
                 <p className="mb-20 md:mb-30">
                   For each bi-annual issue of A MAGAZINE, print advertising
                   insertions are accompanied by a complimentary digital
@@ -49,7 +49,7 @@ export default function PrintDigital({ order, action, isActive }) {
                   <li>* IBC: Inside Back Cover</li>
                 </ul>
               </div>
-              <div className="col-span-12 2md:col-span-7 xl:col-span-6">
+              <div className="col-span-12 2md:col-span-6">
                 <p className="uppercase mb-20 md:mb-30">
                   Print Media Placement Rates
                 </p>
@@ -101,10 +101,15 @@ export default function PrintDigital({ order, action, isActive }) {
               </div>
             </div>
             <div className="col-span-12 grid grid-cols-12 gap-x-16 border-t border-beige 2md:pt-30 gap-y-20">
-              <div className="col-span-12 2md:col-span-5 xl:col-span-6 flex flex-col order-first 2md:order-last">
+              <div className="col-span-12 2md:col-span-5 2md:col-start-8 flex flex-col order-first 2md:order-last">
                 <p className="mb-20 md:mb-30 hidden invisible 2md:block 2md:visible">
                   Each print media placement rate includes the following digital
                   integration.
+                </p>
+                <p className="hidden italic mb-30 2md:block">
+                  Brand partner’s visual assets accompanied by short text or
+                  long-form article written by A MAGAZINE team or contributing
+                  editor.
                 </p>
                 <p className="text-20 leading-27 mt-auto hidden invisible 2md:block 2md:visible">
                   Seasonal timing / posting dates to be defined in consultation
@@ -120,8 +125,8 @@ export default function PrintDigital({ order, action, isActive }) {
                   </a>
                 </p>
               </div>
-              <div className="col-span-12 2md:col-span-7 xl:col-span-6">
-                <p className="w-full flex">
+              <div className="col-span-12 2md:col-span-6">
+                <p className="w-full flex md:mb-30">
                   VALUE-ADDED DIGITAL INTEGRATION
                   <br />
                   EDITORIAL CONTENT
@@ -131,7 +136,7 @@ export default function PrintDigital({ order, action, isActive }) {
                   Each print media placement rate includes the following digital
                   integration.
                 </p>
-                <p className="italic mb-20 md:mb-30">
+                <p className="italic mb-20 2md:hidden">
                   Brand partner’s visual assets accompanied by short text or
                   long-form article written by A MAGAZINE team or contributing
                   editor.
