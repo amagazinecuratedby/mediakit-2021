@@ -100,17 +100,17 @@ export default function DigitalPackages({ order, action, isActive }) {
               </div>
             </div>
             <div className="col-span-12 grid grid-cols-12 gap-x-16 border-t border-beige 2md:pt-30 gap-y-20">
-              <div className="col-span-12 order-first 2md:order-last 2md:col-span-5 2md:col-start-8 flex flex-col">
+              <div className="col-span-12 order-first 2md:order-2 2md:col-span-5 2md:col-start-8">
                 <p className="mb-20 md:mb-30 hidden invisible 2md:block 2md:visible">
                   Rediffusion and social media promotion of Brand partner’s
                   provided visual assets with A MAGAZINE tone-of-voice.
                 </p>
                 <p className="italic hidden 2md:block mb-30">
-                  Brand partner’s visual assets published on Instagram
-                  accompanied by editorial captions with A MAGAZINE
-                  tone-of-voice.
+                  Brand partner’s visual assets published on our website
+                  accompanied by short text or long-form article written by A
+                  MAGAZINE team or contributing editor.
                 </p>
-                <p className="text-20 leading-27 mt-auto hidden invisible 2md:block 2md:visible">
+                {/* <p className="text-20 leading-27 mt-auto hidden invisible 2md:block 2md:visible">
                   Seasonal timing / posting dates to be defined in consultation
                   with the Brand partner.
                 </p>
@@ -122,9 +122,9 @@ export default function DigitalPackages({ order, action, isActive }) {
                   >
                     advertising@amagazinecuratedby.com
                   </a>
-                </p>
+                </p> */}
               </div>
-              <div className="col-span-12 2md:col-span-6">
+              <div className="col-span-12 2md:col-span-6 2md:order-1">
                 <p className="uppercase mb-20 2md:mb-30">Sponsored Editorial</p>
                 <p className="mb-30 2md:hidden 2md:invisible">
                   Rediffusion and social media promotion of Brand partner’s
@@ -134,9 +134,9 @@ export default function DigitalPackages({ order, action, isActive }) {
                   OPTION 1 <span className="ml-auto flex-0-auto">€ 6,000</span>
                 </p>
                 <p className="italic mb-20 2md:hidden">
-                  Brand partner’s visual assets accompanied by short text or
-                  long-form article written by A MAGAZINE team or contributing
-                  editor.
+                  Brand partner’s visual assets published on our website
+                  accompanied by short text or long-form article written by A
+                  MAGAZINE team or contributing editor.
                 </p>
                 <ul>
                   <li className="uppercase">- Website Article</li>
@@ -163,7 +163,7 @@ export default function DigitalPackages({ order, action, isActive }) {
                     video
                   </li>
                 </ul>
-                <p className="mt-20 md:mt-30 pt-21 md:pt-30 2md:mb-30 w-full flex">
+                {/* <p className="mt-20 md:mt-30 pt-21 md:pt-30 2md:mb-30 w-full flex">
                   OPTION 2 <span className="ml-auto flex-0-auto">€ 3,000</span>
                 </p>
                 <p className="italic mb-20 2md:hidden">
@@ -194,6 +194,67 @@ export default function DigitalPackages({ order, action, isActive }) {
                   with the Brand partner.
                 </p>
                 <p className="text-20 leading-27 2md:hidden 2md:invisible">
+                  All advertising enquiries to{" "}
+                  <a
+                    href="mailto:advertising@amagazinecuratedby.com"
+                    className="italic transition-opacity opacity-100 hover:opacity-75"
+                  >
+                    advertising@amagazinecuratedby.com
+                  </a>
+                </p> */}
+              </div>
+              <div className="col-span-12 2md:col-span-6 2md:order-3">
+                <p className="mt-20 pt-21 2md:pt-30 2md:mb-30 w-full flex">
+                  OPTION 2 <span className="ml-auto flex-0-auto">€ 3,000</span>
+                </p>
+                <p className="italic mb-20 2md:hidden">
+                  Brand partner’s visual assets published on Instagram
+                  accompanied by editorial captions with A MAGAZINE
+                  tone-of-voice.
+                </p>
+                <ul className="flex-list-fixed">
+                  <li className="uppercase">- Social Media</li>
+                  <li className="italic">
+                    <span>2 x</span>Instagram Feed Posts
+                  </li>
+                  <li className="italic">
+                    <span>1 x</span>Sponsored Instagram Feed Post
+                    <br />
+                    Minimum 200,000 impressions reach,
+                    <br />
+                    Direct Link to Brand partner website or to A MAGAZINE
+                    website
+                  </li>
+                  <li className="italic">
+                    <span>2 x</span>24h Instagram Stories dedication of images /
+                    video
+                  </li>
+                </ul>
+                <p className="text-20 leading-27 mt-60 2md:hidden 2md:invisible">
+                  Seasonal timing / posting dates to be defined in consultation
+                  with the Brand partner.
+                </p>
+                <p className="text-20 leading-27 2md:hidden 2md:invisible">
+                  All advertising enquiries to{" "}
+                  <a
+                    href="mailto:advertising@amagazinecuratedby.com"
+                    className="italic transition-opacity opacity-100 hover:opacity-75"
+                  >
+                    advertising@amagazinecuratedby.com
+                  </a>
+                </p>
+              </div>
+              <div className="col-span-12 2md:order-4 2md:col-span-5 2md:col-start-8 flex flex-col mt-20 pt-21 2md:pt-30">
+                <p className="italic hidden 2md:block mb-30">
+                  Brand partner’s visual assets published on Instagram
+                  accompanied by editorial captions with A MAGAZINE
+                  tone-of-voice.
+                </p>
+                <p className="text-20 leading-27 mt-auto hidden invisible 2md:block 2md:visible">
+                  Seasonal timing / posting dates to be defined in consultation
+                  with the Brand partner.
+                </p>
+                <p className="text-20 leading-27 hidden invisible 2md:block 2md:visible">
                   All advertising enquiries to{" "}
                   <a
                     href="mailto:advertising@amagazinecuratedby.com"

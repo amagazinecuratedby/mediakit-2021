@@ -106,10 +106,15 @@ export default function PrintDigital({ order, action, isActive }) {
                   Each print media placement rate includes the following digital
                   integration.
                 </p>
-                <p className="hidden italic mb-30 2md:block">
+                <p className="hidden italic 2md:block">
                   Brand partner’s visual assets accompanied by short text or
                   long-form article written by A MAGAZINE team or contributing
                   editor.
+                </p>
+                <p className="hidden italic mb-30 2md:block">
+                  Brand partner’s visual assets published on Instagram
+                  accompanied by editorial captions with A MAGAZINE
+                  tone-of-voice.
                 </p>
                 <p className="text-20 leading-27 mt-auto hidden invisible 2md:block 2md:visible">
                   Seasonal timing / posting dates to be defined in consultation
@@ -136,10 +141,15 @@ export default function PrintDigital({ order, action, isActive }) {
                   Each print media placement rate includes the following digital
                   integration.
                 </p>
+                <p className="italic 2md:hidden">
+                  Brand partner’s visual assets published on our website
+                  accompanied by short text or long-form article written by A
+                  MAGAZINE team or contributing editor.
+                </p>
                 <p className="italic mb-20 2md:hidden">
-                  Brand partner’s visual assets accompanied by short text or
-                  long-form article written by A MAGAZINE team or contributing
-                  editor.
+                  Brand partner’s visual assets published on Instagram
+                  accompanied by editorial captions with A MAGAZINE
+                  tone-of-voice.
                 </p>
                 <ul>
                   <li className="uppercase">- Website</li>
