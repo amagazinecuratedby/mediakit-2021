@@ -106,7 +106,7 @@ export default function PrintDigital({ order, action, isActive }) {
                   Each print media placement rate includes the following digital
                   integration.
                 </p>
-                <p className="hidden italic 2md:block">
+                <p className="hidden italic mb-30 2md:block">
                   Brand partner’s visual assets accompanied by short text or
                   long-form article written by A MAGAZINE team or contributing
                   editor.

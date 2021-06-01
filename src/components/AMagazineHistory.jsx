@@ -61,7 +61,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                 Margiela in 2004.
               </p>
             </div>
-            <div className="md:col-span-12 lg:col-span-6 hidden invisible md:grid md:visible grid-cols-4 md:grid-rows-2 gap-x-60 gap-y-40 font-sans text-11 leading-tight">
+            <div className="md:col-span-12 lg:col-span-6 hidden invisible md:grid md:visible grid-cols-4 md:grid-rows-2 gap-x-48 gap-y-40 font-sans text-14 leading-tight">
               <div className="col-span-4 sm:col-span-2 row-span-2">
                 <a
                   href="https://amagazinecuratedby.com/history/"
@@ -70,22 +70,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2002
-                    </figcaption>
                     <img src="A.jpg" className="max-w-full w-full shadow-3xl" />
+                    <figcaption className="pt-10">
+                      <span className="block">2002 — A</span>
+                      <span className="block font-serif pt-8">
+                        <span className="italic">N°A</span> Featuring
+                        <br />
+                        Dirk Van Saene
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A
-                    </span>
-                    <span className="font-serif">
-                      <span className="italic">N°A</span> MAGAZINE{" "}
-                      <span className="italic">curated by</span>
-                      <br />
-                      Dirk Van Saene
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-4 xs:col-span-2 sm:col-span-1 row-span-1">
@@ -96,21 +90,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2002
-                    </figcaption>
                     <img src="B.jpg" className="max-w-full w-full shadow-2xl" />
+                    <figcaption className="pt-10">
+                      <span className="block">2002 — B</span>
+                      <span className="font-serif block pt-8">
+                        <span className="italic">N°B</span> Featuring
+                        <br />
+                        Bernard Willhelm
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      B
-                    </span>
-                    <span className="font-serif">
-                      <span className="italic">N°B</span> Featuring
-                      <br />
-                      Bernard Willhelm
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-4 xs:col-span-2 sm:col-span-1 row-span-1">
@@ -121,21 +110,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2002
-                    </figcaption>
                     <img src="C.jpg" className="max-w-full w-full shadow-2xl" />
+                    <figcaption className="pt-10">
+                      <span className="block">2002 — C</span>
+                      <span className="font-serif block pt-8">
+                        <span className="italic">N°C</span> Featuring
+                        <br />
+                        Hussein Chalayan
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      C
-                    </span>
-                    <span className="font-serif">
-                      <span className="italic">N°C</span> Featuring
-                      <br />
-                      Hussein Chalayan
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-4 xs:col-span-2 sm:col-span-1 row-span-1">
@@ -146,21 +130,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2003
-                    </figcaption>
                     <img src="D.jpg" className="max-w-full w-full shadow-2xl" />
+                    <figcaption className="pt-10">
+                      <span className="block">2003 — D</span>
+                      <span className="font-serif pt-8 block">
+                        <span className="italic">N°D</span> Featuring
+                        <br />
+                        Olivier Theyskens
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      D
-                    </span>
-                    <span className="font-serif">
-                      <span className="italic">N°D</span> Featuring
-                      <br />
-                      Olivier Theyskens
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-4 xs:col-span-2 sm:col-span-1 row-span-1">
@@ -171,25 +150,20 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2003
-                    </figcaption>
                     <img src="E.jpg" className="max-w-full w-full shadow-2xl" />
+                    <figcaption className="pt-10">
+                      <span className="block">2003 — E</span>
+                      <span className="font-serif block pt-8">
+                        <span className="italic">N°E</span> Featuring
+                        <br />
+                        Viktor & Rolf
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      E
-                    </span>
-                    <span className="font-serif">
-                      <span className="italic">N°E</span> Featuring
-                      <br />
-                      Viktor & Rolf
-                    </span>
-                  </p>
                 </a>
               </div>
             </div>
-            <div className="col-span-12 overflow-grid-27 grid grid-cols-8 gap-x-60 gap-y-40 font-sans text-11 leading-tight">
+            <div className="col-span-12 overflow-grid-27 grid grid-cols-8 gap-x-48 gap-y-40 font-sans text-14 leading-tight">
               <div className="col-span-1 sm:col-span-2 md:hidden md:invisible">
                 <a
                   href="https://amagazinecuratedby.com/history/"
@@ -198,22 +172,17 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2002
-                    </figcaption>
                     <img src="A.jpg" className="max-w-full w-full shadow-2xl" />
+                    <figcaption className="pt-10">
+                      <span className="block">2002 — A</span>
+                      <span className="font-serif block pt-8">
+                        <span className="italic">N°A</span> MAGAZINE{" "}
+                        <span className="italic">curated by</span>
+                        <br />
+                        Dirk Van Saene
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A
-                    </span>
-                    <span className="font-serif">
-                      <span className="italic">N°A</span> MAGAZINE{" "}
-                      <span className="italic">curated by</span>
-                      <br />
-                      Dirk Van Saene
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 md:hidden md:invisible">
@@ -224,21 +193,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2002
-                    </figcaption>
                     <img src="B.jpg" className="max-w-full w-full shadow-2xl" />
+                    <figcaption className="pt-10">
+                      <span className="block">2002 — B</span>
+                      <span className="font-serif block pt-8">
+                        <span className="italic">N°B</span> Featuring
+                        <br />
+                        Bernard Willhelm
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      B
-                    </span>
-                    <span className="font-serif">
-                      <span className="italic">N°B</span> Featuring
-                      <br />
-                      Bernard Willhelm
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 md:hidden md:invisible">
@@ -249,21 +213,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2002
-                    </figcaption>
                     <img src="C.jpg" className="max-w-full w-full shadow-2xl" />
+                    <figcaption className="pt-10">
+                      <span className="block">2002 — C</span>
+                      <span className="font-serif pt-8 block">
+                        <span className="italic">N°C</span> Featuring
+                        <br />
+                        Hussein Chalayan
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      C
-                    </span>
-                    <span className="font-serif">
-                      <span className="italic">N°C</span> Featuring
-                      <br />
-                      Hussein Chalayan
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 md:hidden md:invisible">
@@ -274,21 +233,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2003
-                    </figcaption>
                     <img src="D.jpg" className="max-w-full w-full shadow-2xl" />
+                    <figcaption className="pt-10">
+                      <span className="block">2003 — D</span>
+                      <span className="font-serif block pt-8">
+                        <span className="italic">N°D</span> Featuring
+                        <br />
+                        Olivier Theyskens
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      D
-                    </span>
-                    <span className="font-serif">
-                      <span className="italic">N°D</span> Featuring
-                      <br />
-                      Olivier Theyskens
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 md:hidden md:invisible">
@@ -299,21 +253,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2003
-                    </figcaption>
                     <img src="E.jpg" className="max-w-full w-full shadow-2xl" />
+                    <figcaption className="pt-10">
+                      <span className="block">2003 — E</span>
+                      <span className="font-serif pt-8 block">
+                        <span className="italic">N°E</span> Featuring
+                        <br />
+                        Viktor & Rolf
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      E
-                    </span>
-                    <span className="font-serif">
-                      <span className="italic">N°E</span> Featuring
-                      <br />
-                      Viktor & Rolf
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -324,21 +273,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2004
-                    </figcaption>
                     <img src="01.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2004 — A#1</span>
+                      <span className="font-serif block pt-8">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Maison Martin Margiela
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#1
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Maison Martin Margiela
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -349,21 +293,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2005
-                    </figcaption>
                     <img src="02.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2005 — A#2</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Yohji Yamamoto
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#2
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Yohji Yamamoto
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -374,21 +313,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2005
-                    </figcaption>
                     <img src="03.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2005 — A#3</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Haider Ackermann
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#3
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Haider Ackermann
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -399,21 +333,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2006
-                    </figcaption>
                     <img src="04.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2006 — A#4</span>
+                      <span className="font-serif block pt-8">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Jun Takahashi
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#4
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Jun Takahashi
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -424,21 +353,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2007
-                    </figcaption>
                     <img src="05.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2007 — A#5</span>
+                      <span className="font-serif block pt-8">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Martine Sitbon
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#5
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Martine Sitbon
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -449,21 +373,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2007
-                    </figcaption>
                     <img src="06.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2007 — A#6</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Veronique Branquinho
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#6
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Veronique Branquinho
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -474,21 +393,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2008
-                    </figcaption>
                     <img src="07.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2008 — A#7</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Kris Van Assche
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#7
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Kris Van Assche
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -499,21 +413,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2008
-                    </figcaption>
                     <img src="08.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2008 — A#8</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Riccardo Tisci
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#8
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Riccardo Tisci
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -524,21 +433,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2009
-                    </figcaption>
                     <img src="09.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2009 — A#9</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Proenza Schouler
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#9
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Proenza Schouler
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -549,21 +453,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2010
-                    </figcaption>
                     <img src="10.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2010 — A#10</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Giambattista Valli
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#10
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Giambattista Valli
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -574,21 +473,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2011
-                    </figcaption>
                     <img src="11.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2011 — A#11</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Rodarte
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#11
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Rodarte
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -599,21 +493,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2013
-                    </figcaption>
                     <img src="12.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2013 — A#12</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Stephen Jones
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#12
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Stephen Jones
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -624,21 +513,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2014
-                    </figcaption>
                     <img src="13.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2014 — A#13</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Iris Van Herpen
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#13
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Iris Van Herpen
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -649,21 +533,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2015
-                    </figcaption>
                     <img src="14.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2015 — A#14</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Delfina Delettrez
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#14
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Delfina Delettrez
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -674,21 +553,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2016
-                    </figcaption>
                     <img src="15.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2016 — A#15</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Thom Browne
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#15
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Thom Browne
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -699,21 +573,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2016
-                    </figcaption>
                     <img src="16.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2016 — A#16</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Alessandro Michele
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#16
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Alessandro Michele
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -724,21 +593,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2017
-                    </figcaption>
                     <img src="17.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2017 — A#17</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Eckhaus Latta
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#17
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Eckhaus Latta
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -749,21 +613,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2018
-                    </figcaption>
                     <img src="18.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2018 — A#18</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Simone Rocha
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#18
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Simone Rocha
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -774,21 +633,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2019
-                    </figcaption>
                     <img src="19.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2019 — A#19</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Kim Jones
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#19
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Kim Jones
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -799,21 +653,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2019
-                    </figcaption>
                     <img src="20.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">2019 — A#20</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Pierpaolo Piccioli
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#20
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Pierpaolo Piccioli
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -824,21 +673,16 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2020
-                    </figcaption>
                     <img src="21.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span>2020 — A#21</span>
+                      <span className="font-serif block pt-8">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Lucie and Luke Meier
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#21
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Lucie and Luke Meier
-                    </span>
-                  </p>
                 </a>
               </div>
               <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
@@ -849,21 +693,18 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   className="block transition-opacity opacity-100 hover:opacity-75"
                 >
                   <figure className="relative">
-                    <figcaption className="absolute -left-8 transform -rotate-90 origin-bottom-left bottom-0">
-                      2021 Limited Edition Reprint
-                    </figcaption>
                     <img src="22.jpg" className="max-w-full w-full" />
+                    <figcaption className="pt-10">
+                      <span className="block">
+                        2021 Limited Edition Reprint — A#1
+                      </span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Maison Martin Margiela
+                      </span>
+                    </figcaption>
                   </figure>
-                  <p className="pt-8 relative">
-                    <span className="inline-block absolute -left-10 transform -translate-x-full">
-                      A#1
-                    </span>
-                    <span className="font-serif">
-                      A MAGAZINE <span className="italic">curated by</span>
-                      <br />
-                      Maison Martin Margiela
-                    </span>
-                  </p>
                 </a>
               </div>
             </div>
