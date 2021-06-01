@@ -139,7 +139,7 @@ export default function SelectedCities({ order, action, isActive }) {
               </ul>
             </div>
             <Carousel
-              items={[0, 1, 2, 3]}
+              items={4}
               showDots
               dotsTheme="dark"
               className="col-span-12 md:hidden"

@@ -196,7 +196,7 @@ export default function SelectedStores({ order, action, isActive }) {
               </ul>
             </div>
             <Carousel
-              items={[0, 1]}
+              items={2}
               showDots
               dotsTheme="dark"
               className="col-span-12 md:hidden"

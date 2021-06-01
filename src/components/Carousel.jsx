@@ -13,7 +13,10 @@ export default function Carousel({
   dotsTheme,
   overflow,
 }) {
-  if (items?.length <= 0) return null
+  if (items <= 0) return null
+  const itemsArray = Array(items)
+    .fill()
+    .map((x, i) => i)
 
   const [viewportRef, embla] = useEmblaCarousel({
     containScroll: "keepSnaps",
@@ -56,7 +59,7 @@ export default function Carousel({
       {children}
       {showDots && (
         <div className="flex space-x-4 absolute bottom-0 left-1/2 transform -translate-x-1/2">
-          {items.map((_, index) => (
+          {itemsArray?.map((_, index) => (
             <button
               key={index}
               className={`w-11 h-11 rounded-full border ${

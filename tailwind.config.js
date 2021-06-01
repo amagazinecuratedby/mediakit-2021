@@ -26,6 +26,7 @@ module.exports = {
         grey: "#adadad",
       },
       maxWidth: {
+        300: "18.75rem",
         345: "21.563rem",
         480: "31.25rem",
         500: "31.25rem",
@@ -102,6 +103,7 @@ module.exports = {
       },
       flex: {
         "0-auto": "0 0 auto",
+        "1-auto": "1 0 auto",
       },
     },
   },
