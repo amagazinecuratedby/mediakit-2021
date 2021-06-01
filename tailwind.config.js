@@ -32,6 +32,9 @@ module.exports = {
         "full-30": "calc(100% - 60px)",
         "55p": "55%",
       },
+      minWidth: {
+        "screen-padded": "calc(100vw - 2.50rem)",
+      },
       maxHeight: {
         200: "18.182rem",
         260: "18.571rem",

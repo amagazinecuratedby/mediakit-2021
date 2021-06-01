@@ -10,6 +10,7 @@
   "license": "MIT",
   "dependencies": {
     "axios": "^0.21.1",
+    "embla-carousel": "^4.5.3",
     "framer-motion": "^4.1.16",
     "gatsby": "^3.4.1",
     "gatsby-plugin-react-helmet": "^4.4.0",

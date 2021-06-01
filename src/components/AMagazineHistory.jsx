@@ -41,7 +41,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
             className="col-span-12 xl:col-span-9 gap-y-20 md:gap-y-30 mb-20 md:mb-30"
           >
             <div className="col-span-12 lg:col-span-6">
-              <p className="mb-25">
+              <p>
                 <span className="italic">N°A</span> featuring Dirk Van Saene was
                 the first ever A MAGAZINE, initiated by Walter Van Beirendonck
                 and art directed by Paul Boudens for the 2001 Landed-Geland
@@ -49,9 +49,14 @@ export default function AMagazineHistory({ order, action, isActive }) {
                 <span className="italic">curated by</span> was created in 2004,
                 each issue was named after a letter of the alphabet, beginning
                 with the iconic red ‘A’ for Antwerp, a historic symbol of the
-                Belgian city. The project was incited by the designer Walter Van
-                Beirendonck, who invited Dirk Van Saene to be the first featured
-                designer. Both are members of the famed ‘Antwerp Six’.
+                Belgian city.
+              </p>
+            </div>
+            <div className="col-span-12 lg:col-span-6">
+              <p>
+                The project was incited by the designer Walter Van Beirendonck,
+                who invited Dirk Van Saene to be the first featured designer.
+                Both are members of the famed ‘Antwerp Six’.
               </p>
               <p>
                 It was followed by <span className="italic">N°B, N°C, N°D</span>{" "}
@@ -61,110 +66,8 @@ export default function AMagazineHistory({ order, action, isActive }) {
                 Margiela in 2004.
               </p>
             </div>
-            <div className="md:col-span-12 lg:col-span-6 hidden invisible md:grid md:visible grid-cols-4 md:grid-rows-2 gap-x-48 gap-y-40 font-sans text-14 leading-tight">
-              <div className="col-span-4 sm:col-span-2 row-span-2">
-                <a
-                  href="https://amagazinecuratedby.com/history/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
-                >
-                  <figure className="relative">
-                    <img src="A.jpg" className="max-w-full w-full shadow-3xl" />
-                    <figcaption className="pt-10">
-                      <span className="block">2002 — A</span>
-                      <span className="block font-serif pt-8">
-                        <span className="italic">N°A</span> Featuring
-                        <br />
-                        Dirk Van Saene
-                      </span>
-                    </figcaption>
-                  </figure>
-                </a>
-              </div>
-              <div className="col-span-4 xs:col-span-2 sm:col-span-1 row-span-1">
-                <a
-                  href="https://amagazinecuratedby.com/history/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
-                >
-                  <figure className="relative">
-                    <img src="B.jpg" className="max-w-full w-full shadow-2xl" />
-                    <figcaption className="pt-10">
-                      <span className="block">2002 — B</span>
-                      <span className="font-serif block pt-8">
-                        <span className="italic">N°B</span> Featuring
-                        <br />
-                        Bernard Willhelm
-                      </span>
-                    </figcaption>
-                  </figure>
-                </a>
-              </div>
-              <div className="col-span-4 xs:col-span-2 sm:col-span-1 row-span-1">
-                <a
-                  href="https://amagazinecuratedby.com/history/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
-                >
-                  <figure className="relative">
-                    <img src="C.jpg" className="max-w-full w-full shadow-2xl" />
-                    <figcaption className="pt-10">
-                      <span className="block">2002 — C</span>
-                      <span className="font-serif block pt-8">
-                        <span className="italic">N°C</span> Featuring
-                        <br />
-                        Hussein Chalayan
-                      </span>
-                    </figcaption>
-                  </figure>
-                </a>
-              </div>
-              <div className="col-span-4 xs:col-span-2 sm:col-span-1 row-span-1">
-                <a
-                  href="https://amagazinecuratedby.com/history/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
-                >
-                  <figure className="relative">
-                    <img src="D.jpg" className="max-w-full w-full shadow-2xl" />
-                    <figcaption className="pt-10">
-                      <span className="block">2003 — D</span>
-                      <span className="font-serif pt-8 block">
-                        <span className="italic">N°D</span> Featuring
-                        <br />
-                        Olivier Theyskens
-                      </span>
-                    </figcaption>
-                  </figure>
-                </a>
-              </div>
-              <div className="col-span-4 xs:col-span-2 sm:col-span-1 row-span-1">
-                <a
-                  href="https://amagazinecuratedby.com/history/"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
-                >
-                  <figure className="relative">
-                    <img src="E.jpg" className="max-w-full w-full shadow-2xl" />
-                    <figcaption className="pt-10">
-                      <span className="block">2003 — E</span>
-                      <span className="font-serif block pt-8">
-                        <span className="italic">N°E</span> Featuring
-                        <br />
-                        Viktor & Rolf
-                      </span>
-                    </figcaption>
-                  </figure>
-                </a>
-              </div>
-            </div>
             <div className="col-span-12 overflow-grid-27 grid grid-cols-8 gap-x-48 gap-y-40 font-sans text-14 leading-tight">
-              <div className="col-span-1 sm:col-span-2 md:hidden md:invisible">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/history/"
                   target="_blank"
@@ -185,7 +88,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 md:hidden md:invisible">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/history/"
                   target="_blank"
@@ -205,7 +108,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 md:hidden md:invisible">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/history/"
                   target="_blank"
@@ -225,7 +128,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 md:hidden md:invisible">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/history/"
                   target="_blank"
@@ -245,7 +148,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 md:hidden md:invisible">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/history/"
                   target="_blank"
@@ -265,7 +168,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/martin-margiela/"
                   target="_blank"
@@ -285,7 +188,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/yohji-yamamoto/"
                   target="_blank"
@@ -305,7 +208,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/haider-ackermann/"
                   target="_blank"
@@ -325,7 +228,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/jun-takahashi/"
                   target="_blank"
@@ -345,7 +248,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/martine-sitbon/"
                   target="_blank"
@@ -365,7 +268,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/veronique-branquinho/"
                   target="_blank"
@@ -385,7 +288,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/kris-van-assche/"
                   target="_blank"
@@ -405,7 +308,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/riccardo-tisci/"
                   target="_blank"
@@ -425,7 +328,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/proenza-schouler/"
                   target="_blank"
@@ -445,7 +348,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/giambattista-valli/"
                   target="_blank"
@@ -465,7 +368,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/rodarte/"
                   target="_blank"
@@ -485,7 +388,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/issue-3/"
                   target="_blank"
@@ -505,7 +408,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/iris-van-herpen/"
                   target="_blank"
@@ -525,7 +428,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/delfina-delettrez/"
                   target="_blank"
@@ -545,7 +448,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/thom-browne/"
                   target="_blank"
@@ -565,7 +468,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/alessandro-michele/"
                   target="_blank"
@@ -585,7 +488,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/eckhaus-latta/"
                   target="_blank"
@@ -605,7 +508,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/simone-rocha/"
                   target="_blank"
@@ -625,7 +528,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/kim-jones/"
                   target="_blank"
@@ -645,7 +548,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/pierpaolo-piccioli/"
                   target="_blank"
@@ -665,7 +568,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/lucie-and-luke-meier/"
                   target="_blank"
@@ -685,7 +588,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   </figure>
                 </a>
               </div>
-              <div className="col-span-1 sm:col-span-2 2md:col-span-1 row-span-1">
+              <div className="col-span-1 sm:col-span-2">
                 <a
                   href="https://amagazinecuratedby.com/collection/martin-margiela/"
                   target="_blank"
