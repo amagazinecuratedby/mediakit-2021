@@ -613,7 +613,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
               </div>
             </div>
             <Carousel
-              items={21}
+              items={27}
               showDots
               dotsTheme="light"
               className="col-span-12 md:hidden"
