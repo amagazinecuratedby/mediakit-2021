@@ -9,7 +9,7 @@ export default function Website() {
           A MAGAZINE <span className="italic">website</span>
         </p>
       </div>
-      <Section className="col-span-12 xl:col-span-9 gap-y-20 md:gap-y-30">
+      <Section className="col-span-12 xl:col-span-9 gap-y-30">
         <div className="col-span-12 lg:col-span-6">
           <p className="mb-25">
             <a
@@ -42,7 +42,7 @@ export default function Website() {
           <img
             src="ordinateur.jpg"
             alt="A MAGAZINE curated by website"
-            className="max-w-full w-auto h-auto max-h-200 2xl:max-h-260"
+            className="max-w-full w-auto h-auto mx-auto max-h-200 2xl:max-h-260"
           />
         </div>
       </Section>

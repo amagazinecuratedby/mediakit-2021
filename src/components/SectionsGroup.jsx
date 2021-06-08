@@ -194,7 +194,7 @@ export default function SectionsGroup() {
                       href="https://www.boutiquemags.com/"
                       rel="noreferrer"
                       target="_blank"
-                      className="transition-opacity opacity-100 hover:opacity-75"
+                      className="underline transition-opacity opacity-100 hover:opacity-75 hover:no-underline"
                     >
                       Boutique Mags/WhiteCirc
                     </a>
@@ -204,7 +204,7 @@ export default function SectionsGroup() {
                       href="https://www.exportpress.com/"
                       rel="noreferrer"
                       target="_blank"
-                      className="transition-opacity opacity-100 hover:opacity-75"
+                      className="underline transition-opacity opacity-100 hover:opacity-75 hover:no-underline"
                     >
                       Export Press
                     </a>
@@ -214,7 +214,7 @@ export default function SectionsGroup() {
                       href="https://www.ideabooks.nl/"
                       rel="noreferrer"
                       target="_blank"
-                      className="transition-opacity opacity-100 hover:opacity-75"
+                      className="transition-opacity opacity-100 hover:opacity-75 hover:no-underline"
                     >
                       Idea Books
                     </a>
@@ -224,7 +224,7 @@ export default function SectionsGroup() {
                       href="https://www.ipsdiffusion.com/"
                       rel="noreferrer"
                       target="_blank"
-                      className="transition-opacity opacity-100 hover:opacity-75"
+                      className="underline transition-opacity opacity-100 hover:opacity-75 hover:no-underline"
                     >
                       IPS
                     </a>
@@ -234,7 +234,7 @@ export default function SectionsGroup() {
                       href="https://www.kdpresse.com/"
                       rel="noreferrer"
                       target="_blank"
-                      className="transition-opacity opacity-100 hover:opacity-75"
+                      className="underline transition-opacity opacity-100 hover:opacity-75 hover:no-underline"
                     >
                       KD Presse
                     </a>
@@ -244,7 +244,7 @@ export default function SectionsGroup() {
                       href="https://twelve-books.com/"
                       rel="noreferrer"
                       target="_blank"
-                      className="transition-opacity opacity-100 hover:opacity-75"
+                      className="underline transition-opacity opacity-100 hover:opacity-75 hover:no-underline"
                     >
                       Twelve Books
                     </a>

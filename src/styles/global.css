@@ -243,4 +243,33 @@ h1:after {
       grid-template-columns: repeat(2, minmax(265px, 1fr));
     }
   }
+
+  @screen 2md {
+    .a-vector {
+      min-height: calc(100vh - 35px);
+    }
+  }
+
+  @screen 2xl {
+    .a-vector {
+      min-height: calc(100vh - 50px);
+    }
+  }
+}
+
+::-webkit-input-placeholder {
+  /* Chrome/Opera/Safari */
+  @apply text-18;
+}
+::-moz-placeholder {
+  /* Firefox 19+ */
+  @apply text-18;
+}
+:-ms-input-placeholder {
+  /* IE 10+ */
+  @apply text-18;
+}
+:-moz-placeholder {
+  /* Firefox 18- */
+  @apply text-18;
 }

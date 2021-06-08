@@ -5,11 +5,11 @@ export default function AuthScreen({ action, authError }) {
   const [psw, setPsw] = React.useState(null)
 
   return (
-    <section className="bg-greyTeal flex-grow overflow-hidden relative">
+    <section className="bg-greyTeal flex-grow overflow-hidden relative max-h-available">
       <BgA />
       <form
         onSubmit={(e) => action(e, psw)}
-        className="font-sans absolute top-10vh left-1/2 transform -translate-x-1/2 md:transform-none md:left-60p md:top-40p w-max"
+        className="font-sans absolute top-10vh left-1/2 transform -translate-x-1/2 2md:transform-none 2md:left-60p 2md:top-40p w-max"
       >
         {authError ? (
           <p className="uppercase font-sans text-18 inline-block">

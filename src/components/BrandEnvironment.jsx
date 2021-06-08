@@ -103,10 +103,18 @@ export default function BrandEnvironment({ order, action, isActive }) {
                 <li>Y-3</li>
               </ul>
             </div>
-            <p className="col-span-12 sm:hidden sm:invisible">
-              BALENCIAGA, BIRKENSTOCK, BOTTEGA VENETA, CHANEL, CHLOÉ, CHRISTIAN
-              DIOR, GIVENCHY, GUCCI, FENDI, HERMÈS, JIL SANDER, MONCLER,
-              VALENTINO
+            <p className="col-span-12 sm:hidden sm:invisible uppercase">
+              ABSOLUT, BDDW, BALENCIAGA, BIRKENSTOCK, BLUE MOUNTAIN SCHOOL,
+              BOMBAY SAPPHIRE, BOTTEGA VE- NETA, CARHARTT, CARVEN, CHANEL,
+              CHLOé, CHRISTIAN DIOR, CHRYSLER, COINTREAU, COLETTE, COMME DES
+              GARçONS, DELVAUX, DIESEL, EVIAN, FENDI, GIVENCHY, GUCCI, HELENA
+              RUBINSTEIN HERMèS, J.CREW, JIL SANDER, KENZO, LANCôME, LONGCHAMP,
+              LOUIS VUITTON, L’ORéAL, MSGM, MARC JACOBS, MINI COOPER, MONCLER,
+              MOYNAT, MOëT & CHANDON, NARS, NIKE, OAMC, OPENING CEREMONY, PACO
+              RABANNE, PIASA, PIPER HEIDSIECK, PRADA, REPOSSI, RIMOWA, ROBERTO
+              CAVALLI, SAINT LAURENT, SONIA RYKIEL, SUPREME, SWAROVSKI, TAG
+              HEUER, TIFFANY & CO., UNDERCOVER, UNIQLO, VALENTINO, VAN CLEEF &
+              ARPELS, Y-3
             </p>
           </Section>
         )}
