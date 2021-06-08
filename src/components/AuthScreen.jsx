@@ -9,7 +9,7 @@ export default function AuthScreen({ action, authError }) {
       <BgA />
       <form
         onSubmit={(e) => action(e, psw)}
-        className="font-sans absolute top-20vh left-1/2 transform -translate-x-1/2 md:transform-none md:left-60p md:top-40p w-max"
+        className="font-sans absolute top-10vh left-1/2 transform -translate-x-1/2 md:transform-none md:left-60p md:top-40p w-max"
       >
         {authError ? (
           <p className="uppercase font-sans text-18 inline-block">
