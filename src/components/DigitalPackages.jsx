@@ -105,28 +105,16 @@ export default function DigitalPackages({ order, action, isActive }) {
                   Rediffusion and social media promotion of Brand partner’s
                   provided visual assets with A MAGAZINE tone-of-voice.
                 </p>
-                <p className="italic hidden 2md:block mb-30">
-                  Brand partner’s visual assets published on our website
+                <p className="hidden 2md:block mb-30">
+                  Brand partner’s visual assets are published on our website
                   accompanied by short text or long-form article written by A
-                  MAGAZINE team or contributing editor.
+                  MAGAZINE team or contributing editor and on Instagram
+                  accompanied by editorial captions.
                 </p>
-                {/* <p className="text-20 leading-27 mt-auto hidden invisible 2md:block 2md:visible">
-                  Seasonal timing / posting dates to be defined in consultation
-                  with the Brand partner.
-                </p>
-                <p className="text-20 leading-27 hidden invisible 2md:block 2md:visible">
-                  All advertising enquiries to{" "}
-                  <a
-                    href="mailto:advertising@amagazinecuratedby.com"
-                    className="italic transition-opacity opacity-100 hover:opacity-75"
-                  >
-                    advertising@amagazinecuratedby.com
-                  </a>
-                </p> */}
               </div>
               <div className="col-span-12 2md:col-span-6 2md:order-1">
                 <p className="uppercase mb-20 2md:mb-30">Sponsored Editorial</p>
-                <p className="mb-20 2md:pt-30 w-full flex 2md:mb-30">
+                <p className="mb-20 w-full flex 2md:mb-30">
                   OPTION 1 <span className="ml-auto flex-0-auto">€ 6,000</span>
                 </p>
                 <ul>
@@ -156,7 +144,7 @@ export default function DigitalPackages({ order, action, isActive }) {
                 </ul>
               </div>
               <div className="col-span-12 2md:col-span-6 2md:order-3">
-                <p className="mt-20 pt-21 mb-20 2md:pt-30 2md:mb-30 w-full flex">
+                <p className="mt-20 pt-21 mb-20 2md:pt-0 2md:mb-30 w-full flex">
                   OPTION 2 <span className="ml-auto flex-0-auto">€ 3,000</span>
                 </p>
                 <ul className="flex-list-fixed">
@@ -202,11 +190,6 @@ export default function DigitalPackages({ order, action, isActive }) {
                 </p>
               </div>
               <div className="col-span-12 2md:order-4 2md:col-span-5 2md:col-start-8 flex flex-col mt-20 pt-21 2md:pt-30">
-                <p className="italic hidden 2md:block mb-30">
-                  Brand partner’s visual assets published on Instagram
-                  accompanied by editorial captions with A MAGAZINE
-                  tone-of-voice.
-                </p>
                 <p className="text-20 leading-27 mt-auto hidden invisible 2md:block 2md:visible">
                   Seasonal timing / posting dates to be defined in consultation
                   with the Brand partner.

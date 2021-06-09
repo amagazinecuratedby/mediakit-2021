@@ -163,7 +163,9 @@ export default function SectionsGroup() {
                   </li>
                   <li>
                     <span className="uppercase">
-                      Average print run per project
+                      Average print run
+                      <br />
+                      per project
                     </span>
                     <span>20,000 copies</span>
                   </li>
