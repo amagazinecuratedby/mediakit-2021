@@ -5,8 +5,11 @@ exports.handler = (event, context) => {
   const psw = body.psw.replace(" ", "")
 
   if (psw && psw === password) {
+    console.log("canedio")
     return { statusCode: 200 }
   }
+
+  console.log("cane, dio?")
 
   return { statusCode: 500 }
 }
