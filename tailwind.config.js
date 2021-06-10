@@ -101,7 +101,7 @@ module.exports = {
         39: "2.188rem", // 37 -> 35
       },
       boxShadow: {
-        "3xl": "0 35px 60px -15px rgba(0, 0, 0, 0.3)",
+        "3xl": "0px 5px 15px 5px rgba(0,0,0,0.25)",
       },
       flex: {
         "0-auto": "0 0 auto",

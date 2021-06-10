@@ -144,7 +144,7 @@ export default function DigitalPackages({ order, action, isActive }) {
                 </ul>
               </div>
               <div className="col-span-12 2md:col-span-6 2md:order-3">
-                <p className="mt-20 pt-21 mb-20 2md:pt-0 2md:mb-30 w-full flex">
+                <p className="mt-20 mb-20 2md:mb-30 w-full flex">
                   OPTION 2 <span className="ml-auto flex-0-auto">€ 3,000</span>
                 </p>
                 <ul className="flex-list-fixed">
@@ -189,12 +189,12 @@ export default function DigitalPackages({ order, action, isActive }) {
                   </a>
                 </p>
               </div>
-              <div className="col-span-12 2md:order-4 2md:col-span-5 2md:col-start-8 flex flex-col mt-20 pt-21 2md:pt-30">
-                <p className="text-20 leading-27 mt-auto hidden invisible 2md:block 2md:visible">
+              <div className="order-4 col-span-5 col-start-8 flex-col mt-20 pt-30 hidden invisible 2md:flex 2md:visible">
+                <p className="text-20 leading-27 mt-auto">
                   Seasonal timing / posting dates to be defined in consultation
                   with the Brand partner.
                 </p>
-                <p className="text-20 leading-27 hidden invisible 2md:block 2md:visible">
+                <p className="text-20 leading-27">
                   All advertising enquiries to{" "}
                   <a
                     href="mailto:advertising@amagazinecuratedby.com"

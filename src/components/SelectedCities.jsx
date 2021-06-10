@@ -222,21 +222,21 @@ export default function SelectedCities({ order, action, isActive }) {
                     <li>Brussels</li>
                     <li>Bucharest</li>
                     <li>Cape Town</li>
-                    <li>Copenhagen</li>
+                    <li>Cologne</li>
                   </ul>
                   <ul className="col-span-2 order-2 sm:order-1 sm:col-span-2 text-21 leading-27">
+                    <li>Copenhagen</li>
                     <li>Dusseldorf</li>
                     <li>Florence</li>
                     <li>Geneva</li>
                     <li>Kiev</li>
-                    <li>Lausanne</li>
                   </ul>
                   <ul className="col-span-2 order-2 sm:order-1 sm:col-span-2 text-21 leading-27">
+                    <li>Lausanne</li>
                     <li>Lisbon</li>
                     <li>London</li>
                     <li>Madrid</li>
                     <li>Malmö</li>
-                    <li>Manchester</li>
                   </ul>
                 </li>
                 <li className="grid grid-cols-8 min-w-screen-padded">
@@ -244,27 +244,28 @@ export default function SelectedCities({ order, action, isActive }) {
                     Europe &amp; Africa
                   </p>
                   <ul className="col-span-2 order-1 sm:order-2 sm:col-span-2 text-21 leading-27">
+                    <li>Manchester</li>
                     <li>Marseille</li>
                     <li>Milan</li>
                     <li>Moscow</li>
                     <li>Munich</li>
-                    <li>Nottingham</li>
                   </ul>
                   <ul className="col-span-2 order-1 sm:order-2 sm:col-span-2 text-21 leading-27">
+                    <li>Nottingham</li>
                     <li>Oslo</li>
                     <li>Paris</li>
                     <li>Porto</li>
                     <li>Rome</li>
-                    <li>St. Petersburg</li>
                   </ul>
                   <ul className="col-span-2 order-3 sm:col-span-2 text-21 leading-27">
+                    <li>St. Petersburg</li>
                     <li>Stockholm</li>
                     <li>Valencia</li>
                     <li>Venice</li>
                     <li>Vienna</li>
-                    <li>Vilnius</li>
                   </ul>
                   <ul className="col-span-2 order-3 sm:col-span-2 text-21 leading-27">
+                    <li>Vilnius</li>
                     <li>Zurich</li>
                   </ul>
                 </li>

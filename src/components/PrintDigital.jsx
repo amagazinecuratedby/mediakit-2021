@@ -89,7 +89,7 @@ export default function PrintDigital({ order, action, isActive }) {
                     - SP <span className="ml-auto flex-0-auto">€ 6,000</span>
                   </li>
                 </ul>
-                <ul className="text-20 leading-27 mt-20 mb-20 2md:hidden 2md:invisible">
+                <ul className="text-20 leading-27 mt-30 mb-20 2md:hidden 2md:invisible">
                   <li>* SP: Single Page</li>
                   <li>* DPS: Double Page Spread</li>
                   <li>* OBC: Outside Back Cover</li>

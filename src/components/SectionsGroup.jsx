@@ -84,7 +84,7 @@ export default function SectionsGroup() {
           <img
             src="margiela-big.jpg"
             alt="A Magazine curated by - Maison Martin Margiela 2021 Cover"
-            className="w-full max-w-500 shadow-2xl inline-block"
+            className="w-full max-w-500 shadow-3xl inline-block"
           />
         </div>
       </Section>
@@ -178,7 +178,7 @@ export default function SectionsGroup() {
                     <span>English</span>
                   </li>
                 </ul>
-                <p className="mb-20 md:mb-30">
+                <p className="mb-20 md:mb-30 xl:invisible xl:hidden">
                   A MAGAZINE is sold online at{" "}
                   <a
                     href="https://amagazinecuratedby.com"
@@ -188,6 +188,19 @@ export default function SectionsGroup() {
                   >
                     amagazinecuratedby.com
                   </a>{" "}
+                  and through the following distributors:
+                </p>
+                <p className="mb-30 hidden invisible xl:block xl:visible">
+                  A MAGAZINE is sold online at{" "}
+                  <a
+                    href="https://amagazinecuratedby.com"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="italic"
+                  >
+                    amagazinecuratedby.com
+                  </a>
+                  <br />
                   and through the following distributors:
                 </p>
                 <ul>

@@ -98,6 +98,34 @@ h1:after {
     grid-cols-12
     col-span-12;
   }
+
+  .bg-svg {
+    background-image: url("/bg-a.svg");
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    background-size: auto 65%;
+  }
+
+  @screen 2md {
+    .bg-svg {
+      background-position: -15vw 0;
+      background-size: auto 100%;
+    }
+  }
+
+  @screen lg2 {
+    .bg-svg {
+      background-position: -10vw 0;
+      background-size: auto 100%;
+    }
+  }
+
+  @screen 2xl {
+    .bg-svg {
+      background-position: -6vw 0;
+      background-size: auto 100%;
+    }
+  }
 }
 
 @layer components {
@@ -113,6 +141,10 @@ h1:after {
     mb-20 md:mb-30;
   }
 
+  .flex-list-50:not(.team) li {
+    @apply flex-row;
+  }
+
   .flex-list-50.team {
     @apply mb-30;
   }
@@ -123,6 +155,14 @@ h1:after {
 
   .flex-list-50 li > span {
     flex: 0 0 50%;
+  }
+
+  .flex-list-50:not(.team) li > span:first-child {
+    flex: 0 0 65%;
+  }
+
+  .flex-list-50:not(.team) li > span:last-child {
+    flex: 0 0 35%;
   }
 
   .flex-list-50 li > span:first-child {
@@ -138,6 +178,11 @@ h1:after {
   @screen sm {
     .flex-list-50 li {
       @apply flex-row;
+    }
+
+    .flex-list-50:not(.team) li > span:first-child,
+    .flex-list-50:not(.team) li > span:last-child {
+      flex: 0 0 50%;
     }
   }
 
@@ -241,18 +286,6 @@ h1:after {
   @screen maxXxs {
     .overflow-grid {
       grid-template-columns: repeat(2, minmax(265px, 1fr));
-    }
-  }
-
-  @screen 2md {
-    .a-vector {
-      min-height: calc(100vh - 35px);
-    }
-  }
-
-  @screen 2xl {
-    .a-vector {
-      min-height: calc(100vh - 50px);
     }
   }
 }

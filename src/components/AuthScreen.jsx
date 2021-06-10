@@ -1,12 +1,10 @@
-import BgA from "../icons/bg-a.jsx"
 import React from "react"
 
 export default function AuthScreen({ action, authError }) {
   const [psw, setPsw] = React.useState(null)
 
   return (
-    <section className="bg-greyTeal flex-grow overflow-hidden relative max-h-available">
-      <BgA />
+    <section className="bg-greyTeal flex-grow overflow-hidden relative max-h-available bg-svg">
       <form
         onSubmit={(e) => action(e, psw)}
         className="font-sans absolute top-10vh left-1/2 transform -translate-x-1/2 2md:transform-none 2md:left-60p 2md:top-40p w-max"
