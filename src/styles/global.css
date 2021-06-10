@@ -153,6 +153,10 @@ h1:after {
     @apply mb-0;
   }
 
+  .flex-list-50 li.mb-0 {
+    margin-bottom: 5px !important;
+  }
+
   .flex-list-50 li > span {
     flex: 0 0 50%;
   }
@@ -161,7 +165,7 @@ h1:after {
     flex: 0 0 65%;
   }
 
-  .flex-list-50:not(.team) li > span:last-child {
+  .flex-list-50:not(.team) li > span:last-child:not(:only-of-type) {
     flex: 0 0 35%;
   }
 

@@ -140,7 +140,52 @@ export default function SectionsGroup() {
                 />
               </div>
               <div className="col-span-12 2md:col-span-5 2md:pl-1/10">
-                <ul className="flex-list-50 mb-30 md:mb-48 lg:mb-60">
+                <ul className="flex-list-50 mb-30 md:hidden md:invisible">
+                  <li>
+                    <span className="uppercase">Frequency</span>
+                    <span>Biannual</span>
+                  </li>
+                  <li className="mb-0">
+                    <span className="uppercase">
+                      50+ countries
+                      <br />
+                      worldwide
+                    </span>
+                  </li>
+                  <li className="mb-0">
+                    <span>Europe</span>
+                    <span>48%</span>
+                  </li>
+                  <li className="mb-0">
+                    <span>America</span>
+                    <span>18%</span>
+                  </li>
+                  <li className="mb-0">
+                    <span>Asia</span>
+                    <span>25%</span>
+                  </li>
+                  <li>
+                    <span>Rest of the world</span>
+                    <span>9%</span>
+                  </li>
+                  <li>
+                    <span className="uppercase">
+                      Average print run
+                      <br />
+                      per project
+                    </span>
+                    <span>20,000 copies</span>
+                  </li>
+                  <li>
+                    <span className="uppercase">Readership</span>
+                    <span>100,000</span>
+                  </li>
+                  <li>
+                    <span className="uppercase">Language</span>
+                    <span>English</span>
+                  </li>
+                </ul>
+                <ul className="flex-list-50 hidden invisible md:visible md:flex md:mb-48 lg:mb-60">
                   <li>
                     <span className="uppercase">Frequency</span>
                     <span>Biannual</span>

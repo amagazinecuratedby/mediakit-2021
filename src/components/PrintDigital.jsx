@@ -161,7 +161,7 @@ export default function PrintDigital({ order, action, isActive }) {
                     / video
                   </li>
                 </ul>
-                <p className="mt-60 mb-20 md:mb-30 2md:hidden 2md:invisible">
+                <p className="mt-20 mb-20 md:mb-30 2md:hidden 2md:invisible">
                   Each print media placement rate includes the following digital
                   integration.
                 </p>

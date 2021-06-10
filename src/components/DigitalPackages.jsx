@@ -144,7 +144,7 @@ export default function DigitalPackages({ order, action, isActive }) {
                 </ul>
               </div>
               <div className="col-span-12 2md:col-span-6 2md:order-3">
-                <p className="mt-20 mb-20 2md:mb-30 w-full flex">
+                <p className="mb-20 2md:mb-30 w-full flex">
                   OPTION 2 <span className="ml-auto flex-0-auto">€ 3,000</span>
                 </p>
                 <ul className="flex-list-fixed">
@@ -165,7 +165,7 @@ export default function DigitalPackages({ order, action, isActive }) {
                     video
                   </li>
                 </ul>
-                <p className="mb-20 mt-60 2md:hidden 2md:invisible">
+                <p className="mb-20 mt-20 2md:hidden 2md:invisible">
                   Rediffusion and social media promotion of Brand partner’s
                   provided visual assets with A MAGAZINE tone-of-voice.
                 </p>
