@@ -4,7 +4,7 @@ export default function AuthScreen({ action, authError }) {
   const [psw, setPsw] = React.useState(null)
 
   return (
-    <section className="bg-greyTeal flex-grow overflow-hidden relative max-h-available bg-svg">
+    <section className="bg-greyTeal flex-grow overflow-hidden relative bg-svg">
       <form
         onSubmit={(e) => action(e, psw)}
         className="font-sans absolute top-10vh left-1/2 transform -translate-x-1/2 2md:transform-none 2md:left-60p 2md:top-40p w-max"

@@ -83,7 +83,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/martin-margiela/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -108,7 +108,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/lucie-and-luke-meier/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -131,7 +131,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/pierpaolo-piccioli/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -154,7 +154,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/kim-jones/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -177,7 +177,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/simone-rocha/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -200,7 +200,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/eckhaus-latta/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -223,7 +223,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/alessandro-michele/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -246,7 +246,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/thom-browne/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -269,7 +269,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/delfina-delettrez/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -292,7 +292,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/iris-van-herpen/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -315,7 +315,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/issue-3/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -338,7 +338,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/rodarte/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -361,7 +361,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/giambattista-valli/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -384,7 +384,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/proenza-schouler/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -407,7 +407,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/riccardo-tisci/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -430,7 +430,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/kris-van-assche/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -453,7 +453,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/veronique-branquinho/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -476,7 +476,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/martine-sitbon/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -499,7 +499,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/jun-takahashi/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -522,7 +522,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/haider-ackermann/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -545,7 +545,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/yohji-yamamoto/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -568,7 +568,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/collection/martin-margiela/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img
@@ -591,7 +591,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/history/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img src="E.jpg" className="max-w-full w-full shadow-3xl" />
@@ -611,7 +611,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/history/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img src="D.jpg" className="max-w-full w-full shadow-3xl" />
@@ -631,7 +631,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/history/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img src="C.jpg" className="max-w-full w-full shadow-3xl" />
@@ -651,7 +651,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/history/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img src="B.jpg" className="max-w-full w-full shadow-3xl" />
@@ -671,7 +671,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                   href="https://amagazinecuratedby.com/history/"
                   target="_blank"
                   rel="noreferrer"
-                  className="block transition-opacity opacity-100 hover:opacity-75"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                 >
                   <figure className="relative">
                     <img src="A.jpg" className="max-w-full w-full shadow-3xl" />
@@ -700,7 +700,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/martin-margiela/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -725,7 +725,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/lucie-and-luke-meier/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -748,7 +748,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/pierpaolo-piccioli/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -771,7 +771,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/kim-jones/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -794,7 +794,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/simone-rocha/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -817,7 +817,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/eckhaus-latta/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -840,7 +840,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/alessandro-michele/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -863,7 +863,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/thom-browne/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -886,7 +886,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/delfina-delettrez/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -909,7 +909,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/iris-van-herpen/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -932,7 +932,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/issue-3/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -955,7 +955,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/rodarte/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -978,7 +978,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/giambattista-valli/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -1001,7 +1001,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/proenza-schouler/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -1024,7 +1024,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/riccardo-tisci/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -1047,7 +1047,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/kris-van-assche/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -1070,7 +1070,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/veronique-branquinho/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -1093,7 +1093,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/martine-sitbon/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -1116,7 +1116,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/jun-takahashi/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -1139,7 +1139,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/haider-ackermann/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -1162,7 +1162,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/yohji-yamamoto/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -1185,7 +1185,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/collection/martin-margiela/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -1208,7 +1208,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/history/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -1231,7 +1231,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/history/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -1254,7 +1254,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/history/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -1277,7 +1277,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/history/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img
@@ -1300,7 +1300,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                     href="https://amagazinecuratedby.com/history/"
                     target="_blank"
                     rel="noreferrer"
-                    className="block transition-opacity opacity-100 hover:opacity-75"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
                   >
                     <figure className="relative">
                       <img

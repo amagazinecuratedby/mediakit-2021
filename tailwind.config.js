@@ -16,6 +16,7 @@ module.exports = {
       maxXxs: { max: "330px" },
       maxSm: { max: "639px" },
       maxMd: { max: "767px" },
+      "hover-hover": { raw: "(hover: hover)" },
     },
     extend: {
       colors: {
@@ -42,6 +43,8 @@ module.exports = {
         345: "21.563rem",
         500: "31.25rem",
         "screen-65": "calc(100vh - 65px)",
+      },
+      minHeight: {
         available: "-webkit-fill-available",
       },
       spacing: {
