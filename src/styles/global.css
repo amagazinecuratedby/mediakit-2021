@@ -154,7 +154,7 @@ h1:after {
   }
 
   .flex-list-50 li.mb-0 {
-    margin-bottom: 5px !important;
+    margin-bottom: 0px !important;
   }
 
   .flex-list-50 li > span {

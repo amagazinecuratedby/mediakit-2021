@@ -92,7 +92,7 @@ export default function DigitalPackages({ order, action, isActive }) {
                     video
                   </li>
                 </ul>
-                <p className="mt-20 md:mt-30 2md:invisible 2md:hidden">
+                <p className="mt-40 md:mt-30 2md:invisible 2md:hidden">
                   Photo shoot or video content produced by A PUBLISHER featuring
                   Brand partner’s collection, accessories, products accompanied
                   by short text articles.
@@ -165,7 +165,7 @@ export default function DigitalPackages({ order, action, isActive }) {
                     video
                   </li>
                 </ul>
-                <p className="mb-20 mt-20 2md:hidden 2md:invisible">
+                <p className="mb-20 mt-40 2md:hidden 2md:invisible">
                   Rediffusion and social media promotion of Brand partner’s
                   provided visual assets with A MAGAZINE tone-of-voice.
                 </p>
