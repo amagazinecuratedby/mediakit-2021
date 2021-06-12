@@ -185,7 +185,7 @@ export default function SectionsGroup() {
                     <span>English</span>
                   </li>
                 </ul>
-                <ul className="flex-list-50 hidden invisible md:visible md:flex md:mb-48 lg:mb-60">
+                <ul className="flex-list-50 hidden invisible md:visible md:block md:mb-48 lg:mb-60">
                   <li>
                     <span className="uppercase">Frequency</span>
                     <span>Biannual</span>
@@ -274,7 +274,7 @@ export default function SectionsGroup() {
                       href="https://www.ideabooks.nl/"
                       rel="noreferrer"
                       target="_blank"
-                      className="transition-opacity opacity-100 hover:opacity-75 hover:no-underline"
+                      className="underline transition-opacity opacity-100 hover:opacity-75 hover:no-underline"
                     >
                       Idea Books
                     </a>
