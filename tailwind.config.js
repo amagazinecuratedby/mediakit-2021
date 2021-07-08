@@ -43,6 +43,7 @@ module.exports = {
         345: "21.563rem",
         500: "31.25rem",
         "screen-65": "calc(100vh - 65px)",
+        available: "-webkit-fill-available",
       },
       minHeight: {
         available: "-webkit-fill-available",

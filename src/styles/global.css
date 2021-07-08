@@ -64,7 +64,7 @@
 #gatsby-focus-wrapper {
   width: inherit;
   min-height: 100vh;
-  @apply min-h-available;
+  @apply max-h-available;
 }
 
 #gatsby-focus-wrapper {
