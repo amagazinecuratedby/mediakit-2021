@@ -82,8 +82,8 @@ export default function SectionsGroup() {
         </div>
         <div className="col-span-12 text-center mb-40 md:mb-30 3md:col-span-5 3md:text-left 3md:pl-1/10">
           <img
-            src="margiela-big.jpg"
-            alt="A Magazine curated by - Maison Martin Margiela 2021 Cover"
+            src="23-cover.jpg"
+            alt="A Magazine curated by - Grace Wales Bonner 2021 Cover"
             className="w-full max-w-500 shadow-3xl inline-block"
           />
         </div>

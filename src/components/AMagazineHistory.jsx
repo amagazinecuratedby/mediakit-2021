@@ -80,6 +80,29 @@ export default function AMagazineHistory({ order, action, isActive }) {
             <div className="col-span-12 overflow-grid-27 hidden grid-cols-8 gap-x-30 gap-y-40 font-sans text-14 leading-tight md:grid">
               <div className="col-span-1 sm:col-span-2">
                 <a
+                  href="#"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
+                >
+                  <figure className="relative">
+                    <img
+                      src="23.jpg"
+                      className="max-w-full w-full shadow-3xl"
+                    />
+                    <figcaption className="pt-10">
+                      <span className="block">2021 - A#22</span>
+                      <span className="font-serif pt-8 block">
+                        A MAGAZINE <span className="italic">curated by</span>
+                        <br />
+                        Grace Wales Bonner
+                      </span>
+                    </figcaption>
+                  </figure>
+                </a>
+              </div>
+              <div className="col-span-1 sm:col-span-2">
+                <a
                   href="https://amagazinecuratedby.com/collection/martin-margiela/"
                   target="_blank"
                   rel="noreferrer"
@@ -695,6 +718,29 @@ export default function AMagazineHistory({ order, action, isActive }) {
               className="col-span-12 md:hidden"
             >
               <div className="flex space-x-30 items-end md:hidden font-sans text-14 leading-tight">
+                <div className="w-full flex-1-auto max-w-300">
+                  <a
+                    href="#"
+                    target="_blank"
+                    rel="noreferrer"
+                    className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
+                  >
+                    <figure className="relative">
+                      <img
+                        src="23.jpg"
+                        className="max-w-full w-full shadow-3xl"
+                      />
+                      <figcaption className="pt-10">
+                        <span className="block">2021 - A#22</span>
+                        <span className="font-serif pt-8 block">
+                          A MAGAZINE <span className="italic">curated by</span>
+                          <br />
+                          Grace Wales Bonner
+                        </span>
+                      </figcaption>
+                    </figure>
+                  </a>
+                </div>
                 <div className="w-full flex-1-auto max-w-300">
                   <a
                     href="https://amagazinecuratedby.com/collection/martin-margiela/"
