@@ -731,7 +731,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
                         className="max-w-full w-full shadow-3xl"
                       />
                       <figcaption className="pt-10">
-                        <span className="block">2021 - A#22</span>
+                        <span className="block">2022 - A#22</span>
                         <span className="font-serif pt-8 block">
                           A MAGAZINE <span className="italic">curated by</span>
                           <br />
