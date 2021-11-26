@@ -80,7 +80,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
             <div className="col-span-12 overflow-grid-27 hidden grid-cols-8 gap-x-30 gap-y-40 font-sans text-14 leading-tight md:grid">
               <div className="col-span-1 sm:col-span-2">
                 <a
-                  href="https://amagazinecuratedby.com/"
+                  href="https://amagazinecuratedby.com/collection/grace-wales-bonner/"
                   target="_blank"
                   rel="noreferrer"
                   className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
@@ -720,7 +720,7 @@ export default function AMagazineHistory({ order, action, isActive }) {
               <div className="flex space-x-30 items-end md:hidden font-sans text-14 leading-tight">
                 <div className="w-full flex-1-auto max-w-300">
                   <a
-                    href="https://amagazinecuratedby.com/"
+                    href="https://amagazinecuratedby.com/collection/grace-wales-bonner/"
                     target="_blank"
                     rel="noreferrer"
                     className="block transition-opacity opacity-100 hover-hover:hover:opacity-75"
