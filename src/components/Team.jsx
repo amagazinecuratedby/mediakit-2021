@@ -44,7 +44,11 @@ export default function Team({ order, action, isActive }) {
               <ul className="flex-list-50 team">
                 <li>
                   <span className="uppercase">Publisher</span>
-                  <span>Evence-Charles Coppée</span>
+                  <span>
+                    A PUBLISHER BVBA
+                    <br />
+                    <span className="text-21">Antwerp, Belgium</span>
+                  </span>
                 </li>
                 <li>
                   <span className="uppercase">Editor in Chief</span>
@@ -65,7 +69,7 @@ export default function Team({ order, action, isActive }) {
                   </span>
                 </li>
                 <li>
-                  <span className="uppercase">Managing Editor</span>
+                  <span className="uppercase">Executive Editor</span>
                   <span>
                     Thérèse Boon Falleur
                     <br />
@@ -83,8 +87,30 @@ export default function Team({ order, action, isActive }) {
                   </span>
                 </li>
                 <li>
+                  <span className="uppercase">Managing Editor</span>
+                  <span>
+                    Emma Haikonen
+                    <br />
+                    <span className="text-21">
+                      +33 (0)6 73 23 03 52
+                      <br />
+                      <a
+                        href="mailto:emma@amagazinecuratedby.com"
+                        rel="noreferrer"
+                        className="transition-opacity opacity-100 hover:opacity-75"
+                      >
+                        emma(at)amagazinecuratedby.com
+                      </a>
+                    </span>
+                  </span>
+                </li>
+                <li>
                   <span className="uppercase">Editor at Large</span>
                   <span>Blake Abbie</span>
+                </li>
+                <li>
+                  <span className="uppercase">Digital Editor</span>
+                  <span>Albert Shyong</span>
                 </li>
                 <li>
                   <span className="uppercase">Art Direction</span>
