@@ -82,8 +82,8 @@ export default function SectionsGroup() {
         </div>
         <div className="col-span-12 text-center mb-40 md:mb-30 3md:col-span-5 3md:text-left 3md:pl-1/10">
           <img
-            src="A23-cover.jpg"
-            alt="A Magazine curated by - Francesco Risso 2022 Cover"
+            src="A24-cover.jpg"
+            alt="A Magazine curated by - Erdem 2022 Cover"
             className="w-full max-w-500 shadow-3xl inline-block"
           />
         </div>

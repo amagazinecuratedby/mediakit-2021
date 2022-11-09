@@ -69,6 +69,26 @@ export default function Team({ order, action, isActive }) {
                   </span>
                 </li>
                 <li>
+                  <span className="uppercase">Editor at Large</span>
+                  <span>Blake Abbie</span>
+                </li>
+                <li>
+                  <span className="uppercase">Fashion Editor</span>
+                  <span>
+                    Alexandra Horton
+                    <br />
+                    <span className="text-21">
+                      <a
+                        href="mailto:therese@amagazinecuratedby.com"
+                        rel="noreferrer"
+                        className="transition-opacity opacity-100 hover:opacity-75"
+                      >
+                        alexandra(at)amagazinecuratedby.com
+                      </a>
+                    </span>
+                  </span>
+                </li>
+                {/* <li>
                   <span className="uppercase">Executive Editor</span>
                   <span>
                     Thérèse Boon Falleur
@@ -85,7 +105,7 @@ export default function Team({ order, action, isActive }) {
                       </a>
                     </span>
                   </span>
-                </li>
+                </li> */}
                 <li>
                   <span className="uppercase">Managing Editor</span>
                   <span>
@@ -103,10 +123,6 @@ export default function Team({ order, action, isActive }) {
                       </a>
                     </span>
                   </span>
-                </li>
-                <li>
-                  <span className="uppercase">Editor at Large</span>
-                  <span>Blake Abbie</span>
                 </li>
                 <li>
                   <span className="uppercase">Digital Editor</span>
