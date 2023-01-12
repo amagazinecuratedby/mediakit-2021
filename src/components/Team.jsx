@@ -72,7 +72,7 @@ export default function Team({ order, action, isActive }) {
                   <span className="uppercase">Editor at Large</span>
                   <span>Blake Abbie</span>
                 </li>
-                <li>
+                {/* <li>
                   <span className="uppercase">Fashion Editor</span>
                   <span>
                     Alexandra Horton
@@ -87,7 +87,7 @@ export default function Team({ order, action, isActive }) {
                       </a>
                     </span>
                   </span>
-                </li>
+                </li> */}
                 {/* <li>
                   <span className="uppercase">Executive Editor</span>
                   <span>
